@@ -1,6 +1,6 @@
 # Prometheus Agents - Claude SubAgents Project
 
-**Version: 0.1.0**
+**Version: 0.1.3**
 
 ## Project Overview
 This project creates specialized Claude SubAgents to assist with software architecture, Elixir Phoenix development, data architecture, and semantic data work.
