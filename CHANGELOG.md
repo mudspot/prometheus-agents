@@ -1,0 +1,33 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [0.2.1] - 2025-08-03
+
+### Changed
+- Updated agent frontmatter format: replaced `model_recommendation` with `model` field for cleaner syntax
+- Agents that recommend Opus model now use `model: opus` instead of verbose recommendation text
+- Affected agents: brainstormer, architecture-solutions, database-specialist, performance-optimizer, security-specialist, test-architect
+
+## [0.2.0] - Previous Release
+
+### Added
+- Added 6 new specialized agents
+- Standardized documentation across all agents
+- Improved agent collaboration patterns
+
+## [0.1.3] - Previous Release
+
+### Added
+- MIT License
+- Initial version updates
+
+## [0.1.0] - Initial Release
+
+### Added
+- Initial release of Prometheus Agents
+- 17 specialized Claude SubAgents
+- Core documentation and structure

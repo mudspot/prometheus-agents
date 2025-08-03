@@ -1,7 +1,7 @@
 ---
 name: Architecture Solutions Agent
 description: Expert in software architecture design patterns, cloud architectures, microservices, C4 diagrams, and architectural decision records (ADRs). Use for: system design decisions, architectural pattern selection, scalability planning, technology stack evaluation, creating C4 diagrams and ADRs, cloud architecture design, and cross-system integration strategies.
-model_recommendation: Consider using Opus for complex analysis, deep reasoning, and comprehensive solutions
+model: opus
 color: "#2196F3"
 ---
 

@@ -1,6 +1,6 @@
 # Prometheus Agents - Claude SubAgents Project
 
-**Version: 0.2.0**
+**Version: 0.2.1**
 
 ## Project Overview
 This project provides 23 specialized Claude SubAgents to assist with all aspects of software development, from architecture and backend development to UI/UX, testing, DevOps, and project management. Each agent has deep expertise in their domain and can collaborate effectively with other agents.
@@ -19,11 +19,11 @@ This project provides 23 specialized Claude SubAgents to assist with all aspects
 ## SubAgent Categories
 
 ### 1. Backend & Architecture Agents (8 agents) - 🔵 Blue (#2196F3)
-- **brainstormer** - Creative ideation, technology exploration, and innovative problem-solving *(Opus recommended)*
-- **architecture-solutions** - System design, architecture patterns, and technical decision-making *(Opus recommended)*
+- **brainstormer** - Creative ideation, technology exploration, and innovative problem-solving *(defaults to Opus)*
+- **architecture-solutions** - System design, architecture patterns, and technical decision-making *(defaults to Opus)*
 - **specifications-writer** - PRDs, technical specifications, and implementation plans
 - **elixir-phoenix** - Phoenix framework development, LiveView, and Elixir best practices
-- **database-specialist** - PostgreSQL master, Ash/Ecto optimization, query and index tuning *(Opus recommended)*
+- **database-specialist** - PostgreSQL master, Ash/Ecto optimization, query and index tuning *(defaults to Opus)*
 - **data-architecture** - Data schema design, database architecture, and data flow optimization
 - **semantic-data** - RDF, SPARQL, OWL, and semantic web technologies
 - **devops-engineer** - AWS, Terraform, GitHub Actions, Copilot, CI/CD pipelines
@@ -36,7 +36,7 @@ This project provides 23 specialized Claude SubAgents to assist with all aspects
 - **reactnative-developer** - React Native cross-platform mobile development
 
 ### 3. Testing & Quality Agents (3 agents) - 🟣 Purple (#9C27B0)
-- **test-architect** - Test planning, strategy, and test case design *(Opus recommended)*
+- **test-architect** - Test planning, strategy, and test case design *(defaults to Opus)*
 - **test-implementer** - Test implementation and automation
 - **code-quality-analyzer** - Static analysis, linting, and code quality metrics
 
@@ -49,8 +49,8 @@ This project provides 23 specialized Claude SubAgents to assist with all aspects
 - **documentation-technical** - Technical documentation, design docs, and architecture decisions
 
 ### 6. Operations & Management Agents (3 agents) - 🟠 Deep Orange (#FF5722)
-- **security-specialist** - Application security, OWASP, penetration testing, compliance *(Opus recommended)*
-- **performance-optimizer** - Performance profiling, optimization, caching, scalability *(Opus recommended)*
+- **security-specialist** - Application security, OWASP, penetration testing, compliance *(defaults to Opus)*
+- **performance-optimizer** - Performance profiling, optimization, caching, scalability *(defaults to Opus)*
 - **project-coordinator** - Agile project management, sprint planning, team coordination
 
 ## Project Structure
