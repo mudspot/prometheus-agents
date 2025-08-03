@@ -1,51 +1,58 @@
 # Prometheus Agents 🚀
 
-**Version: 0.1.3**
+**Version: 0.2.0**
 
 A comprehensive collection of specialized Claude SubAgents designed for software architecture, development, and engineering workflows. Each agent is expertly crafted with domain-specific knowledge to assist with different aspects of the software development lifecycle.
 
 ## Overview
 
-Prometheus Agents provides 17 specialized AI agents that work together to handle complex software engineering tasks. From system architecture to implementation, testing to documentation, these agents cover the full spectrum of modern software development.
+Prometheus Agents provides 23 specialized AI agents that work together to handle complex software engineering tasks. From system architecture to implementation, testing to documentation, security to project management, these agents cover the full spectrum of modern software development.
 
 ## 🎯 Key Features
 
-- **17 Specialized Agents** across 6 categories
+- **23 Specialized Agents** across 6 categories
 - **Domain Expertise** - Each agent has deep knowledge in their specific area
+- **Opus Model Support** - 6 agents optimized for Opus when complex reasoning is needed
 - **Collaborative Workflows** - Agents work together for complex tasks
 - **Framework Support** - Specialized for Elixir/Phoenix (Ash Framework), Flutter (GetX), React Native, SvelteKit
 - **Color-Coded Categories** - Visual organization for quick agent selection
 
 ## 🤖 Agent Categories
 
-### 🔵 Architecture & Solutioning
-- **[architecture-solutions](agents/architecture-solutions.md)** - System design, patterns, cloud architecture, C4 diagrams
+### 🔵 Backend & Architecture (8 agents)
+- **[brainstormer](agents/brainstormer.md)** - Creative ideation, technology exploration *(Opus recommended)*
+- **[architecture-solutions](agents/architecture-solutions.md)** - System design, patterns, cloud architecture *(Opus recommended)*
 - **[specifications-writer](agents/specifications-writer.md)** - PRDs, technical specs, implementation plans
-
-### 🟢 Backend Development
-- **[elixir-phoenix](agents/elixir-phoenix.md)** - Elixir/Phoenix with Ash Framework (not Ecto)
+- **[elixir-phoenix](agents/elixir-phoenix.md)** - Elixir/Phoenix with Ash Framework
+- **[database-specialist](agents/database-specialist.md)** - PostgreSQL, Ash/Ecto optimization *(Opus recommended)*
 - **[data-architecture](agents/data-architecture.md)** - Database design, data modeling, ETL/ELT
-- **[semantic-data](agents/semantic-data.md)** - RDF, SPARQL, OWL, FOAF, schema.org
+- **[semantic-data](agents/semantic-data.md)** - RDF, SPARQL, OWL, schema.org
+- **[devops-engineer](agents/devops-engineer.md)** - AWS, Terraform, GitHub Actions, CI/CD
 
-### 🟠 UI/UX Development
+### 🟢 UI/UX Development (5 agents)
 - **[ux-ui-design](agents/ux-ui-design.md)** - Master UX/UI coordinator, design systems
 - **[web-frontend](agents/web-frontend.md)** - HTML, JavaScript, TailwindCSS for Phoenix
 - **[sveltekit-developer](agents/sveltekit-developer.md)** - SvelteKit and Svelte applications
 - **[flutter-developer](agents/flutter-developer.md)** - Flutter with GetX state management
 - **[reactnative-developer](agents/reactnative-developer.md)** - React Native cross-platform apps
 
-### 🟣 Testing & Quality
-- **[test-architect](agents/test-architect.md)** - Test planning, strategy, stub generation
+### 🟣 Testing & Quality (3 agents)
+- **[test-architect](agents/test-architect.md)** - Test planning, strategy *(Opus recommended)*
 - **[test-implementer](agents/test-implementer.md)** - Test implementation across all platforms
 - **[code-quality-analyzer](agents/code-quality-analyzer.md)** - Static analysis, linting, warnings
 
-### 🟦 API Development
+### 🔷 API Development (3 agents)
 - **[api-designer](agents/api-designer.md)** - REST API design, OpenAPI specifications
 - **[api-implementer](agents/api-implementer.md)** - Phoenix API with Ash Framework
 - **[api-documenter](agents/api-documenter.md)** - API documentation, integration guides
 
-### 🟪 Documentation
+### 🔘 Documentation (1 agent)
 - **[documentation-technical](agents/documentation-technical.md)** - Technical docs, guides, ADRs
+
+### 🟠 Operations & Management (3 agents)
+- **[security-specialist](agents/security-specialist.md)** - Application security, OWASP *(Opus recommended)*
+- **[performance-optimizer](agents/performance-optimizer.md)** - Performance profiling, optimization *(Opus recommended)*
+- **[project-coordinator](agents/project-coordinator.md)** - Agile management, sprint planning
 
 ## 🚀 Quick Start
 
@@ -105,12 +112,13 @@ Once installed, reference agents using the `@` symbol followed by the agent file
 
 ```
 prometheus-agents/
-├── agents/                    # Agent implementations
+├── agents/                    # Agent implementations (23 agents)
 │   ├── architecture-solutions.md
 │   ├── specifications-writer.md
-│   └── ... (15 more agents)
+│   └── ... (21 more agents)
 ├── docs/                      # Documentation
 │   ├── AGENT_DEVELOPMENT_PLAN.md
+│   ├── AGENT_SUMMARY.md
 │   └── AGENT_USAGE_GUIDE.md
 ├── rules/                     # Framework usage rules
 │   ├── ash.md
@@ -149,6 +157,7 @@ prometheus-agents/
 
 - **[CLAUDE.md](CLAUDE.md)** - Main project configuration and overview
 - **[Development Plan](docs/AGENT_DEVELOPMENT_PLAN.md)** - Comprehensive development roadmap
+- **[Agent Summary](docs/AGENT_SUMMARY.md)** - Complete overview of all 23 agents
 - **[Usage Guide](docs/AGENT_USAGE_GUIDE.md)** - Detailed guide for using agents
 
 ## 🤝 Agent Collaboration Patterns
@@ -179,12 +188,12 @@ graph LR
 
 ## 🎨 Agent Color Legend
 
-- 🔵 **Blue** - Architecture & Solutioning
-- 🟢 **Green** - Backend Development
-- 🟠 **Orange** - UI/UX Development
-- 🟣 **Purple** - Testing & Quality
-- 🟦 **Teal** - API Development
-- 🟪 **Violet** - Documentation
+- 🔵 **Blue (#2196F3)** - Backend & Architecture
+- 🟢 **Green (#4CAF50)** - UI/UX Development
+- 🟣 **Purple (#9C27B0)** - Testing & Quality
+- 🔷 **Cyan (#00BCD4)** - API Development
+- 🔘 **Blue-Grey (#607D8B)** - Documentation
+- 🟠 **Deep Orange (#FF5722)** - Operations & Management
 
 ## 👤 User Context
 

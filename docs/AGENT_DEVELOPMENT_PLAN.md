@@ -53,95 +53,110 @@ Phase 7: Documentation & Evolution
 
 ### Phase 2: Core Agent Development - Backend & Architecture
 
-2. **Create Architecture Solutions Agent**
+2. **Create Brainstormer Agent** (NEW)
+   - File: `brainstormer.md`
+   - Expertise: Creative ideation, technology exploration, innovative problem-solving
+   - Special: Integrates with zen MCP tools for enhanced analysis
+
+3. **Create Architecture Solutions Agent**
    - File: `architecture-solutions.md`
-   - Tools: Read, Write, Edit, WebSearch, TodoWrite
    - Expertise: Design patterns, cloud architectures, microservices, C4 diagrams, ADRs
    
-3. **Create Elixir Phoenix Agent**
-   - File: `elixir-phoenix.md`
-   - Tools: Read, Write, Edit, Bash, Grep, TodoWrite
-   - Expertise: OTP principles, LiveView, Ecto, GenServers, Phoenix best practices
+4. **Create Specifications Writer Agent** (NEW)
+   - File: `specifications-writer.md`
+   - Expertise: PRDs, technical specifications, implementation plans
    
-4. **Create Data Architecture Agent**
+5. **Create Elixir Phoenix Agent**
+   - File: `elixir-phoenix.md`
+   - Expertise: OTP principles, LiveView, Ash Framework, GenServers, Phoenix best practices
+
+6. **Create Database Specialist Agent** (NEW)
+   - File: `database-specialist.md`
+   - Expertise: PostgreSQL mastery, Ash/Ecto optimization, query tuning, index strategies
+   
+7. **Create Data Architecture Agent**
    - File: `data-architecture.md`
-   - Tools: Read, Write, Edit, WebSearch
    - Expertise: Data modeling, ETL/ELT, data governance, flow diagrams
    
-5. **Create Semantic Data Agent**
+8. **Create Semantic Data Agent**
    - File: `semantic-data.md`
-   - Tools: Read, Write, Edit, WebSearch
    - Expertise: RDF, SPARQL, OWL, knowledge graphs, ontology engineering
+
+9. **Create DevOps Engineer Agent** (NEW)
+   - File: `devops-engineer.md`
+   - Expertise: AWS, Terraform, GitHub Actions, AWS Copilot, CI/CD pipelines
    
-6. **Create Documentation Technical Agent**
-   - File: `documentation-technical.md`
-   - Tools: Read, Write, Edit, WebSearch, TodoWrite
-   - Expertise: Technical writing, API docs, architecture documentation
+10. **Create Documentation Technical Agent**
+    - File: `documentation-technical.md`
+    - Expertise: Technical writing, API docs, architecture documentation
 
 ### Phase 3: UI/UX Agent Development
 
-7. **Create UX/UI Design Agent (Master)**
-   - File: `ux-ui-design.md`
-   - Tools: Read, Write, Edit, WebSearch, TodoWrite
-   - Expertise: UX principles, UI design patterns, accessibility, user research, design systems
+11. **Create UX/UI Design Agent (Master)**
+    - File: `ux-ui-design.md`
+    - Expertise: UX principles, UI design patterns, accessibility, user research, design systems
    
-8. **Create Web Frontend Agent**
-   - File: `web-frontend.md`
-   - Tools: Read, Write, Edit, Bash, WebSearch, TodoWrite
-   - Expertise: HTML5, JavaScript/TypeScript, TailwindCSS, responsive design, web standards
+12. **Create Web Frontend Agent**
+    - File: `web-frontend.md`
+    - Expertise: HTML5, JavaScript/TypeScript, TailwindCSS, responsive design, web standards
    
-9. **Create SvelteKit Developer Agent**
-   - File: `sveltekit-developer.md`
-   - Tools: Read, Write, Edit, Bash, Grep, TodoWrite
-   - Expertise: SvelteKit, Svelte, reactive programming, SSR/SSG, Vite
+13. **Create SvelteKit Developer Agent**
+    - File: `sveltekit-developer.md`
+    - Expertise: SvelteKit, Svelte, reactive programming, SSR/SSG, Vite
    
-10. **Create Flutter Developer Agent**
+14. **Create Flutter Developer Agent**
     - File: `flutter-developer.md`
-    - Tools: Read, Write, Edit, Bash, Grep, TodoWrite
-    - Expertise: Flutter, Dart, widget architecture, state management, cross-platform development
+    - Expertise: Flutter, Dart, widget architecture, GetX state management, cross-platform development
     
-11. **Create React Native Developer Agent**
+15. **Create React Native Developer Agent**
     - File: `reactnative-developer.md`
-    - Tools: Read, Write, Edit, Bash, Grep, TodoWrite
     - Expertise: React Native, React, mobile development, native modules, performance optimization
 
 ### Phase 4: Testing & Code Quality Agent Development
 
-12. **Create Test Architect Agent**
+16. **Create Test Architect Agent**
     - File: `test-architect.md`
-    - Tools: Read, Write, Edit, Grep, WebSearch, TodoWrite
     - Expertise: Test planning, TDD/BDD, test strategy, coverage analysis, stub generation for Elixir/ExUnit, JavaScript/TypeScript, Flutter, and React Native testing frameworks
     
-13. **Create Test Implementer Agent**
+17. **Create Test Implementer Agent**
     - File: `test-implementer.md`
-    - Tools: Read, Write, Edit, Bash, Grep, TodoWrite
     - Expertise: ExUnit, Jest, Vitest, Cypress, Playwright, Flutter test framework, React Native Testing Library, test implementation, mocking, fixtures
     
-14. **Create Code Quality Analyzer Agent**
+18. **Create Code Quality Analyzer Agent**
     - File: `code-quality-analyzer.md`
-    - Tools: Read, Edit, Bash, Grep, TodoWrite
     - Expertise: Elixir compiler warnings, Credo, ESLint, TypeScript compiler, Dart analyzer, code smell detection, refactoring suggestions
 
 ### Phase 5: API Development Agent Suite
 
-15. **Create API Designer Agent**
+19. **Create API Designer Agent**
     - File: `api-designer.md`
-    - Tools: Read, Write, Edit, WebSearch, TodoWrite
     - Expertise: REST API design, OpenAPI/Swagger specification, API versioning, resource modeling, HTTP standards, API security patterns
     
-16. **Create API Implementer Agent**
+20. **Create API Implementer Agent**
     - File: `api-implementer.md`
-    - Tools: Read, Write, Edit, Bash, Grep, TodoWrite
-    - Expertise: Phoenix controllers, plugs, contexts, Ecto schemas, authentication/authorization, API rate limiting, error handling
+    - Expertise: Phoenix controllers, plugs, contexts, Ash resources, authentication/authorization, API rate limiting, error handling
     
-17. **Create API Documenter Agent**
+21. **Create API Documenter Agent**
     - File: `api-documenter.md`
-    - Tools: Read, Write, Edit, WebSearch, TodoWrite
     - Expertise: API documentation, OpenAPI generation, Postman collections, API examples, changelog management, developer guides
 
-### Phase 6: Testing & Validation
+### Phase 6: Operations & Management Agent Development (NEW)
 
-18. **Test Each Agent**
+22. **Create Security Specialist Agent**
+    - File: `security-specialist.md`
+    - Expertise: Application security, OWASP Top 10, penetration testing, vulnerability assessment, compliance
+
+23. **Create Performance Optimizer Agent**
+    - File: `performance-optimizer.md`
+    - Expertise: Performance profiling, optimization strategies, caching, load testing, scalability patterns
+
+24. **Create Project Coordinator Agent**
+    - File: `project-coordinator.md`
+    - Expertise: Agile project management, sprint planning, task coordination, team collaboration, stakeholder management
+
+### Phase 7: Testing & Validation
+
+25. **Test Each Agent**
     - Architecture: Create microservices design
     - Elixir: Implement LiveView feature
     - Data: Design warehouse schema
@@ -159,72 +174,22 @@ Phase 7: Documentation & Evolution
     - API Implementer: Build Phoenix API endpoints
     - API Documenter: Create comprehensive API docs
 
-### Phase 7: Documentation & Evolution
+### Phase 8: Documentation & Evolution
 
-19. **Create Usage Documentation**
+26. **Create Usage Documentation**
     - When to use each agent
     - How agents complement each other
     - Example workflows
     - UI/UX collaboration patterns
    
-20. **Establish Feedback Loop**
+27. **Establish Feedback Loop**
     - Track agent usage patterns
     - Identify improvement opportunities
     - Plan for agent evolution
 
 ## Agent Specifications
 
-### Tool Assignments
-```
-┌─────────────────────┬──────────────────────────────────────┐
-│ Agent               │ Tools                                │
-├─────────────────────┼──────────────────────────────────────┤
-│ architecture        │ Read, Write, Edit, WebSearch,        │
-│                     │ TodoWrite                            │
-├─────────────────────┼──────────────────────────────────────┤
-│ elixir-phoenix      │ Read, Write, Edit, Bash, Grep,       │
-│                     │ TodoWrite                            │
-├─────────────────────┼──────────────────────────────────────┤
-│ data-architecture   │ Read, Write, Edit, WebSearch         │
-├─────────────────────┼──────────────────────────────────────┤
-│ semantic-data       │ Read, Write, Edit, WebSearch         │
-├─────────────────────┼──────────────────────────────────────┤
-│ documentation       │ Read, Write, Edit, WebSearch,        │
-│                     │ TodoWrite                            │
-├─────────────────────┼──────────────────────────────────────┤
-│ ux-ui-design        │ Read, Write, Edit, WebSearch,        │
-│                     │ TodoWrite                            │
-├─────────────────────┼──────────────────────────────────────┤
-│ web-frontend        │ Read, Write, Edit, Bash, WebSearch,  │
-│                     │ TodoWrite                            │
-├─────────────────────┼──────────────────────────────────────┤
-│ sveltekit           │ Read, Write, Edit, Bash, Grep,       │
-│                     │ TodoWrite                            │
-├─────────────────────┼──────────────────────────────────────┤
-│ flutter             │ Read, Write, Edit, Bash, Grep,       │
-│                     │ TodoWrite                            │
-├─────────────────────┼──────────────────────────────────────┤
-│ reactnative         │ Read, Write, Edit, Bash, Grep,       │
-│                     │ TodoWrite                            │
-├─────────────────────┼──────────────────────────────────────┤
-│ test-architect      │ Read, Write, Edit, Grep, WebSearch,  │
-│                     │ TodoWrite                            │
-├─────────────────────┼──────────────────────────────────────┤
-│ test-implementer    │ Read, Write, Edit, Bash, Grep,       │
-│                     │ TodoWrite                            │
-├─────────────────────┼──────────────────────────────────────┤
-│ code-quality        │ Read, Edit, Bash, Grep, TodoWrite    │
-├─────────────────────┼──────────────────────────────────────┤
-│ api-designer        │ Read, Write, Edit, WebSearch,        │
-│                     │ TodoWrite                            │
-├─────────────────────┼──────────────────────────────────────┤
-│ api-implementer     │ Read, Write, Edit, Bash, Grep,       │
-│                     │ TodoWrite                            │
-├─────────────────────┼──────────────────────────────────────┤
-│ api-documenter      │ Read, Write, Edit, WebSearch,        │
-│                     │ TodoWrite                            │
-└─────────────────────┴──────────────────────────────────────┘
-```
+**Note**: As of version 0.2.0, agents no longer have explicit tool specifications in their frontmatter. Agents can use any tools available in the main thread context, allowing for greater flexibility and tool reuse.
 
 ## Implementation Strategy
 
@@ -248,38 +213,47 @@ Each agent is a markdown file with YAML frontmatter:
 
 ```markdown
 ---
-name: agent-name
-description: Brief description of agent's purpose
-tools: Tool1, Tool2, Tool3
+name: Agent Name
+description: Brief description of agent's purpose and expertise
+color: "#HEX_COLOR"
+model_recommendation: Consider using Opus for complex tasks... (optional)
 ---
 System prompt defining the agent's expertise and behavior
 ```
 
 ## Progress Tracking
 
-- [ ] Phase 1: Infrastructure Setup
-- [ ] Phase 2: Core Agent Development - Backend & Architecture
-  - [ ] architecture-solutions
-  - [ ] elixir-phoenix
-  - [ ] data-architecture
-  - [ ] semantic-data
-  - [ ] documentation-technical
-- [ ] Phase 3: UI/UX Agent Development
-  - [ ] ux-ui-design (Master)
-  - [ ] web-frontend
-  - [ ] sveltekit-developer
-  - [ ] flutter-developer
-  - [ ] reactnative-developer
-- [ ] Phase 4: Testing & Code Quality Agent Development
-  - [ ] test-architect
-  - [ ] test-implementer
-  - [ ] code-quality-analyzer
-- [ ] Phase 5: API Development Agent Suite
-  - [ ] api-designer
-  - [ ] api-implementer
-  - [ ] api-documenter
-- [ ] Phase 6: Testing & Validation
-- [ ] Phase 7: Documentation & Evolution
+- [x] Phase 1: Infrastructure Setup ✅
+- [x] Phase 2: Core Agent Development - Backend & Architecture ✅
+  - [x] brainstormer (NEW - added for creative ideation)
+  - [x] architecture-solutions
+  - [x] specifications-writer
+  - [x] elixir-phoenix
+  - [x] database-specialist (NEW - PostgreSQL/Ash/Ecto expert)
+  - [x] data-architecture
+  - [x] semantic-data
+  - [x] devops-engineer (NEW - AWS/Terraform/GitHub Actions)
+  - [x] documentation-technical
+- [x] Phase 3: UI/UX Agent Development ✅
+  - [x] ux-ui-design (Master)
+  - [x] web-frontend
+  - [x] sveltekit-developer
+  - [x] flutter-developer
+  - [x] reactnative-developer
+- [x] Phase 4: Testing & Code Quality Agent Development ✅
+  - [x] test-architect
+  - [x] test-implementer
+  - [x] code-quality-analyzer
+- [x] Phase 5: API Development Agent Suite ✅
+  - [x] api-designer
+  - [x] api-implementer
+  - [x] api-documenter
+- [x] Phase 6: Operations & Management (NEW PHASE) ✅
+  - [x] security-specialist
+  - [x] performance-optimizer
+  - [x] project-coordinator
+- [ ] Phase 7: Testing & Validation (In Progress)
+- [ ] Phase 8: Documentation & Evolution
 
 ## Agent Collaboration Patterns
 
@@ -327,7 +301,7 @@ The UX/UI Design agent serves as the master coordinator for all UI-related work:
    
 2. **API Implementer** builds:
    - Phoenix controllers and routes
-   - Ecto schemas and contexts
+   - Ash resources and contexts
    - Authentication/authorization logic
    - Error handling and validation
    
