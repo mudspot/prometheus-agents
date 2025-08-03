@@ -15,6 +15,14 @@ To use a sub-agent, reference it with the `@` symbol followed by the agent file 
 
 ### 1. Backend & Architecture Agents
 
+#### **@agents/brainstormer.md**
+- **When to use**: Brainstorming solutions, exploring new technologies, risk analysis, innovation
+- **Example tasks**:
+  - "Brainstorm 10 different approaches to implement real-time collaboration"
+  - "What emerging technologies could enhance our architecture?"
+  - "Evaluate risks and alternatives for our migration strategy"
+  - "Generate innovative solutions using zen consensus if available"
+
 #### **@agents/architecture-solutions.md**
 - **When to use**: System design, choosing design patterns, creating architecture diagrams
 - **Example tasks**:
@@ -36,12 +44,28 @@ To use a sub-agent, reference it with the `@` symbol followed by the agent file 
   - "Implement real-time features with Phoenix LiveView"
   - "Set up an Ash API with authentication"
 
+#### **@agents/database-specialist.md**
+- **When to use**: PostgreSQL optimization, Ash/Ecto performance, query tuning, index strategy
+- **Example tasks**:
+  - "Optimize this slow Ash query"
+  - "Design optimal indexes for our query patterns"
+  - "Fix N+1 query problems in Phoenix"
+  - "Choose the best column types and keys for performance"
+
 #### **@agents/data-architecture.md**
 - **When to use**: Database design, data modeling, ETL pipelines
 - **Example tasks**:
   - "Design a data warehouse schema"
   - "Create an ETL pipeline architecture"
   - "Model relationships using Ash resources"
+
+#### **@agents/devops-engineer.md**
+- **When to use**: CI/CD, AWS infrastructure, Terraform, GitHub Actions, deployments
+- **Example tasks**:
+  - "Set up GitHub Actions CI/CD pipeline"
+  - "Create Terraform modules for AWS infrastructure"
+  - "Configure AWS Copilot for microservices"
+  - "Implement blue-green deployment on AWS"
 
 #### **@agents/semantic-data.md**
 - **When to use**: RDF, ontologies, semantic web, knowledge graphs
@@ -141,6 +165,32 @@ To use a sub-agent, reference it with the `@` symbol followed by the agent file 
   - "Write technical documentation for our system"
   - "Create developer onboarding guide"
   - "Document deployment process"
+
+### 6. Operations & Management Agents
+
+#### **@agents/security-specialist.md**
+- **When to use**: Security reviews, vulnerability assessment, compliance, threat modeling
+- **Example tasks**:
+  - "Review authentication system for vulnerabilities"
+  - "Implement OWASP Top 10 protections"
+  - "Create threat model for our architecture"
+  - "Set up security headers in Phoenix"
+
+#### **@agents/performance-optimizer.md**
+- **When to use**: Performance bottlenecks, optimization, caching, load testing
+- **Example tasks**:
+  - "Identify and fix performance bottlenecks"
+  - "Optimize slow database queries"
+  - "Implement caching strategy"
+  - "Set up performance monitoring"
+
+#### **@agents/project-coordinator.md**
+- **When to use**: Sprint planning, project management, team coordination, agile processes
+- **Example tasks**:
+  - "Plan next sprint with team capacity"
+  - "Create project roadmap for Q1"
+  - "Set up agile process for new team"
+  - "Track progress across multiple projects"
 
 ## Collaboration Workflows
 

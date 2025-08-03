@@ -1,9 +1,9 @@
 # Prometheus Agents - Claude SubAgents Project
 
-**Version: 0.1.3**
+**Version: 0.2.0**
 
 ## Project Overview
-This project creates specialized Claude SubAgents to assist with software architecture, Elixir Phoenix development, data architecture, and semantic data work.
+This project provides 23 specialized Claude SubAgents to assist with all aspects of software development, from architecture and backend development to UI/UX, testing, DevOps, and project management. Each agent has deep expertise in their domain and can collaborate effectively with other agents.
 
 **Development Plan**: See [docs/AGENT_DEVELOPMENT_PLAN.md](docs/AGENT_DEVELOPMENT_PLAN.md) for the comprehensive development roadmap.
 
@@ -18,42 +18,53 @@ This project creates specialized Claude SubAgents to assist with software archit
 
 ## SubAgent Categories
 
-### 1. Backend & Architecture Agents
-- **architecture-solutions** - System design, architecture patterns, and technical decision-making
+### 1. Backend & Architecture Agents (8 agents) - 🔵 Blue (#2196F3)
+- **brainstormer** - Creative ideation, technology exploration, and innovative problem-solving *(Opus recommended)*
+- **architecture-solutions** - System design, architecture patterns, and technical decision-making *(Opus recommended)*
 - **specifications-writer** - PRDs, technical specifications, and implementation plans
 - **elixir-phoenix** - Phoenix framework development, LiveView, and Elixir best practices
+- **database-specialist** - PostgreSQL master, Ash/Ecto optimization, query and index tuning *(Opus recommended)*
 - **data-architecture** - Data schema design, database architecture, and data flow optimization
 - **semantic-data** - RDF, SPARQL, OWL, and semantic web technologies
+- **devops-engineer** - AWS, Terraform, GitHub Actions, Copilot, CI/CD pipelines
 
-### 2. UI/UX Development Agents
+### 2. UI/UX Development Agents (5 agents) - 🟢 Green (#4CAF50)
 - **ux-ui-design** - Master agent for UX/UI design principles and user experience
 - **web-frontend** - HTML, JavaScript, and TailwindCSS development for Phoenix
 - **sveltekit-developer** - SvelteKit and Svelte component development
 - **flutter-developer** - Flutter mobile and web application development
 - **reactnative-developer** - React Native cross-platform mobile development
 
-### 3. Testing & Quality Agents
-- **test-architect** - Test planning, strategy, and test case design (supports all platforms)
-- **test-implementer** - Test implementation and automation (supports all platforms)
+### 3. Testing & Quality Agents (3 agents) - 🟣 Purple (#9C27B0)
+- **test-architect** - Test planning, strategy, and test case design *(Opus recommended)*
+- **test-implementer** - Test implementation and automation
 - **code-quality-analyzer** - Static analysis, linting, and code quality metrics
 
-### 4. API Development Agents
+### 4. API Development Agents (3 agents) - 🔷 Cyan (#00BCD4)
 - **api-designer** - REST API design, OpenAPI specifications, and API architecture
 - **api-implementer** - Phoenix API implementation and best practices
 - **api-documenter** - API documentation, examples, and integration guides
 
-### 5. Documentation Agents
+### 5. Documentation Agents (1 agent) - 🔘 Blue-Grey (#607D8B)
 - **documentation-technical** - Technical documentation, design docs, and architecture decisions
 
+### 6. Operations & Management Agents (3 agents) - 🟠 Deep Orange (#FF5722)
+- **security-specialist** - Application security, OWASP, penetration testing, compliance *(Opus recommended)*
+- **performance-optimizer** - Performance profiling, optimization, caching, scalability *(Opus recommended)*
+- **project-coordinator** - Agile project management, sprint planning, team coordination
+
 ## Project Structure
-- `/agents/` - SubAgent implementations (to be created)
-  - Backend & architecture agents
-  - UI/UX development agents  
-  - Testing & quality agents
-  - API development agents
-  - Documentation agents
+- `/agents/` - SubAgent implementations (23 agents)
+  - Backend & architecture agents (8)
+  - UI/UX development agents (5)
+  - Testing & quality agents (3)
+  - API development agents (3)
+  - Documentation agents (1)
+  - Operations & management agents (3)
 - `/docs/` - Design documents and specifications
   - `AGENT_DEVELOPMENT_PLAN.md` - Comprehensive development roadmap
+  - `AGENT_SUMMARY.md` - Complete overview of all 23 agents
+  - `AGENT_USAGE_GUIDE.md` - Detailed usage guide with examples
 - `/rules/` - Framework and technology usage rules
   - Elixir/OTP rules
   - Ash framework rules
@@ -91,11 +102,12 @@ This project creates specialized Claude SubAgents to assist with software archit
 
 ## Agent Collaboration Patterns
 
-### Specification Development Flow
-1. **architecture-solutions** creates high-level system design
-2. **specifications-writer** translates into PRDs and technical specs
-3. Platform-specific agents use specs for implementation
-4. **documentation-technical** creates end-user documentation
+### Innovation & Design Flow
+1. **brainstormer** explores possibilities and generates innovative approaches
+2. **architecture-solutions** formalizes the best ideas into system design
+3. **specifications-writer** translates into PRDs and technical specs
+4. Platform-specific agents use specs for implementation
+5. **documentation-technical** creates end-user documentation
 
 ### UI/UX Development Flow
 1. **ux-ui-design** creates design specifications and wireframes
@@ -114,6 +126,12 @@ This project creates specialized Claude SubAgents to assist with software archit
 1. **api-designer** creates OpenAPI specifications
 2. **api-implementer** builds Phoenix API endpoints
 3. **api-documenter** generates comprehensive documentation
+
+### Operations & Management Flow
+1. **security-specialist** performs security assessment and threat modeling
+2. **performance-optimizer** identifies and resolves performance bottlenecks
+3. **devops-engineer** implements infrastructure and deployment solutions
+4. **project-coordinator** manages timelines and team coordination
 
 ### Cross-Agent Communication
 - Agents share context through structured data formats
