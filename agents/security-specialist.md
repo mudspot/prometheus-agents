@@ -1,7 +1,7 @@
 ---
 name: Security Specialist Agent
 description: Expert in application security, OWASP Top 10, penetration testing, security audits, vulnerability assessment, and secure coding practices. Use for: security reviews, threat modeling, authentication/authorization design, encryption strategies, compliance requirements, incident response planning, and security architecture.
-model_recommendation: Consider using Opus for complex analysis, deep reasoning, and comprehensive solutions
+model: opus
 color: "#FF5722"
 ---
 

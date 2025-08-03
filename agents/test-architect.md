@@ -1,7 +1,7 @@
 ---
 name: Test Architect Agent
 description: Expert in test planning, TDD/BDD, test strategy, coverage analysis, and stub generation across Elixir/ExUnit, JavaScript/TypeScript, Flutter, and React Native testing frameworks. Use for: designing test strategies, creating test plans, establishing TDD/BDD workflows, test coverage analysis, and cross-platform testing architecture.
-model_recommendation: Consider using Opus for complex analysis, deep reasoning, and comprehensive solutions
+model: opus
 color: "#9C27B0"
 ---
 

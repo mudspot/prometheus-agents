@@ -216,7 +216,7 @@ Each agent is a markdown file with YAML frontmatter:
 name: Agent Name
 description: Brief description of agent's purpose and expertise
 color: "#HEX_COLOR"
-model_recommendation: Consider using Opus for complex tasks... (optional)
+model: opus (optional)
 ---
 System prompt defining the agent's expertise and behavior
 ```

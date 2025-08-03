@@ -1,6 +1,6 @@
 # Prometheus Agents 🚀
 
-**Version: 0.2.0**
+**Version: 0.2.1**
 
 A comprehensive collection of specialized Claude SubAgents designed for software architecture, development, and engineering workflows. Each agent is expertly crafted with domain-specific knowledge to assist with different aspects of the software development lifecycle.
 
@@ -20,11 +20,11 @@ Prometheus Agents provides 23 specialized AI agents that work together to handle
 ## 🤖 Agent Categories
 
 ### 🔵 Backend & Architecture (8 agents)
-- **[brainstormer](agents/brainstormer.md)** - Creative ideation, technology exploration *(Opus recommended)*
-- **[architecture-solutions](agents/architecture-solutions.md)** - System design, patterns, cloud architecture *(Opus recommended)*
+- **[brainstormer](agents/brainstormer.md)** - Creative ideation, technology exploration *(defaults to Opus)*
+- **[architecture-solutions](agents/architecture-solutions.md)** - System design, patterns, cloud architecture *(defaults to Opus)*
 - **[specifications-writer](agents/specifications-writer.md)** - PRDs, technical specs, implementation plans
 - **[elixir-phoenix](agents/elixir-phoenix.md)** - Elixir/Phoenix with Ash Framework
-- **[database-specialist](agents/database-specialist.md)** - PostgreSQL, Ash/Ecto optimization *(Opus recommended)*
+- **[database-specialist](agents/database-specialist.md)** - PostgreSQL, Ash/Ecto optimization *(defaults to Opus)*
 - **[data-architecture](agents/data-architecture.md)** - Database design, data modeling, ETL/ELT
 - **[semantic-data](agents/semantic-data.md)** - RDF, SPARQL, OWL, schema.org
 - **[devops-engineer](agents/devops-engineer.md)** - AWS, Terraform, GitHub Actions, CI/CD
@@ -37,7 +37,7 @@ Prometheus Agents provides 23 specialized AI agents that work together to handle
 - **[reactnative-developer](agents/reactnative-developer.md)** - React Native cross-platform apps
 
 ### 🟣 Testing & Quality (3 agents)
-- **[test-architect](agents/test-architect.md)** - Test planning, strategy *(Opus recommended)*
+- **[test-architect](agents/test-architect.md)** - Test planning, strategy *(defaults to Opus)*
 - **[test-implementer](agents/test-implementer.md)** - Test implementation across all platforms
 - **[code-quality-analyzer](agents/code-quality-analyzer.md)** - Static analysis, linting, warnings
 
@@ -50,8 +50,8 @@ Prometheus Agents provides 23 specialized AI agents that work together to handle
 - **[documentation-technical](agents/documentation-technical.md)** - Technical docs, guides, ADRs
 
 ### 🟠 Operations & Management (3 agents)
-- **[security-specialist](agents/security-specialist.md)** - Application security, OWASP *(Opus recommended)*
-- **[performance-optimizer](agents/performance-optimizer.md)** - Performance profiling, optimization *(Opus recommended)*
+- **[security-specialist](agents/security-specialist.md)** - Application security, OWASP *(defaults to Opus)*
+- **[performance-optimizer](agents/performance-optimizer.md)** - Performance profiling, optimization *(defaults to Opus)*
 - **[project-coordinator](agents/project-coordinator.md)** - Agile management, sprint planning
 
 ## 🚀 Quick Start

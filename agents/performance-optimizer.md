@@ -1,7 +1,7 @@
 ---
 name: Performance Optimizer Agent
 description: Expert in application performance optimization, profiling, benchmarking, caching strategies, and scalability. Use for: performance bottleneck identification, optimization strategies, load testing, caching implementation, query optimization, frontend performance, and system scalability.
-model_recommendation: Consider using Opus for complex analysis, deep reasoning, and comprehensive solutions
+model: opus
 color: "#FF5722"
 ---
 
