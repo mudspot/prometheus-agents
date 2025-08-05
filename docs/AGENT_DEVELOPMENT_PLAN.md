@@ -12,14 +12,14 @@ Phase 1: Infrastructure Setup
     
 Phase 2: Core Agent Development - Backend & Architecture
     ├── architecture-solutions
-    ├── elixir-phoenix
+    ├── elixir-developer
     ├── data-architecture
-    ├── semantic-data
+    ├── semantic-data-specialist
     └── documentation-technical
     
 Phase 3: UI/UX Agent Development
-    ├── ux-ui-design (Master UX/UI specialist)
-    ├── web-frontend (HTML/JS/Tailwind)
+    ├── ux-designer (Master UX/UI specialist)
+    ├── web-developer (HTML/JS/Tailwind)
     ├── sveltekit-developer
     ├── flutter-developer
     └── reactnative-developer
@@ -58,7 +58,7 @@ Phase 7: Documentation & Evolution
    - Expertise: Creative ideation, technology exploration, innovative problem-solving
    - Special: Integrates with zen MCP tools for enhanced analysis
 
-3. **Create Architecture Solutions Agent**
+3. **Create Solutions Architect Agent**
    - File: `architecture-solutions.md`
    - Expertise: Design patterns, cloud architectures, microservices, C4 diagrams, ADRs
    
@@ -67,37 +67,37 @@ Phase 7: Documentation & Evolution
    - Expertise: PRDs, technical specifications, implementation plans
    
 5. **Create Elixir Phoenix Agent**
-   - File: `elixir-phoenix.md`
+   - File: `elixir-developer.md`
    - Expertise: OTP principles, LiveView, Ash Framework, GenServers, Phoenix best practices
 
 6. **Create Database Specialist Agent** (NEW)
    - File: `database-specialist.md`
    - Expertise: PostgreSQL mastery, Ash/Ecto optimization, query tuning, index strategies
    
-7. **Create Data Architecture Agent**
+7. **Create Data Architect Agent**
    - File: `data-architecture.md`
    - Expertise: Data modeling, ETL/ELT, data governance, flow diagrams
    
 8. **Create Semantic Data Agent**
-   - File: `semantic-data.md`
+   - File: `semantic-data-specialist.md`
    - Expertise: RDF, SPARQL, OWL, knowledge graphs, ontology engineering
 
 9. **Create DevOps Engineer Agent** (NEW)
    - File: `devops-engineer.md`
    - Expertise: AWS, Terraform, GitHub Actions, AWS Copilot, CI/CD pipelines
    
-10. **Create Documentation Technical Agent**
+10. **Create Technical Writer Agent**
     - File: `documentation-technical.md`
     - Expertise: Technical writing, API docs, architecture documentation
 
 ### Phase 3: UI/UX Agent Development
 
 11. **Create UX/UI Design Agent (Master)**
-    - File: `ux-ui-design.md`
+    - File: `ux-designer.md`
     - Expertise: UX principles, UI design patterns, accessibility, user research, design systems
    
 12. **Create Web Frontend Agent**
-    - File: `web-frontend.md`
+    - File: `web-developer.md`
     - Expertise: HTML5, JavaScript/TypeScript, TailwindCSS, responsive design, web standards
    
 13. **Create SvelteKit Developer Agent**
@@ -228,15 +228,15 @@ System prompt defining the agent's expertise and behavior
   - [x] brainstormer (NEW - added for creative ideation)
   - [x] architecture-solutions
   - [x] specifications-writer
-  - [x] elixir-phoenix
+  - [x] elixir-developer
   - [x] database-specialist (NEW - PostgreSQL/Ash/Ecto expert)
   - [x] data-architecture
-  - [x] semantic-data
+  - [x] semantic-data-specialist
   - [x] devops-engineer (NEW - AWS/Terraform/GitHub Actions)
   - [x] documentation-technical
 - [x] Phase 3: UI/UX Agent Development ✅
-  - [x] ux-ui-design (Master)
-  - [x] web-frontend
+  - [x] ux-designer (Master)
+  - [x] web-developer
   - [x] sveltekit-developer
   - [x] flutter-developer
   - [x] reactnative-developer

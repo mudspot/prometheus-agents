@@ -1,6 +1,6 @@
 # Prometheus Agents 🚀
 
-**Version: 0.2.1**
+**Version: 0.3.0**
 
 A comprehensive collection of specialized Claude SubAgents designed for software architecture, development, and engineering workflows. Each agent is expertly crafted with domain-specific knowledge to assist with different aspects of the software development lifecycle.
 
@@ -21,17 +21,17 @@ Prometheus Agents provides 23 specialized AI agents that work together to handle
 
 ### 🔵 Backend & Architecture (8 agents)
 - **[brainstormer](agents/brainstormer.md)** - Creative ideation, technology exploration *(defaults to Opus)*
-- **[architecture-solutions](agents/architecture-solutions.md)** - System design, patterns, cloud architecture *(defaults to Opus)*
+- **[solutions-architect](agents/solutions-architect.md)** - System design, patterns, cloud architecture *(defaults to Opus)*
 - **[specifications-writer](agents/specifications-writer.md)** - PRDs, technical specs, implementation plans
-- **[elixir-phoenix](agents/elixir-phoenix.md)** - Elixir/Phoenix with Ash Framework
+- **[elixir-developer](agents/elixir-developer.md)** - Elixir/Phoenix with Ash Framework
 - **[database-specialist](agents/database-specialist.md)** - PostgreSQL, Ash/Ecto optimization *(defaults to Opus)*
-- **[data-architecture](agents/data-architecture.md)** - Database design, data modeling, ETL/ELT
-- **[semantic-data](agents/semantic-data.md)** - RDF, SPARQL, OWL, schema.org
+- **[data-architect](agents/data-architect.md)** - Database design, data modeling, ETL/ELT
+- **[semantic-data-specialist](agents/semantic-data-specialist.md)** - RDF, SPARQL, OWL, schema.org
 - **[devops-engineer](agents/devops-engineer.md)** - AWS, Terraform, GitHub Actions, CI/CD
 
 ### 🟢 UI/UX Development (5 agents)
-- **[ux-ui-design](agents/ux-ui-design.md)** - Master UX/UI coordinator, design systems
-- **[web-frontend](agents/web-frontend.md)** - HTML, JavaScript, TailwindCSS for Phoenix
+- **[ux-designer](agents/ux-designer.md)** - Master UX/UI coordinator, design systems
+- **[web-developer](agents/web-developer.md)** - HTML, JavaScript, TailwindCSS for Phoenix
 - **[sveltekit-developer](agents/sveltekit-developer.md)** - SvelteKit and Svelte applications
 - **[flutter-developer](agents/flutter-developer.md)** - Flutter with GetX state management
 - **[reactnative-developer](agents/reactnative-developer.md)** - React Native cross-platform apps
@@ -47,7 +47,7 @@ Prometheus Agents provides 23 specialized AI agents that work together to handle
 - **[api-documenter](agents/api-documenter.md)** - API documentation, integration guides
 
 ### 🔘 Documentation (1 agent)
-- **[documentation-technical](agents/documentation-technical.md)** - Technical docs, guides, ADRs
+- **[technical-writer](agents/technical-writer.md)** - Technical docs, guides, ADRs
 
 ### 🟠 Operations & Management (3 agents)
 - **[security-specialist](agents/security-specialist.md)** - Application security, OWASP *(defaults to Opus)*
@@ -82,7 +82,7 @@ cp agents/*.md ~/.claude/agents/
 
 Once installed, reference agents using the `@` symbol followed by the agent filename:
 ```
-@elixir-phoenix - for Elixir/Phoenix development
+@elixir-developer - for Elixir/Phoenix development
 @flutter-developer - for Flutter mobile apps
 @specifications-writer - for PRDs and tech specs
 ```
@@ -91,20 +91,20 @@ Once installed, reference agents using the `@` symbol followed by the agent file
 
 #### Building a New Feature
 ```
-1. @architecture-solutions - Design the architecture
+1. @solutions-architect - Design the architecture
 2. @specifications-writer - Write PRD and tech spec
 3. @api-designer - Design the API
-4. @ux-ui-design - Create UI mockups
-5. @elixir-phoenix - Implement backend
+4. @ux-designer - Create UI mockups
+5. @elixir-developer - Implement backend
 6. @flutter-developer - Build mobile UI
 7. @test-architect - Create test plan
-8. @documentation-technical - Document the feature
+8. @technical-writer - Document the feature
 ```
 
 #### Code Quality Review
 ```
 1. @code-quality-analyzer - Analyze warnings and issues
-2. @elixir-phoenix - Fix Elixir/Credo warnings
+2. @elixir-developer - Fix Elixir/Credo warnings
 3. @test-implementer - Add missing tests
 ```
 
@@ -113,7 +113,7 @@ Once installed, reference agents using the `@` symbol followed by the agent file
 ```
 prometheus-agents/
 ├── agents/                    # Agent implementations (23 agents)
-│   ├── architecture-solutions.md
+│   ├── solutions-architect.md
 │   ├── specifications-writer.md
 │   └── ... (21 more agents)
 ├── docs/                      # Documentation
@@ -165,16 +165,16 @@ prometheus-agents/
 ### Specification Development Flow
 ```mermaid
 graph LR
-    A[architecture-solutions] -->|Design| B[specifications-writer]
+    A[solutions-architect] -->|Design| B[specifications-writer]
     B -->|PRD/Spec| C[Platform Agents]
-    C -->|Implementation| D[documentation-technical]
+    C -->|Implementation| D[technical-writer]
 ```
 
 ### UI/UX Development Flow
 ```mermaid
 graph LR
-    A[ux-ui-design] -->|Design System| B[Platform Agents]
-    B --> C[web-frontend]
+    A[ux-designer] -->|Design System| B[Platform Agents]
+    B --> C[web-developer]
     B --> D[flutter-developer]
     B --> E[reactnative-developer]
 ```
