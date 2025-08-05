@@ -15,7 +15,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - `web-frontend.md` → `web-developer.md`
   - Also previously renamed: `architecture-solutions.md` → `solutions-architect.md`, `data-architecture.md` → `data-architect.md`, `documentation-technical.md` → `technical-writer.md`
 - Updated all agent descriptions to use "Use PROACTIVELY for:" instead of "Use for:" for better automatic delegation with Claude Code
-- Added hexagonal architecture as a preferred pattern to the solutions-architect agent
 - Updated all documentation to reflect new agent names
 
 ## [0.2.1] - 2025-08-03
