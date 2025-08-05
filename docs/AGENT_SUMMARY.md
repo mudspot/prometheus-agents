@@ -1,7 +1,7 @@
 # Prometheus Agents - Complete Agent Summary
 
 ## Overview
-This document provides a comprehensive summary of all 23 specialized Claude SubAgents in the Prometheus Agents project, version 0.2.0.
+This document provides a comprehensive summary of all 23 specialized Claude SubAgents in the Prometheus Agents project, version 0.3.0.
 
 ## Agent Statistics
 - **Total Agents**: 23
@@ -38,18 +38,18 @@ This document provides a comprehensive summary of all 23 specialized Claude SubA
 | **brainstormer** | Creative ideation, technology exploration, innovative problem-solving | ✅ Yes |
 | **architecture-solutions** | System design, architecture patterns, technical decision-making | ✅ Yes |
 | **specifications-writer** | PRDs, technical specifications, implementation plans | No |
-| **elixir-phoenix** | Phoenix framework, LiveView, Elixir best practices | No |
+| **elixir-developer** | Phoenix framework, LiveView, Elixir best practices | No |
 | **database-specialist** | PostgreSQL master, Ash/Ecto optimization, query tuning | ✅ Yes |
 | **data-architecture** | Data schema design, database architecture, data flows | No |
-| **semantic-data** | RDF, SPARQL, OWL, semantic web technologies | No |
+| **semantic-data-specialist** | RDF, SPARQL, OWL, semantic web technologies | No |
 | **devops-engineer** | AWS, Terraform, GitHub Actions, Copilot, CI/CD | No |
 
 ### UI/UX Development Agents
 
 | Agent | Description | Opus Recommended |
 |-------|-------------|------------------|
-| **ux-ui-design** | Master UX/UI specialist, design systems, accessibility | No |
-| **web-frontend** | HTML, JavaScript, TailwindCSS, Phoenix LiveView | No |
+| **ux-designer** | Master UX/UI specialist, design systems, accessibility | No |
+| **web-developer** | HTML, JavaScript, TailwindCSS, Phoenix LiveView | No |
 | **sveltekit-developer** | SvelteKit, Svelte, reactive programming, SSR/SSG | No |
 | **flutter-developer** | Flutter, Dart, cross-platform mobile/web apps | No |
 | **reactnative-developer** | React Native, mobile development, Expo | No |
@@ -93,7 +93,7 @@ brainstormer → architecture-solutions → specifications-writer → implementa
 
 ### Full-Stack Development Flow
 ```
-specifications-writer → elixir-phoenix + database-specialist → frontend agents → test agents
+specifications-writer → elixir-developer + database-specialist → frontend agents → test agents
 ```
 
 ### API Development Flow
@@ -163,15 +163,15 @@ Consider using the Opus model for these agents when dealing with:
 4. Engage **project-coordinator** for planning
 
 ### For Backend Development
-1. **elixir-phoenix** for Phoenix applications
+1. **elixir-developer** for Phoenix applications
 2. **database-specialist** for database design and optimization
 3. **api-designer** → **api-implementer** for APIs
 4. **devops-engineer** for deployment
 
 ### For Frontend Development
-1. **ux-ui-design** for design specifications
+1. **ux-designer** for design specifications
 2. Choose platform-specific agent:
-   - **web-frontend** for web applications
+   - **web-developer** for web applications
    - **sveltekit-developer** for SvelteKit
    - **flutter-developer** for mobile/web
    - **reactnative-developer** for React Native
@@ -195,6 +195,7 @@ Consider using the Opus model for these agents when dealing with:
 | **v0.1.0** | 2025-08-03 | Initial 17 agents |
 | **v0.1.3** | 2025-08-03 | Documentation updates |
 | **v0.2.0** | 2025-08-03 | Added 6 new agents (brainstormer, database-specialist, devops-engineer, security-specialist, performance-optimizer, project-coordinator), standardized colors, added Opus recommendations |
+| **v0.3.0** | 2025-08-05 | Renamed agents to person actors (elixir-developer, semantic-data-specialist, ux-designer, web-developer), updated all descriptions to use "Use PROACTIVELY for:" for better automatic delegation |
 
 ## Future Considerations
 The agent collection is now comprehensive, covering all major aspects of software development. Future updates may include:

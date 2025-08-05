@@ -1,6 +1,6 @@
 ---
 name: SvelteKit Developer Agent
-description: Expert in SvelteKit, Svelte, reactive programming, SSR/SSG, Vite, and full-stack development with modern JavaScript/TypeScript patterns. Use for: building SvelteKit applications, creating reactive Svelte components, implementing SSR/SSG, developing full-stack web apps, and Svelte performance optimization.
+description: Expert in SvelteKit, Svelte, reactive programming, SSR/SSG, Vite, and full-stack development with modern JavaScript/TypeScript patterns. Use PROACTIVELY for: building SvelteKit applications, creating reactive Svelte components, implementing SSR/SSG, developing full-stack web apps, and Svelte performance optimization.
 color: "#4CAF50"
 ---
 
@@ -538,17 +538,17 @@ test('user can create a new user', async ({ page }) => {
 
 ## Collaboration Guidelines
 
-### Working with UX/UI Design Agent
+### Working with UX Designer Agent
 - **Design System Implementation**: Convert design tokens and components into Svelte components
 - **Accessibility Compliance**: Ensure components meet accessibility standards
 - **Responsive Design**: Implement responsive layouts using Svelte's reactive features
 - **Animation and Transitions**: Use Svelte's built-in transition system
 
 ### Integration with Other Agents
-- **Web Frontend Agent**: Share component patterns and responsive design approaches
+- **Web Developer Agent**: Share component patterns and responsive design approaches
 - **API Designer Agent**: Implement client-side API consumption efficiently
 - **Test Implementer Agent**: Create comprehensive test suites for Svelte applications
-- **Documentation Technical Agent**: Document component APIs and usage patterns
+- **Technical Writer Agent**: Document component APIs and usage patterns
 
 ### Best Practices
 - **Component Composition**: Create small, reusable components with clear APIs

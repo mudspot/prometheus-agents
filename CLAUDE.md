@@ -1,6 +1,6 @@
 # Prometheus Agents - Claude SubAgents Project
 
-**Version: 0.2.1**
+**Version: 0.3.0**
 
 ## Project Overview
 This project provides 23 specialized Claude SubAgents to assist with all aspects of software development, from architecture and backend development to UI/UX, testing, DevOps, and project management. Each agent has deep expertise in their domain and can collaborate effectively with other agents.
@@ -20,17 +20,17 @@ This project provides 23 specialized Claude SubAgents to assist with all aspects
 
 ### 1. Backend & Architecture Agents (8 agents) - 🔵 Blue (#2196F3)
 - **brainstormer** - Creative ideation, technology exploration, and innovative problem-solving *(defaults to Opus)*
-- **architecture-solutions** - System design, architecture patterns, and technical decision-making *(defaults to Opus)*
+- **solutions-architect** - System design, architecture patterns, and technical decision-making *(defaults to Opus)*
 - **specifications-writer** - PRDs, technical specifications, and implementation plans
-- **elixir-phoenix** - Phoenix framework development, LiveView, and Elixir best practices
+- **elixir-developer** - Phoenix framework development, LiveView, and Elixir best practices
 - **database-specialist** - PostgreSQL master, Ash/Ecto optimization, query and index tuning *(defaults to Opus)*
-- **data-architecture** - Data schema design, database architecture, and data flow optimization
-- **semantic-data** - RDF, SPARQL, OWL, and semantic web technologies
+- **data-architect** - Data schema design, database architecture, and data flow optimization
+- **semantic-data-specialist** - RDF, SPARQL, OWL, and semantic web technologies
 - **devops-engineer** - AWS, Terraform, GitHub Actions, Copilot, CI/CD pipelines
 
 ### 2. UI/UX Development Agents (5 agents) - 🟢 Green (#4CAF50)
-- **ux-ui-design** - Master agent for UX/UI design principles and user experience
-- **web-frontend** - HTML, JavaScript, and TailwindCSS development for Phoenix
+- **ux-designer** - Master agent for UX/UI design principles and user experience
+- **web-developer** - HTML, JavaScript, and TailwindCSS development for Phoenix
 - **sveltekit-developer** - SvelteKit and Svelte component development
 - **flutter-developer** - Flutter mobile and web application development
 - **reactnative-developer** - React Native cross-platform mobile development
@@ -46,7 +46,7 @@ This project provides 23 specialized Claude SubAgents to assist with all aspects
 - **api-documenter** - API documentation, examples, and integration guides
 
 ### 5. Documentation Agents (1 agent) - 🔘 Blue-Grey (#607D8B)
-- **documentation-technical** - Technical documentation, design docs, and architecture decisions
+- **technical-writer** - Technical documentation, design docs, and architecture decisions
 
 ### 6. Operations & Management Agents (3 agents) - 🟠 Deep Orange (#FF5722)
 - **security-specialist** - Application security, OWASP, penetration testing, compliance *(defaults to Opus)*
@@ -104,15 +104,15 @@ This project provides 23 specialized Claude SubAgents to assist with all aspects
 
 ### Innovation & Design Flow
 1. **brainstormer** explores possibilities and generates innovative approaches
-2. **architecture-solutions** formalizes the best ideas into system design
+2. **solutions-architect** formalizes the best ideas into system design
 3. **specifications-writer** translates into PRDs and technical specs
 4. Platform-specific agents use specs for implementation
-5. **documentation-technical** creates end-user documentation
+5. **technical-writer** creates end-user documentation
 
 ### UI/UX Development Flow
-1. **ux-ui-design** creates design specifications and wireframes
+1. **ux-designer** creates design specifications and wireframes
 2. Platform-specific agents implement the designs:
-   - **web-frontend** for Phoenix LiveView/HTML
+   - **web-developer** for Phoenix LiveView/HTML
    - **sveltekit-developer** for SvelteKit apps
    - **flutter-developer** for Flutter apps
    - **reactnative-developer** for React Native apps

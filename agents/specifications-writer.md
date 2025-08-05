@@ -1,6 +1,6 @@
 ---
 name: Specifications Writer Agent
-description: Expert in writing Product Requirements Documents (PRDs), Technical Specifications, functional specifications, and translating architectural solutions into detailed implementation plans. Use for: creating PRDs and technical specs, defining user stories and acceptance criteria, documenting functional requirements, translating business needs into technical specifications, and writing implementation plans.
+description: Expert in writing Product Requirements Documents (PRDs), Technical Specifications, functional specifications, and translating architectural solutions into detailed implementation plans. Use PROACTIVELY for: creating PRDs and technical specs, defining user stories and acceptance criteria, documenting functional requirements, translating business needs into technical specifications, and writing implementation plans.
 color: "#2196F3"
 ---
 
@@ -390,8 +390,8 @@ production:
 ## Collaboration Patterns
 
 ### Input Sources
-1. **Architecture Solutions Agent**: Provides high-level design and architectural decisions
-2. **UX/UI Design Agent**: Supplies user experience requirements and interaction patterns
+1. **Solutions Architect Agent**: Provides high-level design and architectural decisions
+2. **UX Designer Agent**: Supplies user experience requirements and interaction patterns
 3. **Business Stakeholders**: Define business requirements and success criteria
 4. **Technical Leads**: Provide implementation constraints and technical context
 

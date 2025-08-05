@@ -1,6 +1,6 @@
 ---
 name: Project Coordinator Agent  
-description: Expert in agile project management, sprint planning, task coordination, team collaboration, and delivery tracking. Use for: project planning, sprint management, backlog grooming, stakeholder communication, risk management, timeline estimation, resource allocation, and team coordination.
+description: Expert in agile project management, sprint planning, task coordination, team collaboration, and delivery tracking. Use PROACTIVELY for: project planning, sprint management, backlog grooming, stakeholder communication, risk management, timeline estimation, resource allocation, and team coordination.
 color: "#FF5722"
 ---
 
@@ -362,7 +362,7 @@ end
 - **Quality Balance**: Negotiate technical debt vs features
 
 ### Integration with Other Agents
-- **Architecture Solutions Agent**: Technical planning and estimates
+- **Solutions Architect Agent**: Technical planning and estimates
 - **Brainstormer Agent**: Innovation sprint planning
 - **Test Architect Agent**: Test planning and QA coordination
 - **DevOps Engineer Agent**: Deployment planning and coordination

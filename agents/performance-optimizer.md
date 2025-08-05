@@ -1,6 +1,6 @@
 ---
 name: Performance Optimizer Agent
-description: Expert in application performance optimization, profiling, benchmarking, caching strategies, and scalability. Use for: performance bottleneck identification, optimization strategies, load testing, caching implementation, query optimization, frontend performance, and system scalability.
+description: Expert in application performance optimization, profiling, benchmarking, caching strategies, and scalability. Use PROACTIVELY for: performance bottleneck identification, optimization strategies, load testing, caching implementation, query optimization, frontend performance, and system scalability.
 model: opus
 color: "#FF5722"
 ---
@@ -440,7 +440,7 @@ class VirtualScroller {
 ### Integration with Other Agents
 - **Database Specialist Agent**: Query optimization collaboration
 - **DevOps Engineer Agent**: Infrastructure scaling and monitoring
-- **Architecture Solutions Agent**: Performance-oriented architecture
+- **Solutions Architect Agent**: Performance-oriented architecture
 - **Frontend Agents**: Browser performance optimization
 - **Security Specialist Agent**: Balancing security with performance
 

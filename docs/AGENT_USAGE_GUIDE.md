@@ -7,7 +7,7 @@ This guide explains how to effectively use the specialized Claude sub-agents in 
 
 To use a sub-agent, reference it with the `@` symbol followed by the agent file path:
 ```
-@agents/elixir-phoenix.md - for Elixir/Phoenix development
+@agents/elixir-developer.md - for Elixir/Phoenix development
 @agents/flutter-developer.md - for Flutter mobile apps
 ```
 
@@ -37,7 +37,7 @@ To use a sub-agent, reference it with the `@` symbol followed by the agent file 
   - "Create technical specification from the authentication architecture"
   - "Define acceptance criteria for the payment system"
 
-#### **@agents/elixir-phoenix.md**
+#### **@agents/elixir-developer.md**
 - **When to use**: Elixir/Phoenix development, Ash Framework resources, LiveView
 - **Example tasks**:
   - "Create an Ash resource for user management"
@@ -67,7 +67,7 @@ To use a sub-agent, reference it with the `@` symbol followed by the agent file 
   - "Configure AWS Copilot for microservices"
   - "Implement blue-green deployment on AWS"
 
-#### **@agents/semantic-data.md**
+#### **@agents/semantic-data-specialist.md**
 - **When to use**: RDF, ontologies, semantic web, knowledge graphs
 - **Example tasks**:
   - "Create an OWL ontology for our domain"
@@ -76,14 +76,14 @@ To use a sub-agent, reference it with the `@` symbol followed by the agent file 
 
 ### 2. UI/UX Development Agents
 
-#### **@agents/ux-ui-design.md** (Master Coordinator)
+#### **@agents/ux-designer.md** (Master Coordinator)
 - **When to use**: UI/UX design, wireframes, design systems, user research
 - **Example tasks**:
   - "Design a user onboarding flow"
   - "Create a design system for our multi-platform app"
   - "Review and improve accessibility"
 
-#### **@agents/web-frontend.md**
+#### **@agents/web-developer.md**
 - **When to use**: HTML, JavaScript, TailwindCSS, Phoenix LiveView UI
 - **Example tasks**:
   - "Create responsive components with TailwindCSS"
@@ -197,14 +197,14 @@ To use a sub-agent, reference it with the `@` symbol followed by the agent file 
 ### UI/UX Development Flow
 ```mermaid
 graph LR
-    A[ux-ui-design] -->|Design specs| B[Platform Agents]
-    B --> C[web-frontend]
+    A[ux-designer] -->|Design specs| B[Platform Agents]
+    B --> C[web-developer]
     B --> D[sveltekit-developer]
     B --> E[flutter-developer]
     B --> F[reactnative-developer]
 ```
 
-1. Start with **@agents/ux-ui-design.md** for design
+1. Start with **@agents/ux-designer.md** for design
 2. Hand off to platform-specific agents for implementation
 3. Each platform agent follows the design system
 
@@ -247,7 +247,7 @@ Example flow for new feature:
 ```
 1. @agents/architecture-solutions.md - Design the feature architecture
 2. @agents/api-designer.md - Design the API
-3. @agents/ux-ui-design.md - Create UI mockups
+3. @agents/ux-designer.md - Create UI mockups
 4. @agents/api-implementer.md - Build the backend
 5. @agents/flutter-developer.md - Build mobile UI
 6. @agents/test-architect.md - Create test plan
@@ -288,11 +288,11 @@ Example flow for new feature:
 ### Need Multiple Perspectives?
 - Use test-architect for planning, test-implementer for coding
 - Use api-designer for specs, api-implementer for code
-- Use ux-ui-design for design, platform agents for builds
+- Use ux-designer for design, platform agents for builds
 
 ### Complex Cross-Platform Project?
 1. Start with architecture-solutions for overall design
-2. Use ux-ui-design for consistent UI/UX
+2. Use ux-designer for consistent UI/UX
 3. Deploy platform-specific agents in parallel
 4. Coordinate with test agents for quality
 
@@ -305,7 +305,7 @@ User: "I need to add user profiles to our app"
 1. @agents/architecture-solutions.md - "Design the architecture for user profiles"
 2. @agents/data-architecture.md - "Design the data model for profiles" 
 3. @agents/api-designer.md - "Create OpenAPI spec for profile endpoints"
-4. @agents/ux-ui-design.md - "Design the profile UI"
+4. @agents/ux-designer.md - "Design the profile UI"
 5. @agents/api-implementer.md - "Implement profile API with Ash"
 6. @agents/flutter-developer.md - "Build profile screens with GetX"
 ```
@@ -315,7 +315,7 @@ User: "I need to add user profiles to our app"
 User: "Our Elixir code has many warnings"
 
 1. @agents/code-quality-analyzer.md - "Analyze all Credo warnings"
-2. @agents/elixir-phoenix.md - "Fix the critical warnings"
+2. @agents/elixir-developer.md - "Fix the critical warnings"
 3. @agents/test-implementer.md - "Add tests for fixed code"
 ```
 
