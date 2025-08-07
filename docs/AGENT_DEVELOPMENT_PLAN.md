@@ -27,7 +27,7 @@ Phase 3: UI/UX Agent Development
 Phase 4: Testing & Code Quality Agent Development
     ├── test-architect (Test planning & stub generation)
     ├── test-implementer (Test implementation)
-    └── code-fixer (Compiler/lint warnings)
+    └── code-reviewer (Compiler/lint warnings)
     
 Phase 5: API Development Agent Suite
     ├── api-designer (REST API design & OpenAPI)
@@ -123,7 +123,7 @@ Phase 7: Documentation & Evolution
     - Expertise: ExUnit, Jest, Vitest, Cypress, Playwright, Flutter test framework, React Native Testing Library, test implementation, mocking, fixtures
     
 18. **Create Code Quality Analyzer Agent**
-    - File: `code-fixer.md`
+    - File: `code-reviewer.md`
     - Expertise: Elixir compiler warnings, Credo, ESLint, TypeScript compiler, Dart analyzer, code smell detection, refactoring suggestions
 
 ### Phase 5: API Development Agent Suite
@@ -243,7 +243,7 @@ System prompt defining the agent's expertise and behavior
 - [x] Phase 4: Testing & Code Quality Agent Development ✅
   - [x] test-architect
   - [x] test-implementer
-  - [x] code-fixer
+  - [x] code-reviewer
 - [x] Phase 5: API Development Agent Suite ✅
   - [x] api-designer
   - [x] api-implementer

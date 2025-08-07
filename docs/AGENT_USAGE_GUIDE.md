@@ -127,7 +127,7 @@ To use a sub-agent, reference it with the `@` symbol followed by the agent file 
   - "Write Flutter widget tests"
   - "Create Jest tests for SvelteKit"
 
-#### **@agents/code-fixer.md**
+#### **@agents/code-reviewer.md**
 - **When to use**: Code analysis, fixing warnings, improving code quality
 - **Example tasks**:
   - "Analyze and fix Credo warnings"
@@ -212,12 +212,12 @@ graph LR
 ```mermaid
 graph LR
     A[test-architect] -->|Test plan + stubs| B[test-implementer]
-    B -->|Test results| C[code-fixer]
+    B -->|Test results| C[code-reviewer]
 ```
 
 1. **@agents/test-architect.md** creates test plans and stubs
 2. **@agents/test-implementer.md** implements the tests
-3. **@agents/code-fixer.md** ensures code quality
+3. **@agents/code-reviewer.md** ensures code quality
 
 ### API Development Flow
 ```mermaid
@@ -314,7 +314,7 @@ User: "I need to add user profiles to our app"
 ```
 User: "Our Elixir code has many warnings"
 
-1. @agents/code-fixer.md - "Analyze all Credo warnings"
+1. @agents/code-reviewer.md - "Analyze all Credo warnings"
 2. @agents/elixir-developer.md - "Fix the critical warnings"
 3. @agents/test-implementer.md - "Add tests for fixed code"
 ```

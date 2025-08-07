@@ -53,7 +53,7 @@ This document lists all the "ALWAYS use this agent when..." triggers for automat
 ### test-implementer
 **ALWAYS use when:** after test-architect creates test plans.
 
-### code-fixer
+### code-reviewer
 **ALWAYS use when:** after writing code to ensure quality standards are met.
 
 ## API Development Agents
@@ -92,12 +92,12 @@ This document lists all the "ALWAYS use this agent when..." triggers for automat
    - api-designer → api-implementer → api-documenter
 
 3. **Testing Flow:**
-   - test-architect → test-implementer → code-fixer
+   - test-architect → test-implementer → code-reviewer
 
 4. **UI Development Flow:**
    - ux-designer → platform-specific developer agents
 
 5. **Quality Assurance:**
-   - code-fixer (after any code changes)
+   - code-reviewer (after any code changes)
    - security-specialist (for auth/security features)
    - performance-optimizer (for data-heavy features)

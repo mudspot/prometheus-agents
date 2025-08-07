@@ -60,7 +60,7 @@ This document provides a comprehensive summary of all 23 specialized Claude SubA
 |-------|-------------|------------------|
 | **test-architect** | Test planning, strategy, test case design, TDD/BDD | ✅ Yes |
 | **test-implementer** | Test implementation, automation, mocking | No |
-| **code-fixer** | Static analysis, linting, code quality metrics | No |
+| **code-reviewer** | Static analysis, linting, code quality metrics | No |
 
 ### API Development Agents
 
@@ -103,7 +103,7 @@ api-designer → api-implementer → api-documenter → test-implementer
 
 ### Quality Assurance Flow
 ```
-test-architect → test-implementer + code-fixer → performance-optimizer
+test-architect → test-implementer + code-reviewer → performance-optimizer
 ```
 
 ### Security & Operations Flow
@@ -179,7 +179,7 @@ Consider using the Opus model for these agents when dealing with:
 ### For Quality & Testing
 1. **test-architect** for test strategy
 2. **test-implementer** for test creation
-3. **code-fixer** for code review
+3. **code-reviewer** for code review
 4. **performance-optimizer** for optimization
 
 ### For Operations

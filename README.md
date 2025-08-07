@@ -1,6 +1,6 @@
 # Prometheus Agents 🚀
 
-**Version: 0.4.0**
+**Version: 0.4.1**
 
 A comprehensive collection of specialized Claude SubAgents designed for software architecture, development, and engineering workflows. Each agent is expertly crafted with domain-specific knowledge to assist with different aspects of the software development lifecycle.
 
@@ -39,7 +39,7 @@ Prometheus Agents provides 23 specialized AI agents that work together to handle
 ### 🟣 Testing & Quality (3 agents)
 - **[test-architect](agents/test-architect.md)** - Test planning, strategy *(defaults to Opus)*
 - **[test-implementer](agents/test-implementer.md)** - Test implementation across all platforms
-- **[code-fixer](agents/code-fixer.md)** - Static analysis, linting, warnings
+- **[code-reviewer](agents/code-reviewer.md)** - Static analysis, linting, warnings
 
 ### 🔷 API Development (3 agents)
 - **[api-designer](agents/api-designer.md)** - REST API design, OpenAPI specifications
@@ -103,7 +103,7 @@ Once installed, reference agents using the `@` symbol followed by the agent file
 
 #### Code Quality Review
 ```
-1. @code-fixer - Analyze warnings and issues
+1. @code-reviewer - Analyze warnings and issues
 2. @elixir-developer - Fix Elixir/Credo warnings
 3. @test-implementer - Add missing tests
 ```
@@ -183,7 +183,7 @@ graph LR
 ```mermaid
 graph LR
     A[test-architect] -->|Test Plan| B[test-implementer]
-    B -->|Results| C[code-fixer]
+    B -->|Results| C[code-reviewer]
 ```
 
 ## 🎨 Agent Color Legend

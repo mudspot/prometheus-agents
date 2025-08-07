@@ -1,6 +1,6 @@
 # Prometheus Agents - Claude SubAgents Project
 
-**Version: 0.4.0**
+**Version: 0.4.1**
 
 ## Project Overview
 This project provides 23 specialized Claude SubAgents to assist with all aspects of software development, from architecture and backend development to UI/UX, testing, DevOps, and project management. Each agent has deep expertise in their domain and can collaborate effectively with other agents.
@@ -38,7 +38,7 @@ This project provides 23 specialized Claude SubAgents to assist with all aspects
 ### 3. Testing & Quality Agents (3 agents) - 🟣 Purple (#9C27B0)
 - **test-architect** - Test planning, strategy, and test case design *(defaults to Opus)*
 - **test-implementer** - Test implementation and automation
-- **code-fixer** - Static analysis, linting, and code quality metrics
+- **code-reviewer** - Static analysis, linting, and code quality metrics
 
 ### 4. API Development Agents (3 agents) - 🔷 Cyan (#00BCD4)
 - **api-designer** - REST API design, OpenAPI specifications, and API architecture
@@ -120,7 +120,7 @@ This project provides 23 specialized Claude SubAgents to assist with all aspects
 ### Testing Workflow
 1. **test-architect** analyzes code and creates test plans
 2. **test-implementer** writes test implementations
-3. **code-fixer** reviews code quality and suggests improvements
+3. **code-reviewer** reviews code quality and suggests improvements
 
 ### API Development Flow
 1. **api-designer** creates OpenAPI specifications
