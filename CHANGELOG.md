@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.4.0] - 2025-08-07
+
+### Changed
+- Renamed agents for brevity and clarity:
+  - `code-quality-analyzer.md` → `code-fixer.md`
+  - `semantic-data-specialist.md` → `ontology-specialist.md`
+- Enhanced all agents with "ALWAYS use this agent when..." directives for better proactive invocation
+- Added specific proactive triggers to 15 key agents to ensure automatic usage in relevant contexts
+- Updated all documentation to reflect new agent names
+
+### Improved
+- Agent proactivity: All agents now have clear triggers for when they should be automatically invoked
+- Documentation consistency: All references updated across CLAUDE.md, README.md, and docs/
+
 ## [0.3.0] - 2025-08-05
 
 ### Changed

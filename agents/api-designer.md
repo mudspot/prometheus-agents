@@ -1,6 +1,6 @@
 ---
 name: API Designer Agent
-description: Expert in REST API design, OpenAPI/Swagger specification, API versioning, resource modeling, HTTP standards, and API security patterns. Use PROACTIVELY for: designing REST APIs, creating OpenAPI specifications, API resource modeling, versioning strategies, endpoint design, and API security architecture.
+description: Expert in REST API design, OpenAPI/Swagger specification, API versioning, resource modeling, HTTP standards, and API security patterns. Use PROACTIVELY for: designing REST APIs, creating OpenAPI specifications, API resource modeling, versioning strategies, endpoint design, and API security architecture. ALWAYS use this agent before implementing any new API endpoints.
 color: "#00BCD4"
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: API Documenter Agent
-description: Expert in comprehensive API documentation, OpenAPI specification generation, interactive docs, code examples, SDK documentation, and developer experience optimization. Use PROACTIVELY for: creating API documentation, generating OpenAPI specs, writing code examples, building interactive API docs, SDK documentation, and developer guides.
+description: Expert in comprehensive API documentation, OpenAPI specification generation, interactive docs, code examples, SDK documentation, and developer experience optimization. Use PROACTIVELY for: creating API documentation, generating OpenAPI specs, writing code examples, building interactive API docs, SDK documentation, and developer guides. ALWAYS use this agent immediately after implementing or modifying API endpoints.
 color: "#00BCD4"
 ---
 

@@ -41,7 +41,7 @@ This document provides a comprehensive summary of all 23 specialized Claude SubA
 | **elixir-developer** | Phoenix framework, LiveView, Elixir best practices | No |
 | **database-specialist** | PostgreSQL master, Ash/Ecto optimization, query tuning | ✅ Yes |
 | **data-architecture** | Data schema design, database architecture, data flows | No |
-| **semantic-data-specialist** | RDF, SPARQL, OWL, semantic web technologies | No |
+| **ontology-specialist** | RDF, SPARQL, OWL, semantic web technologies | No |
 | **devops-engineer** | AWS, Terraform, GitHub Actions, Copilot, CI/CD | No |
 
 ### UI/UX Development Agents
@@ -60,7 +60,7 @@ This document provides a comprehensive summary of all 23 specialized Claude SubA
 |-------|-------------|------------------|
 | **test-architect** | Test planning, strategy, test case design, TDD/BDD | ✅ Yes |
 | **test-implementer** | Test implementation, automation, mocking | No |
-| **code-quality-analyzer** | Static analysis, linting, code quality metrics | No |
+| **code-fixer** | Static analysis, linting, code quality metrics | No |
 
 ### API Development Agents
 
@@ -103,7 +103,7 @@ api-designer → api-implementer → api-documenter → test-implementer
 
 ### Quality Assurance Flow
 ```
-test-architect → test-implementer + code-quality-analyzer → performance-optimizer
+test-architect → test-implementer + code-fixer → performance-optimizer
 ```
 
 ### Security & Operations Flow
@@ -179,7 +179,7 @@ Consider using the Opus model for these agents when dealing with:
 ### For Quality & Testing
 1. **test-architect** for test strategy
 2. **test-implementer** for test creation
-3. **code-quality-analyzer** for code review
+3. **code-fixer** for code review
 4. **performance-optimizer** for optimization
 
 ### For Operations
@@ -195,7 +195,7 @@ Consider using the Opus model for these agents when dealing with:
 | **v0.1.0** | 2025-08-03 | Initial 17 agents |
 | **v0.1.3** | 2025-08-03 | Documentation updates |
 | **v0.2.0** | 2025-08-03 | Added 6 new agents (brainstormer, database-specialist, devops-engineer, security-specialist, performance-optimizer, project-coordinator), standardized colors, added Opus recommendations |
-| **v0.3.0** | 2025-08-05 | Renamed agents to person actors (elixir-developer, semantic-data-specialist, ux-designer, web-developer), updated all descriptions to use "Use PROACTIVELY for:" for better automatic delegation |
+| **v0.3.0** | 2025-08-05 | Renamed agents to person actors (elixir-developer, ontology-specialist, ux-designer, web-developer), updated all descriptions to use "Use PROACTIVELY for:" for better automatic delegation |
 
 ## Future Considerations
 The agent collection is now comprehensive, covering all major aspects of software development. Future updates may include:

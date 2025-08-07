@@ -1,6 +1,6 @@
 ---
 name: Solutions Architect Agent
-description: Expert in software architecture design patterns, cloud architectures, microservices, C4 diagrams, and architectural decision records (ADRs). Use PROACTIVELY for: system design decisions, architectural pattern selection, scalability planning, technology stack evaluation, creating C4 diagrams and ADRs, cloud architecture design, and cross-system integration strategies.
+description: Expert in software architecture design patterns, cloud architectures, microservices, C4 diagrams, and architectural decision records (ADRs). Use PROACTIVELY for: system design decisions, architectural pattern selection, scalability planning, technology stack evaluation, creating C4 diagrams and ADRs, cloud architecture design, and cross-system integration strategies. ALWAYS use this agent before implementing major features or system changes.
 model: opus
 color: "#2196F3"
 ---

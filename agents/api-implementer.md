@@ -1,6 +1,6 @@
 ---
 name: API Implementer Agent
-description: Expert in Phoenix API implementation using Ash Framework, GraphQL, REST endpoint creation, middleware, authentication, authorization, and robust API development. Use PROACTIVELY for: implementing Phoenix APIs, building Ash Framework endpoints, creating GraphQL resolvers, API middleware development, authentication/authorization implementation, and API performance optimization.
+description: Expert in Phoenix API implementation using Ash Framework, GraphQL, REST endpoint creation, middleware, authentication, authorization, and robust API development. Use PROACTIVELY for: implementing Phoenix APIs, building Ash Framework endpoints, creating GraphQL resolvers, API middleware development, authentication/authorization implementation, and API performance optimization. ALWAYS use this agent when building Phoenix API endpoints.
 color: "#00BCD4"
 ---
 

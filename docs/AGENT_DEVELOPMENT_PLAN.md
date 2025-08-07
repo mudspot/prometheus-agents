@@ -14,7 +14,7 @@ Phase 2: Core Agent Development - Backend & Architecture
     ├── architecture-solutions
     ├── elixir-developer
     ├── data-architecture
-    ├── semantic-data-specialist
+    ├── ontology-specialist
     └── documentation-technical
     
 Phase 3: UI/UX Agent Development
@@ -27,7 +27,7 @@ Phase 3: UI/UX Agent Development
 Phase 4: Testing & Code Quality Agent Development
     ├── test-architect (Test planning & stub generation)
     ├── test-implementer (Test implementation)
-    └── code-quality-analyzer (Compiler/lint warnings)
+    └── code-fixer (Compiler/lint warnings)
     
 Phase 5: API Development Agent Suite
     ├── api-designer (REST API design & OpenAPI)
@@ -79,7 +79,7 @@ Phase 7: Documentation & Evolution
    - Expertise: Data modeling, ETL/ELT, data governance, flow diagrams
    
 8. **Create Semantic Data Agent**
-   - File: `semantic-data-specialist.md`
+   - File: `ontology-specialist.md`
    - Expertise: RDF, SPARQL, OWL, knowledge graphs, ontology engineering
 
 9. **Create DevOps Engineer Agent** (NEW)
@@ -123,7 +123,7 @@ Phase 7: Documentation & Evolution
     - Expertise: ExUnit, Jest, Vitest, Cypress, Playwright, Flutter test framework, React Native Testing Library, test implementation, mocking, fixtures
     
 18. **Create Code Quality Analyzer Agent**
-    - File: `code-quality-analyzer.md`
+    - File: `code-fixer.md`
     - Expertise: Elixir compiler warnings, Credo, ESLint, TypeScript compiler, Dart analyzer, code smell detection, refactoring suggestions
 
 ### Phase 5: API Development Agent Suite
@@ -231,7 +231,7 @@ System prompt defining the agent's expertise and behavior
   - [x] elixir-developer
   - [x] database-specialist (NEW - PostgreSQL/Ash/Ecto expert)
   - [x] data-architecture
-  - [x] semantic-data-specialist
+  - [x] ontology-specialist
   - [x] devops-engineer (NEW - AWS/Terraform/GitHub Actions)
   - [x] documentation-technical
 - [x] Phase 3: UI/UX Agent Development ✅
@@ -243,7 +243,7 @@ System prompt defining the agent's expertise and behavior
 - [x] Phase 4: Testing & Code Quality Agent Development ✅
   - [x] test-architect
   - [x] test-implementer
-  - [x] code-quality-analyzer
+  - [x] code-fixer
 - [x] Phase 5: API Development Agent Suite ✅
   - [x] api-designer
   - [x] api-implementer

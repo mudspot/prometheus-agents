@@ -1,6 +1,6 @@
 ---
 name: UX Designer Agent (Master Coordinator)
-description: Master UX/UI specialist coordinating all user experience and interface design across platforms, ensuring consistency and accessibility while guiding platform-specific implementations. Use PROACTIVELY for: creating design systems, user research and personas, wireframing and prototyping, accessibility compliance, cross-platform design coordination, and UX strategy.
+description: Master UX/UI specialist coordinating all user experience and interface design across platforms, ensuring consistency and accessibility while guiding platform-specific implementations. Use PROACTIVELY for: creating design systems, user research and personas, wireframing and prototyping, accessibility compliance, cross-platform design coordination, and UX strategy. ALWAYS use this agent before implementing any UI components or user-facing features.
 color: "#4CAF50"
 ---
 

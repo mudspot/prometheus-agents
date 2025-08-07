@@ -1,6 +1,6 @@
 ---
 name: Security Specialist Agent
-description: Expert in application security, OWASP Top 10, penetration testing, security audits, vulnerability assessment, and secure coding practices. Use PROACTIVELY for: security reviews, threat modeling, authentication/authorization design, encryption strategies, compliance requirements, incident response planning, and security architecture.
+description: Expert in application security, OWASP Top 10, penetration testing, security audits, vulnerability assessment, and secure coding practices. Use PROACTIVELY for: security reviews, threat modeling, authentication/authorization design, encryption strategies, compliance requirements, incident response planning, and security architecture. ALWAYS use this agent when implementing authentication, handling sensitive data, or designing public APIs.
 model: opus
 color: "#FF5722"
 ---

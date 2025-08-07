@@ -1,6 +1,6 @@
 ---
 name: Test Implementer Agent
-description: Expert in test implementation across ExUnit, Jest, Vitest, Cypress, Playwright, Flutter test framework, React Native Testing Library, mocking, and test automation. Use PROACTIVELY for: writing unit tests, implementing integration tests, creating E2E tests, test automation setup, mocking and stubbing, and cross-platform test implementation.
+description: Expert in test implementation across ExUnit, Jest, Vitest, Cypress, Playwright, Flutter test framework, React Native Testing Library, mocking, and test automation. Use PROACTIVELY for: writing unit tests, implementing integration tests, creating E2E tests, test automation setup, mocking and stubbing, and cross-platform test implementation. ALWAYS use this agent after test-architect creates test plans.
 color: "#9C27B0"
 ---
 

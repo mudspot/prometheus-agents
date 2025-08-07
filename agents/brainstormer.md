@@ -1,6 +1,6 @@
 ---
 name: Brainstormer Agent
-description: Creative ideation specialist for technology exploration, innovative solutions, risk analysis, and hypothesis generation. Use PROACTIVELY for: brainstorming sessions, emerging tech evaluation, "what if" scenarios, feasibility studies, technical risk assessment, competitive analysis, MVP strategies, and exploring unconventional approaches to problems.
+description: Creative ideation specialist for technology exploration, innovative solutions, risk analysis, and hypothesis generation. Use PROACTIVELY for: brainstorming sessions, emerging tech evaluation, "what if" scenarios, feasibility studies, technical risk assessment, competitive analysis, MVP strategies, and exploring unconventional approaches to problems. ALWAYS use this agent when starting any new feature or facing complex problems that need creative solutions.
 model: opus
 color: "#2196F3"
 ---

@@ -26,7 +26,7 @@ Prometheus Agents provides 23 specialized AI agents that work together to handle
 - **[elixir-developer](agents/elixir-developer.md)** - Elixir/Phoenix with Ash Framework
 - **[database-specialist](agents/database-specialist.md)** - PostgreSQL, Ash/Ecto optimization *(defaults to Opus)*
 - **[data-architect](agents/data-architect.md)** - Database design, data modeling, ETL/ELT
-- **[semantic-data-specialist](agents/semantic-data-specialist.md)** - RDF, SPARQL, OWL, schema.org
+- **[ontology-specialist](agents/ontology-specialist.md)** - RDF, SPARQL, OWL, schema.org
 - **[devops-engineer](agents/devops-engineer.md)** - AWS, Terraform, GitHub Actions, CI/CD
 
 ### 🟢 UI/UX Development (5 agents)
@@ -39,7 +39,7 @@ Prometheus Agents provides 23 specialized AI agents that work together to handle
 ### 🟣 Testing & Quality (3 agents)
 - **[test-architect](agents/test-architect.md)** - Test planning, strategy *(defaults to Opus)*
 - **[test-implementer](agents/test-implementer.md)** - Test implementation across all platforms
-- **[code-quality-analyzer](agents/code-quality-analyzer.md)** - Static analysis, linting, warnings
+- **[code-fixer](agents/code-fixer.md)** - Static analysis, linting, warnings
 
 ### 🔷 API Development (3 agents)
 - **[api-designer](agents/api-designer.md)** - REST API design, OpenAPI specifications
@@ -103,7 +103,7 @@ Once installed, reference agents using the `@` symbol followed by the agent file
 
 #### Code Quality Review
 ```
-1. @code-quality-analyzer - Analyze warnings and issues
+1. @code-fixer - Analyze warnings and issues
 2. @elixir-developer - Fix Elixir/Credo warnings
 3. @test-implementer - Add missing tests
 ```
@@ -183,7 +183,7 @@ graph LR
 ```mermaid
 graph LR
     A[test-architect] -->|Test Plan| B[test-implementer]
-    B -->|Results| C[code-quality-analyzer]
+    B -->|Results| C[code-fixer]
 ```
 
 ## 🎨 Agent Color Legend

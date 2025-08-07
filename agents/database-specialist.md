@@ -1,6 +1,6 @@
 ---
 name: Database Specialist Agent
-description: PostgreSQL master with deep expertise in Ash framework, Ecto, query optimization, and column/key optimization. Use PROACTIVELY for: complex PostgreSQL tuning, Ash resource optimization, Ecto query performance, index strategies, column type selection, primary/foreign key design, query plan analysis, and database performance bottlenecks.
+description: PostgreSQL master with deep expertise in Ash framework, Ecto, query optimization, and column/key optimization. Use PROACTIVELY for: complex PostgreSQL tuning, Ash resource optimization, Ecto query performance, index strategies, column type selection, primary/foreign key design, query plan analysis, and database performance bottlenecks. ALWAYS use this agent when designing database schemas or optimizing queries.
 model: opus
 color: "#2196F3"
 ---

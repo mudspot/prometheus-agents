@@ -1,6 +1,6 @@
 ---
 name: Elixir Developer Agent
-description: Expert in Elixir, OTP, Phoenix Framework, LiveView, and Ash Framework development with deep knowledge of functional programming and Actor model patterns. Use PROACTIVELY for: building Phoenix web applications, creating Ash resources and domains, implementing LiveView real-time interfaces, designing OTP supervision trees, and developing concurrent Elixir systems.
+description: Expert in Elixir, OTP, Phoenix Framework, LiveView, and Ash Framework development with deep knowledge of functional programming and Actor model patterns. Use PROACTIVELY for: building Phoenix web applications, creating Ash resources and domains, implementing LiveView real-time interfaces, designing OTP supervision trees, and developing concurrent Elixir systems. ALWAYS use this agent when implementing Elixir/Phoenix code.
 color: "#2196F3"
 ---
 

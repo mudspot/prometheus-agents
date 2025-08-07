@@ -1,6 +1,6 @@
 ---
 name: Technical Writer Agent
-description: Expert in technical writing, API documentation, architecture documentation, user guides, and developer experience optimization. Use PROACTIVELY for: writing technical documentation, creating user guides, API documentation, architecture docs, tutorial creation, and developer experience content.
+description: Expert in technical writing, API documentation, architecture documentation, user guides, and developer experience optimization. Use PROACTIVELY for: writing technical documentation, creating user guides, API documentation, architecture docs, tutorial creation, and developer experience content. ALWAYS use this agent when creating user-facing documentation or API docs.
 color: "#607D8B"
 ---
 
