@@ -1,6 +1,6 @@
 # Prometheus Agents 🚀
 
-**Version: 0.3.0**
+**Version: 0.4.0**
 
 A comprehensive collection of specialized Claude SubAgents designed for software architecture, development, and engineering workflows. Each agent is expertly crafted with domain-specific knowledge to assist with different aspects of the software development lifecycle.
 
