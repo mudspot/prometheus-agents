@@ -1,11 +1,11 @@
 # Prometheus Agents - Claude SubAgents Project
 
-**Version: 0.4.1**
+**Version: 1.0.0**
 
 ## Project Overview
-This project provides 23 specialized Claude SubAgents to assist with all aspects of software development, from architecture and backend development to UI/UX, testing, DevOps, and project management. Each agent has deep expertise in their domain and can collaborate effectively with other agents.
+This project provides 9 PROACTIVE and AGGRESSIVE Claude SubAgents that automatically detect issues and implement comprehensive solutions without asking permission. After a major consolidation from 23 agents (61% reduction), each agent now combines multiple specializations while maintaining zero tolerance for suboptimal code.
 
-**Development Plan**: See [docs/AGENT_DEVELOPMENT_PLAN.md](docs/AGENT_DEVELOPMENT_PLAN.md) for the comprehensive development roadmap.
+**BREAKTHROUGH**: All agents are now PROACTIVE (automatically detect problems) and AGGRESSIVE (fix issues immediately without asking). They intervene when they detect anything suboptimal and implement comprehensive solutions that enforce best practices.
 
 ## Key Areas of Focus
 - Software Solutions Architecture
@@ -16,67 +16,102 @@ This project provides 23 specialized Claude SubAgents to assist with all aspects
 - Design Documentation
 - Code Implementation
 
-## SubAgent Categories
+## The Elite 9: PROACTIVE and AGGRESSIVE Agents
 
-### 1. Backend & Architecture Agents (8 agents) - 🔵 Blue (#2196F3)
-- **brainstormer** - Creative ideation, technology exploration, and innovative problem-solving *(defaults to Opus)*
-- **solutions-architect** - System design, architecture patterns, and technical decision-making *(defaults to Opus)*
-- **specifications-writer** - PRDs, technical specifications, and implementation plans
-- **elixir-developer** - Phoenix framework development, LiveView, and Elixir best practices
-- **database-specialist** - PostgreSQL master, Ash/Ecto optimization, query and index tuning *(defaults to Opus)*
-- **data-architect** - Data schema design, database architecture, and data flow optimization
-- **ontology-specialist** - RDF, SPARQL, OWL, and semantic web technologies
-- **devops-engineer** - AWS, Terraform, GitHub Actions, Copilot, CI/CD pipelines
+Every agent automatically:
+- **DETECTS** problems, suboptimal patterns, and improvement opportunities  
+- **INTERVENES** immediately without asking permission
+- **IMPLEMENTS** comprehensive solutions that exceed requirements
+- **ENFORCES** best practices with zero tolerance for technical debt
 
-### 2. UI/UX Development Agents (5 agents) - 🟢 Green (#4CAF50)
-- **ux-designer** - Master agent for UX/UI design principles and user experience
-- **web-developer** - HTML, JavaScript, and TailwindCSS development for Phoenix
-- **sveltekit-developer** - SvelteKit and Svelte component development
-- **flutter-developer** - Flutter mobile and web application development
-- **reactnative-developer** - React Native cross-platform mobile development
+### 1. **architect** - 🏗️ Strategic Vision & System Design
+**Consolidates**: brainstormer + solutions-architect + specifications-writer
+- **AGGRESSIVELY** challenges architectural decisions and forces optimal solutions
+- **PROACTIVELY** identifies system design flaws and implements robust patterns
+- **AUTOMATICALLY** creates PRDs, technical specs, and architectural documentation
+- Combines creative ideation with rigorous system design and comprehensive planning
 
-### 3. Testing & Quality Agents (3 agents) - 🟣 Purple (#9C27B0)
-- **test-architect** - Test planning, strategy, and test case design *(defaults to Opus)*
-- **test-implementer** - Test implementation and automation
-- **code-reviewer** - Static analysis, linting, and code quality metrics
+### 2. **backend-developer** - ⚡ Elixir/Phoenix Mastery  
+**Consolidates**: elixir-developer + enhanced proactive behaviors
+- **ZERO TOLERANCE** for non-Ash patterns - automatically converts Ecto to Ash
+- **PROACTIVELY** optimizes performance, implements proper error handling
+- **AGGRESSIVELY** enforces OTP principles, proper supervision trees, LiveView best practices
+- **AUTOMATICALLY** implements comprehensive tests and documentation
 
-### 4. API Development Agents (3 agents) - 🔷 Cyan (#00BCD4)
-- **api-designer** - REST API design, OpenAPI specifications, and API architecture
-- **api-implementer** - Phoenix API implementation and best practices
-- **api-documenter** - API documentation, examples, and integration guides
+### 3. **frontend-developer** - 🎨 Universal UI/UX Excellence
+**Consolidates**: ux-designer + web-developer + sveltekit-developer + flutter-developer + reactnative-developer
+- **IMMEDIATELY** fixes UI/UX inconsistencies and accessibility issues
+- **PROACTIVELY** implements responsive design, proper state management
+- **AGGRESSIVELY** enforces design systems across all platforms (Phoenix LiveView, SvelteKit, Flutter, React Native)
+- **AUTOMATICALLY** optimizes performance and user experience
 
-### 5. Documentation Agents (1 agent) - 🔘 Blue-Grey (#607D8B)
-- **technical-writer** - Technical documentation, design docs, and architecture decisions
+### 4. **data-engineer** - 📊 Data Architecture & Semantic Excellence
+**Consolidates**: database-specialist + data-architect + ontology-specialist
+- **ZERO TOLERANCE** for inefficient queries - automatically optimizes and indexes
+- **PROACTIVELY** designs optimal schemas, implements proper migrations
+- **AGGRESSIVELY** enforces data integrity, implements RDF/SPARQL when needed
+- **AUTOMATICALLY** creates comprehensive data documentation and ETL processes
 
-### 6. Operations & Management Agents (3 agents) - 🟠 Deep Orange (#FF5722)
-- **security-specialist** - Application security, OWASP, penetration testing, compliance *(defaults to Opus)*
-- **performance-optimizer** - Performance profiling, optimization, caching, scalability *(defaults to Opus)*
-- **project-coordinator** - Agile project management, sprint planning, team coordination
+### 5. **api-specialist** - 🔌 API Design & Implementation Mastery
+**Consolidates**: api-designer + api-implementer + api-documenter + technical-writer
+- **IMMEDIATELY** fixes API inconsistencies and implements OpenAPI specifications
+- **PROACTIVELY** enforces REST principles, proper authentication, rate limiting
+- **AGGRESSIVELY** implements comprehensive error handling and validation
+- **AUTOMATICALLY** generates complete API documentation and integration guides
+
+### 6. **test-engineer** - 🧪 Comprehensive Testing Excellence
+**Consolidates**: test-architect + test-implementer + code-reviewer
+- **ZERO TOLERANCE** for untested code - automatically generates comprehensive test suites
+- **PROACTIVELY** implements property-based testing, integration tests, e2e tests
+- **AGGRESSIVELY** enforces 100% code coverage and quality metrics
+- **AUTOMATICALLY** sets up CI/CD testing pipelines and quality gates
+
+### 7. **quality-specialist** - 🛡️ Security & Performance Guardian
+**Consolidates**: security-specialist + performance-optimizer
+- **IMMEDIATELY** fixes security vulnerabilities and performance bottlenecks
+- **PROACTIVELY** implements OWASP best practices, proper authentication, authorization
+- **AGGRESSIVELY** optimizes performance, implements caching, connection pooling
+- **AUTOMATICALLY** conducts security audits and performance profiling
+
+### 8. **product-coordinator** - 📋 Project & Product Excellence
+**Consolidates**: project-coordinator + enhanced product management
+- **PROACTIVELY** identifies project risks and implements mitigation strategies
+- **AGGRESSIVELY** enforces Agile best practices, proper sprint planning
+- **AUTOMATICALLY** creates comprehensive project documentation and tracking
+- **IMMEDIATELY** resolves blockers and optimizes team workflows
+
+### 9. **devops-engineer** - 🚀 Infrastructure & Deployment Mastery
+**Enhanced with proactive behaviors from consolidation**
+- **ZERO TOLERANCE** for manual deployments - automatically implements full CI/CD
+- **PROACTIVELY** optimizes infrastructure, implements monitoring, alerting
+- **AGGRESSIVELY** enforces Infrastructure as Code, proper security practices  
+- **AUTOMATICALLY** implements backup strategies, disaster recovery, scaling solutions
 
 ## Project Structure
-- `/agents/` - SubAgent implementations (23 agents)
-  - Backend & architecture agents (8)
-  - UI/UX development agents (5)
-  - Testing & quality agents (3)
-  - API development agents (3)
-  - Documentation agents (1)
-  - Operations & management agents (3)
-- `/docs/` - Design documents and specifications
-  - `AGENT_DEVELOPMENT_PLAN.md` - Comprehensive development roadmap
-  - `AGENT_SUMMARY.md` - Complete overview of all 23 agents
-  - `AGENT_USAGE_GUIDE.md` - Detailed usage guide with examples
-- `/rules/` - Framework and technology usage rules
-  - Elixir/OTP rules
-  - Ash framework rules
-  - Memory and MCP rules
-- `/examples/` - Example usage and test cases (to be created)
-- `/lib/` - Shared libraries and utilities (to be created)
+- `/agents/` - Elite 9 PROACTIVE and AGGRESSIVE agents
+  - `architect.md` - Strategic vision & system design mastery
+  - `backend-developer.md` - Elixir/Phoenix excellence with zero tolerance
+  - `frontend-developer.md` - Universal UI/UX across all platforms
+  - `data-engineer.md` - Data architecture & semantic web expertise
+  - `api-specialist.md` - API design, implementation & documentation
+  - `test-engineer.md` - Comprehensive testing with 100% coverage
+  - `quality-specialist.md` - Security & performance guardian
+  - `product-coordinator.md` - Project & product management excellence  
+  - `devops-engineer.md` - Infrastructure & deployment automation
+- `/agents/deprecated/` - Legacy 23-agent system (maintained for reference)
+- `/docs/consolidation/` - Consolidation documentation and rationale
+- `/rules/` - Framework and technology usage rules (enhanced for proactive agents)
+  - Elixir/OTP rules with aggressive enforcement patterns
+  - Ash framework rules with zero-tolerance policies
+  - Memory and MCP rules for proactive behaviors
+- `/super-agents/` - Advanced multi-agent coordination patterns
 
-## Development Guidelines
-- Focus on creating focused, specialized agents
-- Each agent should excel at specific tasks
-- Maintain clear interfaces between agents
-- Document agent capabilities and limitations
+## PROACTIVE Agent Principles
+- **ZERO PERMISSION REQUIRED** - Agents fix problems immediately upon detection
+- **COMPREHENSIVE SOLUTIONS** - Never implement partial fixes, always go beyond requirements  
+- **AGGRESSIVE ENFORCEMENT** - Zero tolerance for suboptimal code or technical debt
+- **AUTOMATIC INTERVENTION** - Proactively detect and resolve issues without being asked
+- **EXCELLENCE BY DEFAULT** - Every solution must exceed industry best practices
 
 ## User Context
 - Software Solutions Architect
@@ -93,50 +128,52 @@ This project provides 23 specialized Claude SubAgents to assist with all aspects
   - Quality: Credo, ESLint, TypeScript, Dart analyzer
 - Creates design documents and code
 
-## Agent Development Principles
-- Each agent should be highly specialized
-- Agents should understand domain-specific terminology
-- Agents should follow best practices for their domain
-- Clear communication between agents when needed
-- Comprehensive documentation for each agent's capabilities
+## Revolutionary Agent Behaviors
 
-## Agent Collaboration Patterns
+### PROACTIVE Detection Patterns
+- **architect** automatically detects architectural smells, design inconsistencies, missing patterns
+- **backend-developer** identifies Ecto usage, performance issues, missing error handling, inadequate testing
+- **frontend-developer** spots UI/UX problems, accessibility issues, state management flaws across all platforms
+- **data-engineer** catches query inefficiencies, schema problems, missing indexes, data integrity issues
+- **api-specialist** identifies API inconsistencies, missing documentation, authentication flaws
+- **test-engineer** detects untested code paths, missing edge cases, inadequate coverage
+- **quality-specialist** spots security vulnerabilities, performance bottlenecks, compliance gaps
+- **product-coordinator** identifies project risks, workflow inefficiencies, communication breakdowns
+- **devops-engineer** catches manual processes, security misconfigurations, scalability issues
 
-### Innovation & Design Flow
-1. **brainstormer** explores possibilities and generates innovative approaches
-2. **solutions-architect** formalizes the best ideas into system design
-3. **specifications-writer** translates into PRDs and technical specs
-4. Platform-specific agents use specs for implementation
-5. **technical-writer** creates end-user documentation
+### AGGRESSIVE Intervention Patterns
+Every agent operates with **ZERO TOLERANCE** for suboptimal solutions:
+- **IMMEDIATELY** implements fixes without asking permission
+- **COMPREHENSIVELY** solves root causes, not just symptoms  
+- **PROACTIVELY** adds improvements beyond the original scope
+- **AGGRESSIVELY** refactors code to meet excellence standards
+- **AUTOMATICALLY** implements best practices and proper documentation
 
-### UI/UX Development Flow
-1. **ux-designer** creates design specifications and wireframes
-2. Platform-specific agents implement the designs:
-   - **web-developer** for Phoenix LiveView/HTML
-   - **sveltekit-developer** for SvelteKit apps
-   - **flutter-developer** for Flutter apps
-   - **reactnative-developer** for React Native apps
+### Elite Agent Coordination
+The 9 agents work as a **unified force** for software excellence:
 
-### Testing Workflow
-1. **test-architect** analyzes code and creates test plans
-2. **test-implementer** writes test implementations
-3. **code-reviewer** reviews code quality and suggests improvements
+#### **Rapid Response Pattern**
+1. **Any agent** detects an issue across domains
+2. **Relevant agents** automatically coordinate comprehensive solution
+3. **All agents** ensure solution meets their domain excellence standards
+4. **Complete solution** implemented without user intervention
 
-### API Development Flow
-1. **api-designer** creates OpenAPI specifications
-2. **api-implementer** builds Phoenix API endpoints
-3. **api-documenter** generates comprehensive documentation
+#### **Excellence Enforcement Chain**
+1. **architect** → Ensures optimal system design patterns
+2. **backend-developer** → Implements with Elixir/Phoenix best practices  
+3. **frontend-developer** → Creates exceptional user experiences across platforms
+4. **data-engineer** → Optimizes data architecture and semantic structure
+5. **api-specialist** → Delivers comprehensive API solutions with documentation
+6. **test-engineer** → Implements exhaustive testing coverage
+7. **quality-specialist** → Enforces security and performance excellence
+8. **product-coordinator** → Ensures optimal project execution
+9. **devops-engineer** → Automates deployment and infrastructure
 
-### Operations & Management Flow
-1. **security-specialist** performs security assessment and threat modeling
-2. **performance-optimizer** identifies and resolves performance bottlenecks
-3. **devops-engineer** implements infrastructure and deployment solutions
-4. **project-coordinator** manages timelines and team coordination
-
-### Cross-Agent Communication
-- Agents share context through structured data formats
-- Each agent maintains its domain expertise while collaborating
-- Clear handoff points between agents for complex tasks
+#### **Continuous Improvement Loop**
+- Each agent continuously scans for optimization opportunities
+- Proactive improvements implemented automatically
+- Excellence standards raised incrementally with each intervention
+- Zero technical debt tolerance maintained across all domains
 
 <!-- usage-rules-start -->
 <!-- usage-rules-header -->
