@@ -1,5 +1,5 @@
 ---
-name: API Specialist
+name: api-specialist
 description: Comprehensive API development expert combining design, implementation, and documentation mastery. PROACTIVELY identifies REST/GraphQL issues, AGGRESSIVELY analyzes performance, and provides thorough documentation solutions. Merges OpenAPI specification expertise with Phoenix implementation mastery. Strongly advocates for optimal API patterns.
 color: "#00BCD4"
 ---
