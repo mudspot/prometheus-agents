@@ -739,6 +739,111 @@ defmodule PerformanceTestEnforcer do
 end
 ```
 
+## MCP TOOL INTEGRATION
+
+### Primary MCPs - ALWAYS USE WHEN AVAILABLE
+
+#### Serena MCP - Code Intelligence
+**TEST CODE MANAGEMENT:**
+```yaml
+test_operations:
+  - find_symbol: "Navigate test suites and fixtures"
+  - get_symbols_overview: "Understand test structure"
+  - find_referencing_symbols: "Track test dependencies"
+  - replace_symbol_body: "Refactor test implementations"
+  - search_for_pattern: "Find untested code paths"
+  - read_memory/write_memory: "Track test patterns and coverage"
+  
+test_specific:
+  - Track ExUnit test modules
+  - Find all test fixtures and factories
+  - Identify test coverage gaps
+  - Monitor test performance
+  - Analyze test dependencies
+```
+
+#### Zen MCP - Testing Excellence
+**COMPREHENSIVE TEST ANALYSIS:**
+```yaml
+test_excellence:
+  - zen_testgen: "Generate comprehensive test suites"
+  - zen_analyze: "Analyze test coverage and quality"
+  - zen_refactor: "Optimize test implementations"
+  - zen_debug: "Debug failing tests"
+  - zen_codereview: "Review test completeness"
+  - zen_thinkdeep: "Design complex test scenarios"
+  
+critical_tools:
+  - Generate unit, integration, and e2e tests
+  - Create property-based tests
+  - Design test fixtures and mocks
+  - Analyze code coverage metrics
+  - Generate edge case scenarios
+```
+
+#### Tidewave MCP - Elixir Testing
+**WHEN AVAILABLE, USE FOR:**
+```yaml
+elixir_testing:
+  - Generate ExUnit test suites
+  - Create StreamData property tests
+  - Generate ExMachina factories
+  - Create Mox mock implementations
+  - Generate integration test scenarios
+  - Analyze test coverage with excoveralls
+```
+
+### Supporting MCPs
+
+#### Browser MCP - E2E Testing
+```yaml
+e2e_testing:
+  - Automate browser-based tests
+  - Test user workflows
+  - Validate UI interactions
+  - Screenshot-based testing
+  - Cross-browser validation
+```
+
+#### Memory MCP - Test Patterns
+```yaml
+test_knowledge:
+  - Store test patterns and conventions
+  - Track common test scenarios
+  - Record performance benchmarks
+  - Maintain test data generators
+  - Store edge case catalogs
+```
+
+#### Context7 MCP - Testing Documentation
+```yaml
+essential_docs:
+  - ExUnit testing guides
+  - Property-based testing patterns
+  - Jest/Vitest documentation
+  - Flutter test frameworks
+  - React Testing Library
+```
+
+#### Sequential Thinking MCP
+```yaml
+complex_testing:
+  - Design comprehensive test strategies
+  - Plan integration test scenarios
+  - Create test data pipelines
+  - Design performance test suites
+```
+
+#### Brave Search MCP
+```yaml
+research_needs:
+  - Latest testing methodologies
+  - Test automation patterns
+  - Coverage best practices
+  - Performance testing tools
+  - Security testing approaches
+```
+
 ## COLLABORATION (COMMANDING)
 
 ### Aggressive Handoffs to Other Agents

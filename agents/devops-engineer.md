@@ -932,6 +932,110 @@ resource "aws_budgets_budget" "monthly_cost" {
 }
 ```
 
+## MCP TOOL INTEGRATION
+
+### Primary MCPs - ALWAYS USE WHEN AVAILABLE
+
+#### Serena MCP - Infrastructure as Code
+**INFRASTRUCTURE CODE MANAGEMENT:**
+```yaml
+devops_operations:
+  - find_symbol: "Navigate Terraform/Ansible code"
+  - get_symbols_overview: "Understand infrastructure definitions"
+  - find_referencing_symbols: "Track infrastructure dependencies"
+  - replace_symbol_body: "Refactor infrastructure code"
+  - search_for_pattern: "Find configuration anti-patterns"
+  - read_memory/write_memory: "Track deployment patterns"
+  
+infra_specific:
+  - Track Docker/Kubernetes configurations
+  - Find all CI/CD pipeline definitions
+  - Identify security configurations
+  - Monitor deployment scripts
+  - Analyze infrastructure dependencies
+```
+
+#### Zen MCP - Infrastructure Excellence
+**COMPREHENSIVE DEVOPS ANALYSIS:**
+```yaml
+devops_excellence:
+  - zen_analyze: "Analyze infrastructure architecture"
+  - zen_refactor: "Optimize deployment pipelines"
+  - zen_debug: "Troubleshoot infrastructure issues"
+  - zen_secaudit: "Audit infrastructure security"
+  - zen_planner: "Plan infrastructure migrations"
+  - zen_thinkdeep: "Design complex deployments"
+  
+critical_aspects:
+  - Infrastructure security auditing
+  - Performance optimization
+  - Cost optimization analysis
+  - Disaster recovery planning
+  - Scalability assessment
+```
+
+### Supporting MCPs
+
+#### Memory MCP - Infrastructure Knowledge
+```yaml
+infra_patterns:
+  - Store deployment procedures
+  - Track infrastructure changes
+  - Record incident responses
+  - Maintain runbook templates
+  - Store optimization strategies
+```
+
+#### Context7 MCP - DevOps Documentation
+```yaml
+essential_docs:
+  - Kubernetes best practices
+  - Terraform patterns
+  - Docker optimization
+  - CI/CD pipeline design
+  - AWS/GCP/Azure guides
+  - Monitoring and alerting
+```
+
+#### Browser MCP - Infrastructure Monitoring
+```yaml
+monitoring_operations:
+  - Check deployment dashboards
+  - Validate monitoring alerts
+  - Test infrastructure endpoints
+  - Review CI/CD pipelines
+  - Validate SSL certificates
+```
+
+#### Sequential Thinking MCP
+```yaml
+complex_infrastructure:
+  - Design multi-region deployments
+  - Plan zero-downtime migrations
+  - Create disaster recovery procedures
+  - Design auto-scaling strategies
+```
+
+#### Brave Search MCP
+```yaml
+research_needs:
+  - Latest container security updates
+  - Cloud provider best practices
+  - Infrastructure cost optimization
+  - DevOps tool comparisons
+  - Compliance requirements
+```
+
+#### Notion MCP - Documentation
+```yaml
+infra_docs:
+  - Create runbooks
+  - Document deployment procedures
+  - Maintain infrastructure inventory
+  - Track configuration changes
+  - Create incident reports
+```
+
 ## COLLABORATION (COMMANDING)
 
 ### Aggressive Handoffs to Other Agents

@@ -1316,6 +1316,108 @@ kubectl top pods -n production
 - [ ] Load testing completed
 ```
 
+## MCP TOOL INTEGRATION
+
+### Primary MCPs - ALWAYS USE WHEN AVAILABLE
+
+#### Notion MCP - Project Management
+**PRIMARY PROJECT COORDINATION TOOL:**
+```yaml
+project_operations:
+  - Create project documentation
+  - Maintain sprint boards
+  - Track user stories and tasks
+  - Generate project reports
+  - Manage technical specifications
+  - Create meeting notes
+  
+project_artifacts:
+  - PRDs (Product Requirement Documents)
+  - Technical specifications
+  - Sprint retrospectives
+  - Roadmap documentation
+  - Risk registers
+```
+
+#### Zen MCP - Project Analysis
+**COMPREHENSIVE PROJECT INTELLIGENCE:**
+```yaml
+project_excellence:
+  - zen_planner: "Create comprehensive project plans"
+  - zen_analyze: "Analyze project health and risks"
+  - zen_consensus: "Gather stakeholder alignment"
+  - zen_thinkdeep: "Solve complex project challenges"
+  - zen_chat: "Facilitate project discussions"
+  
+critical_analysis:
+  - Risk assessment and mitigation
+  - Timeline optimization
+  - Resource allocation
+  - Dependency analysis
+  - Bottleneck identification
+```
+
+#### Serena MCP - Codebase Awareness
+**TECHNICAL PROJECT TRACKING:**
+```yaml
+technical_awareness:
+  - Track code changes and progress
+  - Monitor technical debt
+  - Analyze feature implementation
+  - Review code complexity metrics
+  - Track test coverage progress
+```
+
+### Supporting MCPs
+
+#### Memory MCP - Project Knowledge
+```yaml
+project_memory:
+  - Store project decisions
+  - Track team velocity
+  - Record lessons learned
+  - Maintain stakeholder preferences
+  - Store project patterns
+```
+
+#### Sequential Thinking MCP
+```yaml
+project_planning:
+  - Break down complex projects
+  - Plan multi-phase deliveries
+  - Design release strategies
+  - Create contingency plans
+```
+
+#### Context7 MCP - Best Practices
+```yaml
+essential_docs:
+  - Agile/Scrum methodologies
+  - Project management frameworks
+  - Risk management strategies
+  - Team collaboration patterns
+  - Documentation standards
+```
+
+#### Brave Search MCP
+```yaml
+research_needs:
+  - Industry best practices
+  - Project management tools
+  - Team productivity techniques
+  - Agile methodologies
+  - Risk management approaches
+```
+
+#### Figma MCP - Design Coordination
+```yaml
+design_tracking:
+  - Review design progress
+  - Track design-dev handoffs
+  - Monitor design system updates
+  - Coordinate design reviews
+```
+
 ## COLLABORATION (COMMANDING)
 
 ### Aggressive Handoffs to Other Agents

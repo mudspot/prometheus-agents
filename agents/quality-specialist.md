@@ -884,6 +884,110 @@ defmodule PerformanceMonitoringEnforcer do
 end
 ```
 
+## MCP TOOL INTEGRATION
+
+### Primary MCPs - ALWAYS USE WHEN AVAILABLE
+
+#### Serena MCP - Code Intelligence
+**SECURITY & PERFORMANCE CODE ANALYSIS:**
+```yaml
+quality_operations:
+  - find_symbol: "Locate security-critical code"
+  - get_symbols_overview: "Analyze code structure for vulnerabilities"
+  - find_referencing_symbols: "Track security dependencies"
+  - search_for_pattern: "Find security anti-patterns"
+  - replace_symbol_body: "Fix security vulnerabilities"
+  - read_memory/write_memory: "Track security issues and fixes"
+  
+security_specific:
+  - Track authentication/authorization code
+  - Find all input validation points
+  - Identify encryption implementations
+  - Monitor performance bottlenecks
+  - Analyze resource usage patterns
+```
+
+#### Zen MCP - Security & Performance
+**COMPREHENSIVE QUALITY ANALYSIS:**
+```yaml
+quality_excellence:
+  - zen_secaudit: "Comprehensive security auditing"
+  - zen_analyze: "Performance bottleneck analysis"
+  - zen_debug: "Root cause analysis for issues"
+  - zen_refactor: "Optimize performance-critical code"
+  - zen_codereview: "Security and performance review"
+  - zen_thinkdeep: "Complex security solutions"
+  
+critical_aspects:
+  - OWASP Top 10 vulnerability scanning
+  - Performance profiling and optimization
+  - Resource leak detection
+  - Security compliance validation
+  - Scalability analysis
+```
+
+#### Tidewave MCP - Quality Tools
+**WHEN AVAILABLE, USE FOR:**
+```yaml
+quality_tools:
+  - Security vulnerability scanning
+  - Performance profiling
+  - Code quality metrics
+  - Dependency vulnerability checks
+  - Static code analysis
+```
+
+### Supporting MCPs
+
+#### Memory MCP - Security Knowledge
+```yaml
+security_patterns:
+  - Store vulnerability patterns
+  - Track security fixes
+  - Record performance optimizations
+  - Maintain compliance requirements
+  - Store incident responses
+```
+
+#### Context7 MCP - Security Documentation
+```yaml
+essential_docs:
+  - OWASP security guidelines
+  - Performance optimization guides
+  - Elixir security best practices
+  - Database security patterns
+  - Caching strategies
+```
+
+#### Browser MCP - Security Testing
+```yaml
+security_testing:
+  - Test authentication flows
+  - Validate CSRF protections
+  - Check XSS vulnerabilities
+  - Test rate limiting
+  - Validate CORS policies
+```
+
+#### Sequential Thinking MCP
+```yaml
+complex_security:
+  - Design security architectures
+  - Plan penetration testing
+  - Create incident response plans
+  - Design performance optimization strategies
+```
+
+#### Brave Search MCP
+```yaml
+research_needs:
+  - Latest security vulnerabilities
+  - CVE databases
+  - Performance benchmarks
+  - Security compliance standards
+  - Optimization techniques
+```
+
 ## COLLABORATION (COMMANDING)
 
 ### Aggressive Handoffs to Other Agents

@@ -5,6 +5,46 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2025-08-12 - 🔌 MCP INTEGRATION REVOLUTION
+
+### ✨ Major Enhancement - Full MCP Integration
+- **SERENA MCP**: All agents now use semantic code intelligence for navigation and refactoring
+- **ZEN MCP**: Integrated advanced AI analysis tools (thinkdeep, consensus, refactor, debug, etc.)
+- **TIDEWAVE MCP**: Backend and test agents leverage Elixir-specific testing and code generation
+- **SPECIALIZED MCPs**: Each agent uses domain-specific MCPs for enhanced capabilities
+  - Figma MCP for frontend design integration
+  - Browser MCP for UI/E2E testing
+  - Notion MCP for documentation management
+  - Memory MCP for project knowledge persistence
+  - Context7 MCP for up-to-date library documentation
+  - Brave Search MCP for real-time best practices
+  - Sequential Thinking MCP for complex problem decomposition
+  - Minimax MCP for media generation when needed
+
+### 🚀 Agent Enhancements
+- **architect**: Now uses Zen MCP for deep architectural analysis and consensus building
+- **backend-developer**: Integrated Tidewave MCP for Elixir test generation and scaffolding
+- **frontend-developer**: Leverages Figma MCP for design sync and Browser MCP for testing
+- **data-engineer**: Enhanced with semantic code analysis and query optimization MCPs
+- **api-specialist**: Uses Notion MCP for comprehensive API documentation
+- **test-engineer**: Integrated Tidewave and Browser MCPs for comprehensive testing
+- **quality-specialist**: Enhanced security auditing with specialized MCPs
+- **product-coordinator**: Primary use of Notion MCP for project management
+- **devops-engineer**: Monitoring and infrastructure MCPs for better automation
+
+### 📝 Documentation Updates
+- Updated CLAUDE.md with MCP integration details
+- Enhanced README.md with MCP features and capabilities
+- Added MCP integration sections to all 9 agent definitions
+- Updated project structure documentation
+
+### 🔧 Technical Improvements
+- Agents now understand code semantically, not just text patterns
+- Multi-model consensus for critical architectural decisions
+- Real-time documentation access without training data limitations
+- Persistent project knowledge across sessions
+- Framework-specific code generation and testing
+
 ## [1.0.2] - 2025-08-09
 
 ### Changed

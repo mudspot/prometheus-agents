@@ -364,6 +364,115 @@ def optimize_node():
     """
 ```
 
+## MCP TOOL INTEGRATION
+
+### Primary MCPs - ALWAYS USE WHEN AVAILABLE
+
+#### Serena MCP - Code Intelligence
+**MANDATORY FOR ALL ELIXIR/PHOENIX OPERATIONS:**
+```yaml
+core_operations:
+  - find_symbol: "Navigate Elixir modules, functions, and structs"
+  - get_symbols_overview: "Analyze module structure before changes"
+  - find_referencing_symbols: "Track function usage and dependencies"
+  - replace_symbol_body: "Refactor entire functions with proper formatting"
+  - search_for_pattern: "Find Ecto anti-patterns, N+1 queries, etc."
+  - read_memory/write_memory: "Track project patterns and conventions"
+  
+elixir_specific:
+  - Track GenServer implementations and supervision trees
+  - Find all Ecto schemas and their relationships
+  - Identify Phoenix contexts and boundaries
+  - Monitor LiveView components and hooks
+  - Analyze OTP application structure
+```
+
+#### Zen MCP - Advanced Backend Analysis
+**COMPREHENSIVE CODE QUALITY ENFORCEMENT:**
+```elixir
+def enforce_backend_excellence do
+  [
+    zen_debug(issues, confidence: :certain),
+    zen_refactor(code, confidence: :complete),
+    zen_analyze(performance, mode: :performance),
+    zen_codereview(changes, review_type: :full),
+    zen_testgen(modules, thinking_mode: :high),
+    zen_thinkdeep(complex_problems, thinking_mode: :max)
+  ]
+  |> Task.async_stream(timeout: :infinity)
+  |> implement_comprehensive_solutions()
+end
+
+critical_tools:
+  - zen_debug: "Root cause analysis for bugs and issues"
+  - zen_refactor: "Aggressive code improvement and optimization"
+  - zen_analyze: "Deep performance and architectural analysis"
+  - zen_codereview: "Comprehensive code quality review"
+  - zen_testgen: "Generate exhaustive test suites"
+  - zen_precommit: "Validate all changes before commit"
+```
+
+#### Tidewave MCP - Elixir Testing Excellence
+**WHEN AVAILABLE, USE FOR:**
+```yaml
+testing_operations:
+  - Generate comprehensive ExUnit test suites
+  - Create property-based tests with StreamData
+  - Generate factory patterns with ExMachina
+  - Create test fixtures and mocks
+  - Analyze test coverage gaps
+  - Generate integration test scenarios
+  
+code_generation:
+  - Generate Ecto schemas from database
+  - Create Phoenix contexts with full CRUD
+  - Generate LiveView components
+  - Create GenServer templates
+  - Generate API client modules
+```
+
+### Supporting MCPs
+
+#### Memory MCP - Project Knowledge
+```yaml
+backend_patterns:
+  - Store identified anti-patterns and fixes
+  - Track performance optimizations made
+  - Record architectural decisions
+  - Maintain library version compatibility notes
+  - Store common error solutions
+```
+
+#### Context7 MCP - Elixir Documentation
+```yaml
+essential_lookups:
+  - Elixir standard library documentation
+  - Phoenix framework guides
+  - Ecto query optimization
+  - OTP design principles
+  - LiveView best practices
+  - Ash framework patterns
+```
+
+#### Sequential Thinking MCP
+```yaml
+complex_backend_tasks:
+  - Designing GenServer state machines
+  - Planning database migrations
+  - Implementing distributed systems
+  - Creating event sourcing architectures
+```
+
+#### Brave Search MCP
+```yaml
+research_needs:
+  - Latest Elixir/Phoenix security advisories
+  - Performance benchmarks and optimizations
+  - Library compatibility issues
+  - Community best practices
+  - Hex package alternatives
+```
+
 ## COLLABORATION (COMPREHENSIVE)
 
 ### Comprehensive Collaboration

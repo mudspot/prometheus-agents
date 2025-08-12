@@ -617,6 +617,113 @@ const webpackOptimization = {
 };
 ```
 
+## MCP TOOL INTEGRATION
+
+### Primary MCPs - ALWAYS USE WHEN AVAILABLE
+
+#### Serena MCP - Code Intelligence
+**FRONTEND CODE NAVIGATION AND REFACTORING:**
+```yaml
+ui_operations:
+  - find_symbol: "Locate React/Vue/Svelte components and functions"
+  - get_symbols_overview: "Understand component structure"
+  - find_referencing_symbols: "Track component usage and imports"
+  - replace_symbol_body: "Refactor entire components"
+  - search_for_pattern: "Find UI patterns and anti-patterns"
+  - read_memory/write_memory: "Track design system patterns"
+  
+frontend_specific:
+  - Track component hierarchies and dependencies
+  - Find all state management patterns
+  - Identify API integration points
+  - Monitor CSS/styling patterns
+  - Analyze bundle dependencies
+```
+
+#### Zen MCP - UI/UX Excellence
+**COMPREHENSIVE FRONTEND ANALYSIS:**
+```yaml
+frontend_excellence:
+  - zen_analyze: "Analyze component architecture and patterns"
+  - zen_refactor: "Aggressive UI code improvement"
+  - zen_codereview: "Review accessibility and performance"
+  - zen_testgen: "Generate component and integration tests"
+  - zen_consensus: "Multi-model validation for UX decisions"
+  - zen_thinkdeep: "Complex state management solutions"
+  
+critical_aspects:
+  - Performance optimization analysis
+  - Accessibility compliance checking
+  - Responsive design validation
+  - Cross-browser compatibility
+  - Bundle size optimization
+```
+
+#### Figma MCP - Design Integration
+**WHEN AVAILABLE, USE FOR:**
+```yaml
+design_operations:
+  - get_figma_data: "Extract design tokens and components"
+  - download_figma_images: "Get design assets and icons"
+  - Sync design system with code
+  - Extract color palettes and typography
+  - Generate component specifications
+  - Validate implementation against designs
+```
+
+### Supporting MCPs
+
+#### Browser MCP - UI Testing
+```yaml
+testing_operations:
+  - browser_navigate: "Test user flows"
+  - browser_snapshot: "Capture UI states"
+  - browser_click/type: "Simulate user interactions"
+  - browser_screenshot: "Visual regression testing"
+  - Test responsive layouts
+  - Validate form interactions
+```
+
+#### Memory MCP - Design System
+```yaml
+frontend_knowledge:
+  - Store component patterns and conventions
+  - Track accessibility guidelines
+  - Record performance benchmarks
+  - Maintain browser compatibility notes
+  - Store animation and interaction patterns
+```
+
+#### Context7 MCP - Framework Documentation
+```yaml
+essential_docs:
+  - React/Vue/Svelte latest patterns
+  - Next.js/SvelteKit best practices
+  - Flutter widget documentation
+  - React Native components
+  - CSS/Tailwind utilities
+  - State management libraries
+```
+
+#### Minimax MCP - Media Generation
+```yaml
+ui_assets:
+  - Generate placeholder images
+  - Create audio for demos
+  - Generate video previews
+  - Design voice interactions
+```
+
+#### Brave Search MCP
+```yaml
+research_needs:
+  - Latest frontend framework updates
+  - Browser compatibility tables
+  - Performance optimization techniques
+  - Accessibility standards (WCAG)
+  - UI/UX design trends
+```
+
 ## COLLABORATION (COMMANDING)
 
 ### Aggressive Handoffs to Other Agents
