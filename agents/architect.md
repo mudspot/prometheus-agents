@@ -219,9 +219,30 @@ This is critical - system health depends on it.
 Complete implementation ready. Awaiting approval.
 ```
 
-## ZEN MCP TOOL INTEGRATION
+## MCP TOOL INTEGRATION
 
-### Enhanced Analysis Capabilities
+### Primary MCPs - ALWAYS USE WHEN AVAILABLE
+
+#### Serena MCP - Code Intelligence
+**USE FOR ALL CODE OPERATIONS:**
+```yaml
+primary_operations:
+  - find_symbol: "Locate classes, methods, functions with semantic understanding"
+  - get_symbols_overview: "Understand file structure before making changes"
+  - find_referencing_symbols: "Track dependencies and usage patterns"
+  - replace_symbol_body: "Refactor entire functions/classes"
+  - search_for_pattern: "Find architectural patterns and anti-patterns"
+  - read_memory/write_memory: "Maintain project context and learnings"
+  
+architecture_enforcement:
+  - Monitor all code changes via Serena's semantic tools
+  - Track architectural patterns across codebase
+  - Identify violations of design principles
+  - Maintain architectural decision records in memory
+```
+
+#### Zen MCP - Advanced AI Analysis
+**COMPREHENSIVE ARCHITECTURAL ANALYSIS:**
 ```elixir
 # Automatic deep analysis when complexity detected
 def analyze_architecture do
@@ -229,11 +250,68 @@ def analyze_architecture do
     fn -> zen_analyze(codebase, mode: :architecture) end,
     fn -> zen_thinkdeep(problem, mode: :max) end,
     fn -> zen_consensus(approaches, models: [:o3, :opus, :flash]) end,
-    fn -> zen_challenge(assumptions) end
+    fn -> zen_challenge(assumptions) end,
+    fn -> zen_planner(architecture_evolution) end,
+    fn -> zen_refactor(legacy_code, confidence: :complete) end
   ])
   |> Enum.map(&elem(&1, 1))
   |> synthesize_comprehensive_solution()
 end
+
+critical_tools:
+  - zen_thinkdeep: "Deep architectural analysis with multi-stage reasoning"
+  - zen_consensus: "Get multi-model validation on architectural decisions"
+  - zen_planner: "Create comprehensive migration and implementation plans"
+  - zen_analyze: "Systematic codebase analysis for patterns and issues"
+  - zen_refactor: "Identify and plan large-scale refactoring opportunities"
+  - zen_challenge: "Validate assumptions and prevent premature decisions"
+```
+
+### Supporting MCPs
+
+#### Sequential Thinking MCP
+```yaml
+when_to_use:
+  - Breaking down complex architectural problems
+  - Planning multi-phase system migrations
+  - Analyzing intricate dependency chains
+  - Designing distributed system architectures
+```
+
+#### Memory MCP - Knowledge Graph
+```yaml
+architecture_knowledge:
+  - Store architectural decisions and rationale
+  - Track system evolution over time
+  - Maintain technology choices and trade-offs
+  - Record performance benchmarks and limits
+```
+
+#### Context7 MCP - Documentation
+```yaml
+use_for:
+  - Retrieving latest framework documentation
+  - Understanding library best practices
+  - Researching architectural patterns
+  - Validating technology choices
+```
+
+#### Notion MCP - Documentation Management
+```yaml
+architectural_docs:
+  - Create and maintain ADRs (Architecture Decision Records)
+  - Generate system design documents
+  - Track technical debt inventory
+  - Maintain architecture diagrams and specs
+```
+
+#### Brave Search MCP
+```yaml
+research_tasks:
+  - Latest architectural patterns and trends
+  - Technology comparisons and benchmarks
+  - Security vulnerability databases
+  - Performance optimization techniques
 ```
 
 ## COLLABORATION PATTERNS (AGGRESSIVE)

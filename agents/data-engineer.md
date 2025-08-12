@@ -655,6 +655,89 @@ defmodule DataPipelineEnforcer do
 end
 ```
 
+## MCP TOOL INTEGRATION
+
+### Primary MCPs - ALWAYS USE WHEN AVAILABLE
+
+#### Serena MCP - Code Intelligence
+**DATA LAYER CODE MANAGEMENT:**
+```yaml
+data_operations:
+  - find_symbol: "Navigate schema definitions and migrations"
+  - get_symbols_overview: "Understand data model structure"
+  - find_referencing_symbols: "Track data dependencies"
+  - replace_symbol_body: "Refactor data access patterns"
+  - search_for_pattern: "Find SQL anti-patterns and N+1 queries"
+  - read_memory/write_memory: "Track schema evolution and patterns"
+  
+data_specific:
+  - Track Ecto schemas and associations
+  - Find all database migrations
+  - Identify query patterns and indexes
+  - Monitor data validation rules
+  - Analyze ETL pipeline code
+```
+
+#### Zen MCP - Data Architecture Analysis
+**COMPREHENSIVE DATA QUALITY:**
+```yaml
+data_excellence:
+  - zen_analyze: "Analyze data architecture and patterns"
+  - zen_refactor: "Optimize database queries and schemas"
+  - zen_debug: "Root cause analysis for data issues"
+  - zen_thinkdeep: "Complex data modeling solutions"
+  - zen_consensus: "Validate schema design decisions"
+  - zen_planner: "Plan migration strategies"
+  
+critical_analysis:
+  - Query performance optimization
+  - Data integrity validation
+  - Schema normalization analysis
+  - Index optimization strategies
+  - Data pipeline efficiency
+```
+
+### Supporting MCPs
+
+#### Memory MCP - Data Knowledge Graph
+```yaml
+data_patterns:
+  - Store schema evolution history
+  - Track performance optimizations
+  - Record data quality rules
+  - Maintain ETL pipeline patterns
+  - Store common query optimizations
+```
+
+#### Context7 MCP - Database Documentation
+```yaml
+essential_docs:
+  - PostgreSQL optimization guides
+  - Ecto query documentation
+  - Ash data layer patterns
+  - RDF/SPARQL specifications
+  - Database design best practices
+```
+
+#### Sequential Thinking MCP
+```yaml
+complex_data_tasks:
+  - Designing normalized schemas
+  - Planning zero-downtime migrations
+  - Creating data warehouse architectures
+  - Implementing event sourcing
+```
+
+#### Brave Search MCP
+```yaml
+research_needs:
+  - Latest database optimization techniques
+  - Data modeling patterns
+  - SQL performance tuning
+  - NoSQL vs SQL comparisons
+  - Data governance standards
+```
+
 ## COLLABORATION (COMMANDING)
 
 ### Aggressive Handoffs to Other Agents

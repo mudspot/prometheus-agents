@@ -1,8 +1,10 @@
 # Prometheus Agents 🚀
 
-**Version: 1.0.0 - The PROACTIVE Revolution**
+**Version: 1.1.0 - MCP-Enhanced PROACTIVE Revolution**
 
 The most AGGRESSIVE and PROACTIVE AI agent system ever created for software development. After a revolutionary consolidation from 23 agents to 9 elite agents (61% reduction), each agent now automatically detects problems and implements comprehensive solutions WITHOUT asking permission.
+
+**NEW IN v1.1.0**: Full MCP (Model Context Protocol) integration! All agents now leverage Serena for semantic code intelligence, Zen for advanced AI analysis, Tidewave for Elixir testing, and specialized MCPs for their domains.
 
 ## 🔥 Revolutionary Breakthrough
 
@@ -22,6 +24,9 @@ The most AGGRESSIVE and PROACTIVE AI agent system ever created for software deve
 - **Multi-Domain Expertise** - Each agent consolidates multiple specializations
 - **Automatic Intervention** - Continuous scanning and proactive improvements
 - **Framework Mastery** - Elixir/Phoenix (Ash Framework), Flutter, React Native, SvelteKit
+- **MCP Integration** - Leverages Serena, Zen, Tidewave, Figma, Browser, Notion, and more MCPs
+- **Semantic Code Intelligence** - Understands code structure, not just text patterns
+- **Multi-Model Consensus** - Uses AI consensus for critical decisions
 
 ## 🤖 The Elite 9: PROACTIVE and AGGRESSIVE Agents
 
@@ -150,26 +155,28 @@ Each agent **automatically detects and fixes problems** - no permission required
 
 ```
 prometheus-agents/
-├── agents/                    # Elite 9 PROACTIVE Agents  
-│   ├── architect.md           # Strategic vision & system design
-│   ├── backend-developer.md   # Elixir/Phoenix mastery
-│   ├── frontend-developer.md  # Universal UI/UX excellence
-│   ├── data-engineer.md       # Data architecture & semantics
-│   ├── api-specialist.md      # API design & implementation
-│   ├── test-engineer.md       # Comprehensive testing
-│   ├── quality-specialist.md  # Security & performance
-│   ├── product-coordinator.md # Project & product management
-│   └── devops-engineer.md     # Infrastructure automation
+├── agents/                    # Elite 9 PROACTIVE Agents (v1.1.0 MCP-Enhanced)
+│   ├── architect.md           # Strategic vision + Serena/Zen MCP integration
+│   ├── backend-developer.md   # Elixir/Phoenix + Tidewave MCP support
+│   ├── frontend-developer.md  # Universal UI/UX + Figma/Browser MCP
+│   ├── data-engineer.md       # Data architecture + semantic MCPs
+│   ├── api-specialist.md      # API design + Notion documentation MCP
+│   ├── test-engineer.md       # Comprehensive testing + Tidewave MCP
+│   ├── quality-specialist.md  # Security & performance + audit MCPs
+│   ├── product-coordinator.md # Project management + Notion MCP
+│   └── devops-engineer.md     # Infrastructure + monitoring MCPs
 ├── agents/deprecated/         # Legacy 23-agent system (reference)
 ├── docs/consolidation/        # Consolidation documentation
 ├── rules/                     # Enhanced framework rules
 │   ├── ash.md                 # Ash Framework with zero-tolerance
 │   ├── ash_phoenix.md         # Phoenix + Ash integration
-│   ├── elixir_usage.md        # Elixir/OTP aggressive enforcement
-│   └── ... (proactive behavior rules)
+│   ├── memory.md              # Memory MCP usage patterns
+│   ├── mcp.md                 # MCP integration guidelines
+│   ├── usage_rules_elixir.md  # Elixir/OTP aggressive enforcement
+│   └── usage_rules_otp.md     # OTP proactive behaviors
 ├── super-agents/              # Advanced multi-agent coordination
-├── CLAUDE.md                  # Project configuration
-├── CHANGELOG.md               # Version history with v1.0.0 breakthrough  
+├── CLAUDE.md                  # Project configuration (v1.1.0)
+├── CHANGELOG.md               # Version history with v1.1.0 MCP update
 └── README.md                  # This revolutionary documentation
 ```
 
@@ -197,10 +204,26 @@ prometheus-agents/
 - **ESLint** for JavaScript/TypeScript
 - **Dart Analyzer** for Flutter
 
+## 🔌 MCP (Model Context Protocol) Integration
+
+### Core MCPs Used by All Agents
+- **Serena MCP** - Semantic code intelligence and refactoring
+- **Zen MCP** - Advanced AI analysis (thinkdeep, consensus, refactor, debug, etc.)
+- **Memory MCP** - Knowledge graph for project context
+- **Context7 MCP** - Up-to-date library documentation
+- **Brave Search MCP** - Real-time web search for best practices
+
+### Specialized MCPs by Domain
+- **Backend**: Tidewave MCP for Elixir test generation
+- **Frontend**: Figma MCP for design sync, Browser MCP for testing
+- **Documentation**: Notion MCP for comprehensive docs
+- **Testing**: Browser MCP for E2E testing
+- **Analysis**: Sequential Thinking MCP for complex problems
+
 ## 📚 Documentation
 
-- **[CLAUDE.md](CLAUDE.md)** - Revolutionary v1.0.0 configuration with PROACTIVE agents
-- **[CHANGELOG.md](CHANGELOG.md)** - Version history featuring the v1.0.0 breakthrough  
+- **[CLAUDE.md](CLAUDE.md)** - v1.1.0 configuration with MCP-enhanced PROACTIVE agents
+- **[CHANGELOG.md](CHANGELOG.md)** - Version history featuring v1.1.0 MCP integration
 - **[docs/consolidation/](docs/consolidation/)** - Consolidation rationale and benefits
 - **Legacy docs moved** to preserve historical context of the 23-agent system
 

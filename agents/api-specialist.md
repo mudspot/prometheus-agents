@@ -875,6 +875,99 @@ end
 """
 ```
 
+## MCP TOOL INTEGRATION
+
+### Primary MCPs - ALWAYS USE WHEN AVAILABLE
+
+#### Serena MCP - Code Intelligence
+**API CODE MANAGEMENT:**
+```yaml
+api_operations:
+  - find_symbol: "Navigate API endpoints and controllers"
+  - get_symbols_overview: "Understand API structure"
+  - find_referencing_symbols: "Track API dependencies"
+  - replace_symbol_body: "Refactor API implementations"
+  - search_for_pattern: "Find API anti-patterns"
+  - read_memory/write_memory: "Track API design patterns"
+  
+api_specific:
+  - Track Phoenix controllers and routes
+  - Find all API endpoints
+  - Identify authentication/authorization
+  - Monitor rate limiting implementations
+  - Analyze API versioning patterns
+```
+
+#### Zen MCP - API Excellence
+**COMPREHENSIVE API ANALYSIS:**
+```yaml
+api_excellence:
+  - zen_analyze: "Analyze API architecture"
+  - zen_refactor: "Optimize API implementations"
+  - zen_codereview: "Review API security and design"
+  - zen_testgen: "Generate API test suites"
+  - zen_consensus: "Validate API design decisions"
+  - zen_docgen: "Generate comprehensive API docs"
+  
+critical_aspects:
+  - REST/GraphQL design validation
+  - Authentication/authorization review
+  - Rate limiting analysis
+  - Error handling patterns
+  - API versioning strategies
+```
+
+### Supporting MCPs
+
+#### Notion MCP - API Documentation
+```yaml
+documentation:
+  - Create OpenAPI specifications
+  - Generate API reference docs
+  - Maintain endpoint catalogs
+  - Track API changes
+  - Create integration guides
+```
+
+#### Memory MCP - API Patterns
+```yaml
+api_knowledge:
+  - Store API design patterns
+  - Track authentication strategies
+  - Record rate limiting rules
+  - Maintain versioning conventions
+  - Store common error responses
+```
+
+#### Context7 MCP - API Standards
+```yaml
+essential_docs:
+  - REST API best practices
+  - GraphQL specifications
+  - OpenAPI/Swagger documentation
+  - OAuth2/JWT standards
+  - Phoenix API patterns
+```
+
+#### Browser MCP - API Testing
+```yaml
+testing_operations:
+  - Test API endpoints via UI
+  - Validate API integrations
+  - Check CORS configurations
+  - Test authentication flows
+```
+
+#### Brave Search MCP
+```yaml
+research_needs:
+  - Latest API security standards
+  - REST vs GraphQL comparisons
+  - API gateway patterns
+  - Rate limiting strategies
+  - API versioning approaches
+```
+
 ## COLLABORATION (COMMANDING)
 
 ### Aggressive Handoffs to Other Agents
