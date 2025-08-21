@@ -1,10 +1,12 @@
 # Prometheus Agents 🚀
 
-**Version: 1.1.0 - MCP-Enhanced PROACTIVE Revolution**
+**Version: 1.1.1 - DRY Principles + MCP-Enhanced PROACTIVE Revolution**
 
 The most AGGRESSIVE and PROACTIVE AI agent system ever created for software development. After a revolutionary consolidation from 23 agents to 9 elite agents (61% reduction), each agent now automatically detects problems and implements comprehensive solutions WITHOUT asking permission.
 
 **NEW IN v1.1.0**: Full MCP (Model Context Protocol) integration! All agents now leverage Serena for semantic code intelligence, Zen for advanced AI analysis, Tidewave for Elixir testing, and specialized MCPs for their domains.
+
+**NEW IN v1.1.1**: DRY (Don't Repeat Yourself) principle enforcement! All agents now follow strict DRY principles during code execution, with shared patterns library and systematic reuse of existing code.
 
 ## 🔥 Revolutionary Breakthrough
 
@@ -27,6 +29,8 @@ The most AGGRESSIVE and PROACTIVE AI agent system ever created for software deve
 - **MCP Integration** - Leverages Serena, Zen, Tidewave, Figma, Browser, Notion, and more MCPs
 - **Semantic Code Intelligence** - Understands code structure, not just text patterns
 - **Multi-Model Consensus** - Uses AI consensus for critical decisions
+- **DRY Principle Enforcement** (v1.1.1) - Systematic code reuse and pattern extraction
+- **Shared Patterns Library** (v1.1.1) - Centralized repository of reusable components
 
 ## 🤖 The Elite 9: PROACTIVE and AGGRESSIVE Agents
 
@@ -93,17 +97,19 @@ Deploy the PROACTIVE agent system to your environment:
 #### Option 1: Project-Level Installation (Recommended)
 ```bash
 # Deploy elite 9 agents to your project
-mkdir -p .claude/agents
+mkdir -p .claude/agents/shared
 cp agents/*.md .claude/agents/
+cp agents/shared/*.md .claude/agents/shared/
 
-# The 9 agents are now ACTIVE and scanning for issues
+# The 9 agents with DRY principles are now ACTIVE and scanning for issues
 ```
 
 #### Option 2: User-Level Installation (Global access)
 ```bash
 # Deploy globally for all projects  
-mkdir -p ~/.claude/agents
+mkdir -p ~/.claude/agents/shared
 cp agents/*.md ~/.claude/agents/
+cp agents/shared/*.md ~/.claude/agents/shared/
 ```
 
 ### 🔥 PROACTIVE Agent Usage

@@ -1,6 +1,6 @@
 # Prometheus Agents - Claude SubAgents Project
 
-**Version: 1.1.0**
+**Version: 1.1.1**
 
 ## Project Overview
 This project provides 9 PROACTIVE and AGGRESSIVE Claude SubAgents that automatically detect issues and implement comprehensive solutions without asking permission. After a major consolidation from 23 agents (61% reduction), each agent now combines multiple specializations while maintaining zero tolerance for suboptimal code.
@@ -8,6 +8,8 @@ This project provides 9 PROACTIVE and AGGRESSIVE Claude SubAgents that automatic
 **BREAKTHROUGH**: All agents are now PROACTIVE (automatically detect problems) and AGGRESSIVE (fix issues immediately without asking). They intervene when they detect anything suboptimal and implement comprehensive solutions that enforce best practices.
 
 **NEW IN v1.1.0**: Full MCP (Model Context Protocol) integration! All agents now leverage Serena, Zen, and other specialized MCPs for enhanced code intelligence, AI-powered analysis, and domain-specific capabilities.
+
+**NEW IN v1.1.1**: DRY (Don't Repeat Yourself) principle enforcement! All agents now follow strict DRY principles during code execution, with shared patterns library and systematic reuse of existing code.
 
 ## Key Areas of Focus
 - Software Solutions Architecture
@@ -90,7 +92,7 @@ Every agent automatically:
 - **AUTOMATICALLY** implements backup strategies, disaster recovery, scaling solutions
 
 ## Project Structure
-- `/agents/` - Elite 9 PROACTIVE and AGGRESSIVE agents (v1.1.0 with MCP integration)
+- `/agents/` - Elite 9 PROACTIVE and AGGRESSIVE agents (v1.1.1 with MCP + DRY)
   - `architect.md` - Strategic vision & system design mastery + Serena/Zen MCP
   - `backend-developer.md` - Elixir/Phoenix excellence + Tidewave MCP support
   - `frontend-developer.md` - Universal UI/UX across all platforms + Figma/Browser MCP
@@ -100,6 +102,8 @@ Every agent automatically:
   - `quality-specialist.md` - Security & performance guardian + security MCPs
   - `product-coordinator.md` - Project & product management excellence + Notion MCP
   - `devops-engineer.md` - Infrastructure & deployment automation + monitoring MCPs
+- `/agents/shared/` - Shared DRY principles and reusable patterns (v1.1.1)
+  - `dry-principles.md` - Core DRY directives for all agents
 - `/agents/deprecated/` - Legacy 23-agent system (maintained for reference)
 - `/docs/consolidation/` - Consolidation documentation and rationale
 - `/rules/` - Framework and technology usage rules (enhanced for proactive agents)
