@@ -5,6 +5,40 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2025-08-22 - 🧠 ADVANCED REASONING INTEGRATION
+
+### 🚀 Major Enhancement - Systematic MCP Orchestration
+- **Sequential Thinking Integration**: Automatic activation for complex problems (≥3 steps)
+- **Zen MCP Orchestration**: Systematic workflows combining multiple Zen tools
+- **Multi-Model Consensus**: Critical decisions validated by multiple AI models
+- **Automated Trigger Patterns**: Complexity-based activation thresholds
+- **Cascading Workflows**: Orchestrated sequences (debug → analyze → refactor → consensus)
+- **Cross-Agent Coordination**: Systematic collaboration patterns for complex features
+
+### 🎯 New Shared Framework Files
+- **`/agents/shared/mcp-orchestration.md`**: Automated MCP workflow integration patterns
+- **`/agents/shared/trigger-patterns.md`**: Systematic trigger patterns for advanced reasoning
+- **Enhanced `/agents/shared/dry-principles.md`**: Added MCP integration for DRY enforcement
+
+### 🤖 Agent Intelligence Upgrades
+- **All 9 Agents**: Mandatory integration with shared frameworks (DRY + MCP Orchestration + Trigger Patterns)
+- **Sequential Thinking**: Automatic problem decomposition for debugging, optimization, architecture
+- **Zen MCP Tools**: Comprehensive tool coverage including zen_debug, zen_secaudit, zen_consensus, zen_planner, zen_tracer
+- **Workflow Automation**: Context-aware model selection and failure handling patterns
+- **Quality Metrics**: Workflow effectiveness tracking and continuous improvement
+
+### 🔧 Enhanced Agent Capabilities
+- **architect**: Enhanced architectural reasoning with zen_consensus and sequential planning
+- **backend-developer**: Systematic debugging workflows and performance optimization cascades
+- **quality-specialist**: Orchestrated security auditing and performance analysis workflows
+- **All Agents**: Expanded Zen tool coverage, automated trigger evaluation, workflow orchestration
+
+### 📊 Advanced Features
+- **Complexity Detection**: Automatic assessment of task complexity against trigger thresholds
+- **Model Orchestration**: Context-aware selection of optimal AI models for different tasks
+- **Failure Resilience**: Comprehensive fallback strategies for MCP unavailability
+- **Continuous Learning**: Pattern recognition and workflow optimization based on success metrics
+
 ## [1.1.1] - 2025-08-21 - 📐 DRY PRINCIPLES ENFORCEMENT
 
 ### ✨ Major Enhancement - DRY Principle Integration

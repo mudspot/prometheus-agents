@@ -1,12 +1,14 @@
 # Prometheus Agents 🚀
 
-**Version: 1.1.1 - DRY Principles + MCP-Enhanced PROACTIVE Revolution**
+**Version: 1.2.0 - Advanced Reasoning + Systematic MCP Orchestration**
 
 The most AGGRESSIVE and PROACTIVE AI agent system ever created for software development. After a revolutionary consolidation from 23 agents to 9 elite agents (61% reduction), each agent now automatically detects problems and implements comprehensive solutions WITHOUT asking permission.
 
 **NEW IN v1.1.0**: Full MCP (Model Context Protocol) integration! All agents now leverage Serena for semantic code intelligence, Zen for advanced AI analysis, Tidewave for Elixir testing, and specialized MCPs for their domains.
 
 **NEW IN v1.1.1**: DRY (Don't Repeat Yourself) principle enforcement! All agents now follow strict DRY principles during code execution, with shared patterns library and systematic reuse of existing code.
+
+**NEW IN v1.2.0**: Advanced Reasoning Integration! Sequential Thinking and Zen MCP now systematically activated with automated trigger patterns, orchestrated workflows, and multi-model consensus validation for complex decisions.
 
 ## 🔥 Revolutionary Breakthrough
 
@@ -31,6 +33,9 @@ The most AGGRESSIVE and PROACTIVE AI agent system ever created for software deve
 - **Multi-Model Consensus** - Uses AI consensus for critical decisions
 - **DRY Principle Enforcement** (v1.1.1) - Systematic code reuse and pattern extraction
 - **Shared Patterns Library** (v1.1.1) - Centralized repository of reusable components
+- **Sequential Thinking Activation** (v1.2.0) - Automatic systematic problem decomposition
+- **Orchestrated MCP Workflows** (v1.2.0) - Cascading analysis and validation patterns
+- **Automated Trigger Patterns** (v1.2.0) - Complexity-based activation thresholds
 
 ## 🤖 The Elite 9: PROACTIVE and AGGRESSIVE Agents
 

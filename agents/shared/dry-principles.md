@@ -92,6 +92,8 @@ project/
 - **Memory**: Store reusable patterns
 - **Zen**: Analyze for duplication
 - **Context7**: Find library solutions
+- **Sequential Thinking**: Break down complex refactoring
+- **MCP Orchestration**: Follow automated workflows (see ./mcp-orchestration.md)
 
 ### 10. Validation Checklist
 **BEFORE SUBMITTING CODE:**

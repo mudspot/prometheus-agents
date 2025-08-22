@@ -1,6 +1,6 @@
 # Prometheus Agents - Claude SubAgents Project
 
-**Version: 1.1.1**
+**Version: 1.2.0**
 
 ## Project Overview
 This project provides 9 PROACTIVE and AGGRESSIVE Claude SubAgents that automatically detect issues and implement comprehensive solutions without asking permission. After a major consolidation from 23 agents (61% reduction), each agent now combines multiple specializations while maintaining zero tolerance for suboptimal code.
@@ -10,6 +10,8 @@ This project provides 9 PROACTIVE and AGGRESSIVE Claude SubAgents that automatic
 **NEW IN v1.1.0**: Full MCP (Model Context Protocol) integration! All agents now leverage Serena, Zen, and other specialized MCPs for enhanced code intelligence, AI-powered analysis, and domain-specific capabilities.
 
 **NEW IN v1.1.1**: DRY (Don't Repeat Yourself) principle enforcement! All agents now follow strict DRY principles during code execution, with shared patterns library and systematic reuse of existing code.
+
+**NEW IN v1.2.0**: Advanced Reasoning Integration! Sequential Thinking and Zen MCP now systematically activated across all agents with automated trigger patterns, orchestrated workflows, and comprehensive multi-model consensus validation for complex decisions.
 
 ## Key Areas of Focus
 - Software Solutions Architecture
@@ -92,18 +94,20 @@ Every agent automatically:
 - **AUTOMATICALLY** implements backup strategies, disaster recovery, scaling solutions
 
 ## Project Structure
-- `/agents/` - Elite 9 PROACTIVE and AGGRESSIVE agents (v1.1.1 with MCP + DRY)
-  - `architect.md` - Strategic vision & system design mastery + Serena/Zen MCP
-  - `backend-developer.md` - Elixir/Phoenix excellence + Tidewave MCP support
-  - `frontend-developer.md` - Universal UI/UX across all platforms + Figma/Browser MCP
-  - `data-engineer.md` - Data architecture & semantic web expertise + advanced MCPs
-  - `api-specialist.md` - API design, implementation & documentation + Notion MCP
-  - `test-engineer.md` - Comprehensive testing with 100% coverage + Tidewave MCP
-  - `quality-specialist.md` - Security & performance guardian + security MCPs
-  - `product-coordinator.md` - Project & product management excellence + Notion MCP
-  - `devops-engineer.md` - Infrastructure & deployment automation + monitoring MCPs
-- `/agents/shared/` - Shared DRY principles and reusable patterns (v1.1.1)
+- `/agents/` - Elite 9 PROACTIVE and AGGRESSIVE agents (v1.2.0 with Advanced Reasoning)
+  - `architect.md` - Strategic vision & system design mastery + Enhanced MCP orchestration
+  - `backend-developer.md` - Elixir/Phoenix excellence + Systematic reasoning workflows
+  - `frontend-developer.md` - Universal UI/UX across all platforms + Automated quality triggers
+  - `data-engineer.md` - Data architecture & semantic web expertise + Complex analysis workflows
+  - `api-specialist.md` - API design, implementation & documentation + Multi-model consensus
+  - `test-engineer.md` - Comprehensive testing with 100% coverage + Systematic test generation
+  - `quality-specialist.md` - Security & performance guardian + Orchestrated quality workflows
+  - `product-coordinator.md` - Project & product management excellence + Coordination workflows
+  - `devops-engineer.md` - Infrastructure & deployment automation + Infrastructure reasoning
+- `/agents/shared/` - Shared frameworks and systematic patterns (v1.2.0)
   - `dry-principles.md` - Core DRY directives for all agents
+  - `mcp-orchestration.md` - Automated MCP workflow integration patterns
+  - `trigger-patterns.md` - Systematic trigger patterns for advanced reasoning
 - `/agents/deprecated/` - Legacy 23-agent system (maintained for reference)
 - `/docs/consolidation/` - Consolidation documentation and rationale
 - `/rules/` - Framework and technology usage rules (enhanced for proactive agents)
@@ -150,15 +154,16 @@ Every agent automatically:
 - **Media**: Minimax MCP for audio/video generation when needed
 - **Analysis**: Sequential Thinking MCP for complex problem decomposition
 
-### How Agents Use MCPs
-Each agent now automatically leverages MCPs to:
-1. **Analyze code semantically** rather than text-based pattern matching
-2. **Consult multiple AI models** for consensus on complex decisions
-3. **Maintain project knowledge** across sessions via Memory MCP
-4. **Access latest documentation** without relying on training data cutoffs
-5. **Generate comprehensive tests** using framework-specific tools
-6. **Validate designs** against Figma specifications
-7. **Search for security advisories** and best practices in real-time
+### How Agents Use MCPs (v1.2.0 Enhanced)
+Each agent now systematically leverages MCPs with automated workflows:
+1. **Sequential Thinking Activation** - Automatically triggered for complex problems (≥3 steps)
+2. **Zen MCP Orchestration** - Systematic workflows (debug → analyze → refactor → consensus)
+3. **Multi-Model Consensus** - Critical decisions validated by multiple AI models
+4. **Complexity-Based Triggers** - Automatic activation based on predefined thresholds
+5. **Cascading Workflows** - Orchestrated sequences combining multiple MCP tools
+6. **Cross-Agent Coordination** - Systematic collaboration patterns for complex features
+7. **Failure Detection & Response** - Automated quality degradation intervention
+8. **Continuous Learning** - Pattern recognition and workflow optimization
 
 ## Revolutionary Agent Behaviors
 
