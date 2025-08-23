@@ -1054,14 +1054,14 @@ e2e_testing:
   - Cross-browser validation
 ```
 
-#### Memory MCP - Test Patterns
+#### Serena MCP - Project Memory
 ```yaml
 test_knowledge:
-  - Store test patterns and conventions
-  - Track common test scenarios
-  - Record performance benchmarks
-  - Maintain test data generators
-  - Store edge case catalogs
+  - Write test patterns and testing conventions to memory files (write_memory tool)
+  - Read previous test scenarios and coverage strategies (read_memory tool)
+  - Track performance benchmarks through project memory
+  - Store test data generators and factory patterns as reusable knowledge
+  - Maintain edge case catalogs and property-based testing strategies
 ```
 
 #### Context7 MCP - Testing Documentation

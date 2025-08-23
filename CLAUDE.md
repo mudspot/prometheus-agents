@@ -115,7 +115,7 @@ Every agent automatically:
 - `/rules/` - Framework and technology usage rules (enhanced for proactive agents)
   - Elixir/OTP rules with aggressive enforcement patterns
   - Ash framework rules with zero-tolerance policies
-  - Memory and MCP rules for proactive behaviors
+  - MCP rules for proactive behaviors
 - `/super-agents/` - Advanced multi-agent coordination patterns
 
 ## PROACTIVE Agent Principles
@@ -143,9 +143,8 @@ Every agent automatically:
 ## MCP (Model Context Protocol) Integration
 
 ### Primary MCPs Used by All Agents
-- **Serena MCP** - Semantic code intelligence, navigation, and refactoring
+- **Serena MCP** - Semantic code intelligence, navigation, refactoring, and project memory (write_memory/read_memory tools)
 - **Zen MCP** - Advanced AI analysis tools including thinkdeep, consensus, refactor, and more
-- **Memory MCP** - Knowledge graph for maintaining project context and patterns
 - **Context7 MCP** - Up-to-date library and framework documentation
 - **Brave Search MCP** - Web search for latest best practices and security advisories
 
@@ -223,10 +222,6 @@ Before attempting to use any of these packages or to discover if you should use 
 usage rules to understand the correct patterns, conventions, and best practices.
 <!-- usage-rules-header-end -->
 
-<!-- memory-start -->
-## memory
-[memory rules](rules/memory.md)
-<!-- memory-end -->
 <!-- mcp-start -->
 ## mcp
 [mcp rules](rules/mcp.md)

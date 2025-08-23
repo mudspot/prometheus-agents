@@ -729,14 +729,14 @@ testing_operations:
   - Validate form interactions
 ```
 
-#### Memory MCP - Design System
+#### Serena MCP - Project Memory
 ```yaml
 frontend_knowledge:
-  - Store component patterns and conventions
-  - Track accessibility guidelines
-  - Record performance benchmarks
-  - Maintain browser compatibility notes
-  - Store animation and interaction patterns
+  - Write component patterns and design conventions to memory files (write_memory tool)
+  - Read previous accessibility guidelines and solutions (read_memory tool)
+  - Track performance benchmarks through project memory
+  - Store browser compatibility and testing strategies as reusable knowledge
+  - Maintain animation patterns and interaction design decisions
 ```
 
 #### Context7 MCP - Framework Documentation

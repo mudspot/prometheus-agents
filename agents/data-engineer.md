@@ -829,14 +829,14 @@ critical_analysis:
 
 ### Supporting MCPs
 
-#### Memory MCP - Data Knowledge Graph
+#### Serena MCP - Project Memory
 ```yaml
 data_patterns:
-  - Store schema evolution history
-  - Track performance optimizations
-  - Record data quality rules
-  - Maintain ETL pipeline patterns
-  - Store common query optimizations
+  - Write schema evolution history and migration strategies to memory files (write_memory tool)
+  - Read previous performance optimizations and indexing decisions (read_memory tool)
+  - Track data quality rules through project memory
+  - Store ETL pipeline patterns and semantic modeling approaches as reusable knowledge
+  - Maintain query optimization patterns and database design decisions
 ```
 
 #### Context7 MCP - Database Documentation

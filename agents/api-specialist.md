@@ -1115,14 +1115,14 @@ documentation:
   - Create integration guides
 ```
 
-#### Memory MCP - API Patterns
+#### Serena MCP - Project Memory
 ```yaml
 api_knowledge:
-  - Store API design patterns
-  - Track authentication strategies
-  - Record rate limiting rules
-  - Maintain versioning conventions
-  - Store common error responses
+  - Write API design patterns and conventions to memory files (write_memory tool)
+  - Read previous authentication strategies and security decisions (read_memory tool)
+  - Track rate limiting rules through project memory
+  - Store versioning conventions and OpenAPI specifications as reusable knowledge
+  - Maintain common error responses and API documentation patterns
 ```
 
 #### Context7 MCP - API Standards

@@ -1376,14 +1376,14 @@ critical_aspects:
 
 ### Supporting MCPs
 
-#### Memory MCP - Infrastructure Knowledge
+#### Serena MCP - Project Memory
 ```yaml
 infra_patterns:
-  - Store deployment procedures
-  - Track infrastructure changes
-  - Record incident responses
-  - Maintain runbook templates
-  - Store optimization strategies
+  - Write deployment procedures and automation scripts to memory files (write_memory tool)
+  - Read previous infrastructure changes and scaling decisions (read_memory tool)
+  - Track incident responses through project memory
+  - Store runbook templates and operational procedures as reusable knowledge
+  - Maintain optimization strategies and infrastructure evolution patterns
 ```
 
 #### Context7 MCP - DevOps Documentation

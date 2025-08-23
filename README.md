@@ -183,7 +183,6 @@ prometheus-agents/
 ├── rules/                     # Enhanced framework rules
 │   ├── ash.md                 # Ash Framework with zero-tolerance
 │   ├── ash_phoenix.md         # Phoenix + Ash integration
-│   ├── memory.md              # Memory MCP usage patterns
 │   ├── mcp.md                 # MCP integration guidelines
 │   ├── usage_rules_elixir.md  # Elixir/OTP aggressive enforcement
 │   └── usage_rules_otp.md     # OTP proactive behaviors
@@ -220,9 +219,8 @@ prometheus-agents/
 ## 🔌 MCP (Model Context Protocol) Integration
 
 ### Core MCPs Used by All Agents
-- **Serena MCP** - Semantic code intelligence and refactoring
+- **Serena MCP** - Semantic code intelligence, refactoring, and project memory (write_memory/read_memory tools)
 - **Zen MCP** - Advanced AI analysis (thinkdeep, consensus, refactor, debug, etc.)
-- **Memory MCP** - Knowledge graph for project context
 - **Context7 MCP** - Up-to-date library documentation
 - **Brave Search MCP** - Real-time web search for best practices
 

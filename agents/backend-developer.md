@@ -587,14 +587,14 @@ code_generation:
 
 ### Supporting MCPs
 
-#### Memory MCP - Project Knowledge
+#### Serena MCP - Project Memory
 ```yaml
 backend_patterns:
-  - Store identified anti-patterns and fixes
-  - Track performance optimizations made
-  - Record architectural decisions
-  - Maintain library version compatibility notes
-  - Store common error solutions
+  - Write backend anti-patterns and fixes to memory files (write_memory tool)
+  - Read previous performance optimizations and solutions (read_memory tool)
+  - Track architectural decisions through project memory
+  - Store library version compatibility and upgrade paths as reusable knowledge
+  - Maintain common error solutions and debugging strategies
 ```
 
 #### Context7 MCP - Elixir Documentation

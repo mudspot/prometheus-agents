@@ -1224,14 +1224,14 @@ quality_tools:
 
 ### Supporting MCPs
 
-#### Memory MCP - Security Knowledge
+#### Serena MCP - Project Memory
 ```yaml
 security_patterns:
-  - Store vulnerability patterns
-  - Track security fixes
-  - Record performance optimizations
-  - Maintain compliance requirements
-  - Store incident responses
+  - Write vulnerability patterns and security fixes to memory files (write_memory tool)
+  - Read previous security audits and incident responses (read_memory tool)
+  - Track performance optimizations through project memory
+  - Store compliance requirements and security policies as reusable knowledge
+  - Maintain incident response playbooks and security best practices
 ```
 
 #### Context7 MCP - Security Documentation

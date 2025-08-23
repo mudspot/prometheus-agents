@@ -101,7 +101,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Figma MCP for frontend design integration
   - Browser MCP for UI/E2E testing
   - Notion MCP for documentation management
-  - Memory MCP for project knowledge persistence
+  - Serena MCP for project knowledge persistence through memory tools (write_memory/read_memory)
   - Context7 MCP for up-to-date library documentation
   - Brave Search MCP for real-time best practices
   - Sequential Thinking MCP for complex problem decomposition

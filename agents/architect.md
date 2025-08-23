@@ -388,13 +388,14 @@ workflow_integration:
     Step 5: Success criteria and monitoring implementation
 ```
 
-#### Memory MCP - Knowledge Graph
+#### Serena MCP - Project Memory
 ```yaml
-architecture_knowledge:
-  - Store architectural decisions and rationale
-  - Track system evolution over time
-  - Maintain technology choices and trade-offs
-  - Record performance benchmarks and limits
+architecture_patterns:
+  - Write architectural decisions to memory files (write_memory tool)
+  - Read previous patterns and rationale (read_memory tool)  
+  - Track system evolution through project memory
+  - Store technology choices and trade-offs as reusable knowledge
+  - Maintain performance benchmarks and architectural constraints
 ```
 
 #### Context7 MCP - Documentation

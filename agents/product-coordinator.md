@@ -1634,14 +1634,14 @@ technical_awareness:
 
 ### Supporting MCPs
 
-#### Memory MCP - Project Knowledge
+#### Serena MCP - Project Memory
 ```yaml
 project_memory:
-  - Store project decisions
-  - Track team velocity
-  - Record lessons learned
-  - Maintain stakeholder preferences
-  - Store project patterns
+  - Write project decisions and rationale to memory files (write_memory tool)
+  - Read previous lessons learned and team patterns (read_memory tool)
+  - Track team velocity and delivery metrics through project memory
+  - Store stakeholder preferences and communication patterns as reusable knowledge
+  - Maintain project management patterns and coordination strategies
 ```
 
 #### Sequential Thinking MCP
