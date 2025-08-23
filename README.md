@@ -1,6 +1,6 @@
 # Prometheus Agents 🚀
 
-**Version: 1.2.0 - Advanced Reasoning + Systematic MCP Orchestration**
+**Version: 1.3.0 - Template Flexibility + Enhanced Agent Specialization**
 
 The most AGGRESSIVE and PROACTIVE AI agent system ever created for software development. After a revolutionary consolidation from 23 agents to 9 elite agents (61% reduction), each agent now automatically detects problems and implements comprehensive solutions WITHOUT asking permission.
 
@@ -9,6 +9,8 @@ The most AGGRESSIVE and PROACTIVE AI agent system ever created for software deve
 **NEW IN v1.1.1**: DRY (Don't Repeat Yourself) principle enforcement! All agents now follow strict DRY principles during code execution, with shared patterns library and systematic reuse of existing code.
 
 **NEW IN v1.2.0**: Advanced Reasoning Integration! Sequential Thinking and Zen MCP now systematically activated with automated trigger patterns, orchestrated workflows, and multi-model consensus validation for complex decisions.
+
+**NEW IN v1.3.0**: Template Flexibility Enhancement! All agents now support both Surface (.sface) and HEEx (.heex) templating approaches, with enhanced specialization knowledge integrated from domain experts while maintaining consistent tool and model selection.
 
 ## 🔥 Revolutionary Breakthrough
 

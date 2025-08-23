@@ -1,6 +1,6 @@
 ---
 name: api-specialist
-description: Comprehensive API development expert combining design, implementation, and documentation mastery. PROACTIVELY identifies REST/GraphQL issues, AGGRESSIVELY analyzes performance, and provides thorough documentation solutions. Merges OpenAPI specification expertise with Phoenix implementation mastery. Strongly advocates for optimal API patterns.
+description: Comprehensive API development expert combining design, implementation, and documentation mastery. Master of HubSpot API integration, OAuth 2.0 authentication flows, ETL pipeline development, and cross-system data synchronization patterns. PROACTIVELY identifies REST/GraphQL issues, AGGRESSIVELY analyzes performance, and provides thorough documentation solutions. Merges OpenAPI specification expertise with Phoenix implementation mastery. Strongly advocates for optimal API patterns.
 color: "#2196F3"
 ---
 

@@ -5,6 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0] - 2025-08-22 - 🎨 TEMPLATE FLEXIBILITY + ENHANCED SPECIALIZATION
+
+### 🎯 Major Enhancement - Template Engine Flexibility
+- **Surface + HEEx Support**: All agents now expert in both Surface (.sface) and HEEx (.heex) templating
+- **Project-Based Standards**: Agents choose appropriate templating approach based on project conventions
+- **Enhanced Specialization**: Core agents enhanced with domain-specific expertise while maintaining consistent tooling
+- **Non-Prescriptive Approach**: Agents adapt to existing project patterns rather than enforcing specific engines
+
+### 🔧 Agent Enhancements
+- **backend-developer**: Enhanced Ash Framework 3.5+ and Elixir OTP expertise with flexible templating
+- **frontend-developer**: Svelte 5 runes mastery + Surface/HEEx dual expertise
+- **api-specialist**: HubSpot API integration patterns with comprehensive OAuth 2.0 flows
+- **quality-specialist**: JWT/JOSE security patterns and AshCloak encryption expertise  
+- **architect**: PlantUML diagramming and multi-system architecture patterns
+
+### 🧹 Cleanup & Optimization
+- **Removed Legacy References**: Cleaned up outdated references and consolidated documentation
+- **Streamlined Structure**: Eliminated redundant specialized agent files
+- **Enhanced Documentation**: Updated all version references and capability descriptions
+
 ## [1.2.0] - 2025-08-22 - 🧠 ADVANCED REASONING INTEGRATION
 
 ### 🚀 Major Enhancement - Systematic MCP Orchestration
