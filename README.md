@@ -1,6 +1,6 @@
 # Prometheus Agents 🚀
 
-**Version: 1.3.0 - Template Flexibility + Enhanced Agent Specialization**
+**Version: 1.3.1 - Memory Integration + Template Flexibility**
 
 The most AGGRESSIVE and PROACTIVE AI agent system ever created for software development. After a revolutionary consolidation from 23 agents to 9 elite agents (61% reduction), each agent now automatically detects problems and implements comprehensive solutions WITHOUT asking permission.
 
@@ -11,6 +11,8 @@ The most AGGRESSIVE and PROACTIVE AI agent system ever created for software deve
 **NEW IN v1.2.0**: Advanced Reasoning Integration! Sequential Thinking and Zen MCP now systematically activated with automated trigger patterns, orchestrated workflows, and multi-model consensus validation for complex decisions.
 
 **NEW IN v1.3.0**: Template Flexibility Enhancement! All agents now support both Surface (.sface) and HEEx (.heex) templating approaches, with enhanced specialization knowledge integrated from domain experts while maintaining consistent tool and model selection.
+
+**NEW IN v1.3.1**: Memory Integration Enhancement! Removed standalone Memory MCP and integrated memory functionality directly into Serena MCP using write_memory/read_memory tools for better project knowledge persistence.
 
 ## 🔥 Revolutionary Breakthrough
 

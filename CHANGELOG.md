@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.1] - 2025-08-23 - 🧠 MEMORY INTEGRATION ENHANCEMENT
+
+### 🔧 Memory System Refactor
+- **Removed Standalone Memory MCP**: Eliminated separate Memory MCP service
+- **Serena MCP Integration**: Memory functionality now fully integrated into Serena MCP
+- **Enhanced Memory Tools**: All agents now use `write_memory` and `read_memory` tools for project knowledge persistence
+- **Simplified Architecture**: Reduced complexity by consolidating memory management into existing Serena MCP
+- **Improved Documentation**: Updated all agent documentation to reflect proper Serena MCP memory capabilities
+- **Consistent Terminology**: Aligned all references to use "Serena MCP - Project Memory" with actual tool functionality
+
+### 🗂️ Documentation Updates
+- Updated all 9 agent files with correct Serena MCP memory references
+- Removed `rules/memory.md` (no longer needed)
+- Updated CLAUDE.md, README.md, and CHANGELOG.md to reflect memory integration
+- Corrected terminology from "Memory MCP" to proper Serena MCP memory tools
+
+---
+
 ## [1.3.0] - 2025-08-22 - 🎨 TEMPLATE FLEXIBILITY + ENHANCED SPECIALIZATION
 
 ### 🎯 Major Enhancement - Template Engine Flexibility

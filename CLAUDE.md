@@ -1,6 +1,6 @@
 # Prometheus Agents - Claude SubAgents Project
 
-**Version: 1.3.0**
+**Version: 1.3.1**
 
 ## Project Overview
 This project provides 9 PROACTIVE and AGGRESSIVE Claude SubAgents that automatically detect issues and implement comprehensive solutions without asking permission. After a major consolidation from 23 agents (61% reduction), each agent now combines multiple specializations while maintaining zero tolerance for suboptimal code.
@@ -14,6 +14,8 @@ This project provides 9 PROACTIVE and AGGRESSIVE Claude SubAgents that automatic
 **NEW IN v1.2.0**: Advanced Reasoning Integration! Sequential Thinking and Zen MCP now systematically activated across all agents with automated trigger patterns, orchestrated workflows, and comprehensive multi-model consensus validation for complex decisions.
 
 **NEW IN v1.3.0**: Template Flexibility Enhancement! All agents now support both Surface (.sface) and HEEx (.heex) templating approaches, choosing the appropriate method based on project standards rather than enforcing a specific template engine.
+
+**NEW IN v1.3.1**: Memory Integration Enhancement! Removed standalone Memory MCP and integrated memory functionality directly into Serena MCP using write_memory/read_memory tools for better project knowledge persistence.
 
 ## Key Areas of Focus
 - Software Solutions Architecture
@@ -96,7 +98,7 @@ Every agent automatically:
 - **AUTOMATICALLY** implements backup strategies, disaster recovery, scaling solutions
 
 ## Project Structure
-- `/agents/` - Elite 9 PROACTIVE and AGGRESSIVE agents (v1.3.0 with Template Flexibility)
+- `/agents/` - Elite 9 PROACTIVE and AGGRESSIVE agents (v1.3.1 with Memory Integration)
   - `architect.md` - Strategic vision & system design mastery + Enhanced MCP orchestration
   - `backend-developer.md` - Elixir/Phoenix excellence + Systematic reasoning workflows
   - `frontend-developer.md` - Universal UI/UX across all platforms + Automated quality triggers
@@ -106,7 +108,7 @@ Every agent automatically:
   - `quality-specialist.md` - Security & performance guardian + Orchestrated quality workflows
   - `product-coordinator.md` - Project & product management excellence + Coordination workflows
   - `devops-engineer.md` - Infrastructure & deployment automation + Infrastructure reasoning
-- `/agents/shared/` - Shared frameworks and systematic patterns (v1.3.0)
+- `/agents/shared/` - Shared frameworks and systematic patterns (v1.3.1)
   - `dry-principles.md` - Core DRY directives for all agents
   - `mcp-orchestration.md` - Automated MCP workflow integration patterns
   - `trigger-patterns.md` - Systematic trigger patterns for advanced reasoning
@@ -155,7 +157,7 @@ Every agent automatically:
 - **Media**: Minimax MCP for audio/video generation when needed
 - **Analysis**: Sequential Thinking MCP for complex problem decomposition
 
-### How Agents Use MCPs (v1.3.0 Enhanced)
+### How Agents Use MCPs (v1.3.1 Enhanced)
 Each agent now systematically leverages MCPs with automated workflows:
 1. **Sequential Thinking Activation** - Automatically triggered for complex problems (≥3 steps)
 2. **Zen MCP Orchestration** - Systematic workflows (debug → analyze → refactor → consensus)
