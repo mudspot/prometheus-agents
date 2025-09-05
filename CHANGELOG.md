@@ -5,6 +5,30 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.2] - 2025-09-05 - 🌐 GLOBAL INSTRUCTIONS INTEGRATION
+
+### 🔧 Universal Claude Code Instructions
+- **Global Instructions File**: Added `/global/CLAUDE.md` with universal Claude Code best practices
+- **Task Delegation Framework**: Mandatory agent delegation for all complex tasks with parallel execution support
+- **Enhanced Git Workflows**: Automatic reviewer declarations using `git config` and standardized Claude Code attribution
+- **Advanced Code Analysis**: Integrated ast-grep for syntax-aware structural code searches over text-based searches
+- **Global-Local Coordination**: Universal standards seamlessly integrated with project-specific PROACTIVE agent behaviors
+
+### 🎯 Agent Integration Enhancements
+- **Universal Task Management**: All agents now follow mandatory delegation patterns with agent-first approach
+- **Parallel Agent Execution**: Multi-faceted problems automatically trigger coordinated parallel agent workflows
+- **Syntax-Aware Analysis**: Language understanding integrated into all agent search and analysis workflows
+- **Quality Gate Integration**: Git workflows now enforce combined global standards and agent quality requirements
+- **Unified Excellence**: Global Claude Code standards merged with domain-specific PROACTIVE and AGGRESSIVE behaviors
+
+### 🗂️ Documentation Updates
+- **Project Structure**: Added `/global/` directory to project documentation and structure
+- **Integration Documentation**: Comprehensive global-local coordination patterns and workflows
+- **Version Updates**: Updated CLAUDE.md, README.md, and VERSION file to reflect v1.3.2
+- **Enhanced Features**: Detailed integration between universal instructions and specialized agent capabilities
+
+---
+
 ## [1.3.1] - 2025-08-23 - 🧠 MEMORY INTEGRATION ENHANCEMENT
 
 ### 🔧 Memory System Refactor

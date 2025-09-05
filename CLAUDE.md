@@ -1,6 +1,6 @@
 # Prometheus Agents - Claude SubAgents Project
 
-**Version: 1.3.1**
+**Version: 1.3.2**
 
 ## Project Overview
 This project provides 9 PROACTIVE and AGGRESSIVE Claude SubAgents that automatically detect issues and implement comprehensive solutions without asking permission. After a major consolidation from 23 agents (61% reduction), each agent now combines multiple specializations while maintaining zero tolerance for suboptimal code.
@@ -16,6 +16,8 @@ This project provides 9 PROACTIVE and AGGRESSIVE Claude SubAgents that automatic
 **NEW IN v1.3.0**: Template Flexibility Enhancement! All agents now support both Surface (.sface) and HEEx (.heex) templating approaches, choosing the appropriate method based on project standards rather than enforcing a specific template engine.
 
 **NEW IN v1.3.1**: Memory Integration Enhancement! Removed standalone Memory MCP and integrated memory functionality directly into Serena MCP using write_memory/read_memory tools for better project knowledge persistence.
+
+**NEW IN v1.3.2**: Global Instructions Integration! Added global CLAUDE.md file to `/global/` directory containing universal Claude Code instructions for task management, git workflows, and code analysis tools. These global instructions now complement project-specific agent behaviors.
 
 ## Key Areas of Focus
 - Software Solutions Architecture
@@ -98,7 +100,9 @@ Every agent automatically:
 - **AUTOMATICALLY** implements backup strategies, disaster recovery, scaling solutions
 
 ## Project Structure
-- `/agents/` - Elite 9 PROACTIVE and AGGRESSIVE agents (v1.3.1 with Memory Integration)
+- `/global/` - Universal Claude Code instructions (v1.3.2)
+  - `CLAUDE.md` - Global instructions for task delegation, git workflows, and code analysis
+- `/agents/` - Elite 9 PROACTIVE and AGGRESSIVE agents (v1.3.2 with Global Integration)
   - `architect.md` - Strategic vision & system design mastery + Enhanced MCP orchestration
   - `backend-developer.md` - Elixir/Phoenix excellence + Systematic reasoning workflows
   - `frontend-developer.md` - Universal UI/UX across all platforms + Automated quality triggers
@@ -108,7 +112,7 @@ Every agent automatically:
   - `quality-specialist.md` - Security & performance guardian + Orchestrated quality workflows
   - `product-coordinator.md` - Project & product management excellence + Coordination workflows
   - `devops-engineer.md` - Infrastructure & deployment automation + Infrastructure reasoning
-- `/agents/shared/` - Shared frameworks and systematic patterns (v1.3.1)
+- `/agents/shared/` - Shared frameworks and systematic patterns (v1.3.2)
   - `dry-principles.md` - Core DRY directives for all agents
   - `mcp-orchestration.md` - Automated MCP workflow integration patterns
   - `trigger-patterns.md` - Systematic trigger patterns for advanced reasoning
@@ -157,7 +161,7 @@ Every agent automatically:
 - **Media**: Minimax MCP for audio/video generation when needed
 - **Analysis**: Sequential Thinking MCP for complex problem decomposition
 
-### How Agents Use MCPs (v1.3.1 Enhanced)
+### How Agents Use MCPs (v1.3.2 Enhanced)
 Each agent now systematically leverages MCPs with automated workflows:
 1. **Sequential Thinking Activation** - Automatically triggered for complex problems (≥3 steps)
 2. **Zen MCP Orchestration** - Systematic workflows (debug → analyze → refactor → consensus)
@@ -167,6 +171,31 @@ Each agent now systematically leverages MCPs with automated workflows:
 6. **Cross-Agent Coordination** - Systematic collaboration patterns for complex features
 7. **Failure Detection & Response** - Automated quality degradation intervention
 8. **Continuous Learning** - Pattern recognition and workflow optimization
+
+## Global Instructions Integration (v1.3.2)
+
+The project now includes universal Claude Code instructions in `/global/CLAUDE.md` that complement the specialized agent behaviors:
+
+### **Universal Task Management**
+- **Mandatory Agent Delegation**: All complex tasks must be delegated to specialized agents
+- **Parallel Agent Execution**: Multi-faceted problems automatically trigger parallel agent workflows
+- **Agent-First Approach**: No direct task execution when specialized agents are available
+
+### **Enhanced Git Workflows** 
+- **Automatic Reviewer Declarations**: All commits include `Reviewed-by:` declarations from git config
+- **Standardized Attribution**: Consistent Claude Code attribution across all commits
+- **Quality Gate Integration**: Git workflows now enforce agent quality standards
+
+### **Advanced Code Analysis**
+- **ast-grep Integration**: Structural code searches prioritized over text-based searches
+- **Syntax-Aware Analysis**: Language understanding integrated into all agent workflows
+- **Intelligent Search Strategies**: Context-aware search tool selection for optimal results
+
+### **Global-Local Coordination**
+The global instructions work synergistically with project-specific agent behaviors:
+- **Global Rules**: Universal best practices for delegation, git, and analysis
+- **Local Specialization**: Project-specific PROACTIVE and AGGRESSIVE agent behaviors  
+- **Unified Excellence**: Combined global standards with domain-specific expertise
 
 ## Revolutionary Agent Behaviors
 
