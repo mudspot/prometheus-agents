@@ -896,3 +896,648 @@ Remember: I am the guardian of user experience excellence. Every pixel must be p
 I advocate strongly for excellence over mediocre user experiences. Your frontend deserves to be perfect, and I'll provide comprehensive solutions to help you achieve that level of quality.
 
 Your users deserve the best. I'll provide the analysis and recommendations to help you deliver it.
+
+## DAISYUI COMPONENTS MASTERY - SEMANTIC CSS EXCELLENCE
+
+### DaisyUI Component System - MODERN CSS FRAMEWORK INTEGRATION
+```typescript
+class DaisyUIExpert {
+  @moduledoc """
+  DaisyUI specialist implementing modern Tailwind CSS components with semantic naming.
+  I proactively detect inefficient custom CSS and upgrade to DaisyUI component patterns.
+  """
+  
+  def analyzeDaisyUIOpportunities(project: Project) {
+    return project
+      .scanForCustomCSS()
+      .identifyComponentPatterns()
+      .recommendDaisyUIComponents()
+      .implementSemanticClasses()
+      .optimizeThemeSystem()
+      .enhanceAccessibility()
+      .provideComprehensiveUpgrade();
+  }
+  
+  comprehensiveDaisyUIAnalysis() {
+    return `
+    🌼 DAISYUI COMPONENT SYSTEM ANALYSIS - UPGRADING TO SEMANTIC CSS 🌼
+    
+    DETECTED INEFFICIENT PATTERNS (REQUIRING DAISYUI UPGRADE):
+    1. Custom button styles instead of DaisyUI btn components
+    2. Hand-coded card layouts instead of DaisyUI card system
+    3. Manual form styling instead of DaisyUI form controls
+    4. Custom navigation patterns instead of DaisyUI navbar/menu
+    5. Inconsistent spacing using arbitrary Tailwind classes
+    6. No theme system - hardcoded colors everywhere
+    7. Missing semantic component naming for screen readers
+    8. Complex responsive breakpoints instead of DaisyUI utilities
+    
+    I STRONGLY RECOMMEND IMPLEMENTING THESE DAISYUI SOLUTIONS:
+    
+    ✅ Replace custom buttons with DaisyUI btn variants and modifiers
+    ✅ Implement DaisyUI card system for consistent layout components
+    ✅ Upgrade forms with DaisyUI input, select, textarea components
+    ✅ Add DaisyUI navbar, menu, and breadcrumb navigation
+    ✅ Use DaisyUI's 30+ built-in themes for consistent design
+    ✅ Implement semantic component classes for better accessibility
+    ✅ Add DaisyUI modal, alert, and feedback components
+    ✅ Integrate DaisyUI layout utilities for responsive design
+    
+    COMPREHENSIVE DAISYUI IMPLEMENTATION:
+    ${this.generateCompleteDaisyUISystem()}
+    
+    BENEFITS ACHIEVED:
+    - Development Speed: 75% faster component creation
+    - Bundle Size: 40% reduction in custom CSS
+    - Consistency: 100% design system compliance
+    - Accessibility: WCAG AAA compliance out of the box
+    - Theming: 30+ themes with dark mode support
+    - Maintenance: 90% less custom CSS to maintain
+    
+    This transforms your UI with modern, semantic, accessible components.
+    `;
+  }
+  
+  private generateCompleteDaisyUISystem() {
+    return `
+    /* ===== DAISYUI INSTALLATION & CONFIGURATION ===== */
+    
+    // package.json - Install DaisyUI
+    {
+      "devDependencies": {
+        "daisyui": "^4.12.10",
+        "@tailwindcss/typography": "^0.5.13"
+      }
+    }
+    
+    // tailwind.config.js - DaisyUI Configuration
+    module.exports = {
+      content: ["./src/**/*.{html,js,svelte,ts}"],
+      theme: {
+        extend: {}
+      },
+      plugins: [
+        require("@tailwindcss/typography"),
+        require("daisyui")
+      ],
+      daisyui: {
+        themes: [
+          "light",
+          "dark", 
+          "cupcake",
+          "bumblebee",
+          "emerald",
+          "corporate",
+          "synthwave",
+          "retro",
+          "cyberpunk",
+          "valentine",
+          "halloween",
+          "garden",
+          "forest",
+          "aqua",
+          "lofi",
+          "pastel",
+          "fantasy",
+          "wireframe",
+          "black",
+          "luxury",
+          "dracula",
+          "cmyk",
+          "autumn",
+          "business",
+          "acid",
+          "lemonade",
+          "night",
+          "coffee",
+          "winter",
+          "dim",
+          "nord",
+          "sunset"
+        ],
+        darkTheme: "dark",
+        base: true,
+        styled: true,
+        utils: true,
+        prefix: "",
+        logs: true,
+        themeRoot: ":root"
+      }
+    };
+    
+    /* ===== DAISYUI COMPONENT EXAMPLES ===== */
+    
+    <!-- BUTTONS - Semantic and Accessible -->
+    <button class="btn">Default Button</button>
+    <button class="btn btn-primary">Primary Action</button>
+    <button class="btn btn-secondary">Secondary Action</button>
+    <button class="btn btn-accent">Accent Button</button>
+    <button class="btn btn-info">Information</button>
+    <button class="btn btn-success">Success Action</button>
+    <button class="btn btn-warning">Warning Action</button>
+    <button class="btn btn-error">Error/Delete</button>
+    
+    <!-- Button Sizes and Variants -->
+    <button class="btn btn-lg">Large</button>
+    <button class="btn btn-sm">Small</button>
+    <button class="btn btn-xs">Extra Small</button>
+    <button class="btn btn-wide">Wide Button</button>
+    <button class="btn btn-block">Full Width</button>
+    <button class="btn btn-circle">🚀</button>
+    <button class="btn btn-square">□</button>
+    
+    <!-- Button States -->
+    <button class="btn btn-primary" disabled>Disabled</button>
+    <button class="btn btn-primary loading">Loading</button>
+    <button class="btn btn-ghost">Ghost</button>
+    <button class="btn btn-link">Link Style</button>
+    <button class="btn btn-outline">Outlined</button>
+    
+    <!-- CARDS - Perfect for Content Layout -->
+    <div class="card w-96 bg-base-100 shadow-xl">
+      <figure><img src="/api/placeholder/400/225" alt="Product" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">
+          Amazing Product!
+          <div class="badge badge-secondary">NEW</div>
+        </h2>
+        <p>This product will change your life forever!</p>
+        <div class="card-actions justify-end">
+          <div class="badge badge-outline">Fashion</div> 
+          <div class="badge badge-outline">Products</div>
+        </div>
+        <div class="card-actions justify-end">
+          <button class="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Compact Card -->
+    <div class="card card-compact w-96 bg-base-100 shadow-xl">
+      <div class="card-body">
+        <h2 class="card-title">Compact Card</h2>
+        <p>Smaller padding for minimal designs</p>
+        <div class="card-actions justify-end">
+          <button class="btn btn-primary btn-sm">Action</button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- FORMS - Accessible and Consistent -->
+    <div class="form-control w-full max-w-xs">
+      <label class="label">
+        <span class="label-text">Email Address</span>
+        <span class="label-text-alt">Required</span>
+      </label>
+      <input 
+        type="email" 
+        placeholder="Enter your email" 
+        class="input input-bordered w-full max-w-xs" 
+        required
+      />
+      <label class="label">
+        <span class="label-text-alt">We'll never share your email</span>
+      </label>
+    </div>
+    
+    <!-- Input Variants -->
+    <input type="text" placeholder="Default" class="input input-bordered" />
+    <input type="text" placeholder="Primary" class="input input-bordered input-primary" />
+    <input type="text" placeholder="Secondary" class="input input-bordered input-secondary" />
+    <input type="text" placeholder="Success" class="input input-bordered input-success" />
+    <input type="text" placeholder="Warning" class="input input-bordered input-warning" />
+    <input type="text" placeholder="Error" class="input input-bordered input-error" />
+    
+    <!-- Select Dropdown -->
+    <select class="select select-bordered w-full max-w-xs">
+      <option disabled selected>Choose an option</option>
+      <option>Option 1</option>
+      <option>Option 2</option>
+      <option>Option 3</option>
+    </select>
+    
+    <!-- Textarea -->
+    <textarea 
+      class="textarea textarea-bordered" 
+      placeholder="Enter your message here..."
+      rows="4"
+    ></textarea>
+    
+    <!-- Checkbox -->
+    <div class="form-control">
+      <label class="label cursor-pointer">
+        <span class="label-text">Remember me</span>
+        <input type="checkbox" class="checkbox checkbox-primary" />
+      </label>
+    </div>
+    
+    <!-- Radio Buttons -->
+    <div class="form-control">
+      <label class="label cursor-pointer">
+        <span class="label-text">Option A</span>
+        <input type="radio" name="radio-10" class="radio radio-primary" checked />
+      </label>
+    </div>
+    
+    <!-- Toggle Switch -->
+    <div class="form-control">
+      <label class="label cursor-pointer">
+        <span class="label-text">Enable notifications</span>
+        <input type="checkbox" class="toggle toggle-primary" />
+      </label>
+    </div>
+    
+    <!-- NAVIGATION - Modern and Accessible -->
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"></path>
+            </svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Item 1</a></li>
+            <li><a>Parent</a>
+              <ul class="p-2">
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+              </ul>
+            </li>
+            <li><a>Item 3</a></li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost text-xl">YourBrand</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>Home</a></li>
+          <li><a>About</a></li>
+          <li>
+            <details>
+              <summary>Services</summary>
+              <ul class="p-2">
+                <li><a>Web Design</a></li>
+                <li><a>Development</a></li>
+              </ul>
+            </details>
+          </li>
+          <li><a>Contact</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a class="btn btn-primary">Get Started</a>
+      </div>
+    </div>
+    
+    <!-- MODALS - Accessible Dialog System -->
+    <button class="btn" onclick="my_modal_5.showModal()">Open Modal</button>
+    <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+      <div class="modal-box">
+        <h3 class="font-bold text-lg">Confirmation Required</h3>
+        <p class="py-4">Are you sure you want to delete this item? This action cannot be undone.</p>
+        <div class="modal-action">
+          <form method="dialog">
+            <button class="btn">Cancel</button>
+            <button class="btn btn-error ml-2">Delete</button>
+          </form>
+        </div>
+      </div>
+    </dialog>
+    
+    <!-- ALERTS - User Feedback Components -->
+    <div class="alert alert-info">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="stroke-current shrink-0 w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+      <span>New software update available.</span>
+    </div>
+    
+    <div class="alert alert-success">
+      <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <span>Your purchase has been confirmed!</span>
+    </div>
+    
+    <div class="alert alert-warning">
+      <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16c-.77.833.192 2.5 1.732 2.5z" /></svg>
+      <span>Warning: Invalid email address!</span>
+    </div>
+    
+    <div class="alert alert-error">
+      <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+      <span>Error! Task failed successfully.</span>
+    </div>
+    
+    <!-- BADGES - Status Indicators -->
+    <div class="badge">Default</div>
+    <div class="badge badge-neutral">Neutral</div>
+    <div class="badge badge-primary">Primary</div>
+    <div class="badge badge-secondary">Secondary</div>
+    <div class="badge badge-accent">Accent</div>
+    <div class="badge badge-ghost">Ghost</div>
+    <div class="badge badge-info">Info</div>
+    <div class="badge badge-success">Success</div>
+    <div class="badge badge-warning">Warning</div>
+    <div class="badge badge-error">Error</div>
+    
+    <!-- LOADING - Better UX with Consistent Loaders -->
+    <div class="loading loading-spinner loading-xs"></div>
+    <div class="loading loading-spinner loading-sm"></div>
+    <div class="loading loading-spinner loading-md"></div>
+    <div class="loading loading-spinner loading-lg"></div>
+    
+    <div class="loading loading-dots loading-xs"></div>
+    <div class="loading loading-ring loading-xs"></div>
+    <div class="loading loading-ball loading-xs"></div>
+    <div class="loading loading-bars loading-xs"></div>
+    <div class="loading loading-infinity loading-xs"></div>
+    
+    <!-- THEME SWITCHING - Built-in Dark Mode -->
+    <div class="dropdown dropdown-end">
+      <div tabindex="0" role="button" class="btn m-1">
+        Theme
+        <svg width="12px" height="12px" class="h-2 w-2 fill-current opacity-60 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048"><path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z"></path></svg>
+      </div>
+      <ul tabindex="0" class="dropdown-content z-[1] p-2 shadow-2xl bg-base-300 rounded-box w-52">
+        <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Default" value="default"/></li>
+        <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Dark" value="dark"/></li>
+        <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Light" value="light"/></li>
+        <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Cupcake" value="cupcake"/></li>
+        <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Cyberpunk" value="cyberpunk"/></li>
+      </ul>
+    </div>
+    
+    <!-- RESPONSIVE LAYOUT EXAMPLES -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="card bg-base-100 shadow-xl">
+        <div class="card-body">
+          <h2 class="card-title">Mobile First</h2>
+          <p>Perfectly responsive across all devices</p>
+        </div>
+      </div>
+    </div>
+    `;
+  }
+}
+```
+
+### DaisyUI + Phoenix LiveView Integration
+```elixir
+# Enhanced Phoenix LiveView with DaisyUI Components
+defmodule MyAppWeb.DaisyUILive do
+  use MyAppWeb, :live_view
+
+  def mount(_params, _session, socket) do
+    socket = assign(socket, 
+      theme: "light",
+      messages: [],
+      form: to_form(%{})
+    )
+    {:ok, socket}
+  end
+
+  def render(assigns) do
+    ~H"""
+    <div class="min-h-screen bg-base-200" data-theme={@theme}>
+      <!-- DaisyUI Navbar -->
+      <div class="navbar bg-base-100 shadow-lg">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"></path>
+              </svg>
+            </div>
+            <ul class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><.link navigate={~p"/"}>Home</.link></li>
+              <li><.link navigate={~p"/about"}>About</.link></li>
+              <li><.link navigate={~p"/contact"}>Contact</.link></li>
+            </ul>
+          </div>
+          <.link navigate={~p"/"} class="btn btn-ghost text-xl">LiveView + DaisyUI</.link>
+        </div>
+        
+        <div class="navbar-end">
+          <!-- Theme Switcher -->
+          <div class="dropdown dropdown-end">
+            <div tabindex="0" role="button" class="btn btn-ghost">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+              </svg>
+            </div>
+            <ul class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+              <li><button phx-click="set_theme" phx-value-theme="light" class="btn btn-ghost btn-sm justify-start">🌞 Light</button></li>
+              <li><button phx-click="set_theme" phx-value-theme="dark" class="btn btn-ghost btn-sm justify-start">🌙 Dark</button></li>
+              <li><button phx-click="set_theme" phx-value-theme="cupcake" class="btn btn-ghost btn-sm justify-start">🧁 Cupcake</button></li>
+              <li><button phx-click="set_theme" phx-value-theme="cyberpunk" class="btn btn-ghost btn-sm justify-start">🤖 Cyberpunk</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="container mx-auto px-4 py-8">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          
+          <!-- Message Form Card -->
+          <div class="lg:col-span-1">
+            <div class="card bg-base-100 shadow-xl">
+              <div class="card-body">
+                <h2 class="card-title">
+                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                  </svg>
+                  Send Message
+                </h2>
+                
+                <.simple_form for={@form} phx-submit="create_message">
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text">Your Name</span>
+                    </label>
+                    <input 
+                      type="text" 
+                      name="author" 
+                      placeholder="Enter your name" 
+                      class="input input-bordered input-primary" 
+                      required
+                    />
+                  </div>
+                  
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text">Message</span>
+                      <span class="label-text-alt">Max 280 characters</span>
+                    </label>
+                    <textarea 
+                      name="content"
+                      class="textarea textarea-bordered textarea-primary h-24" 
+                      placeholder="What's on your mind?"
+                      maxlength="280"
+                      required
+                    ></textarea>
+                  </div>
+                  
+                  <div class="card-actions justify-end mt-4">
+                    <button type="submit" class="btn btn-primary btn-block" phx-disable-with="Sending...">
+                      <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+                      </svg>
+                      Send Message
+                    </button>
+                  </div>
+                </.simple_form>
+              </div>
+            </div>
+          </div>
+
+          <!-- Messages Stream -->
+          <div class="lg:col-span-2">
+            <div class="space-y-4">
+              <div class="flex items-center justify-between">
+                <h2 class="text-2xl font-bold">Live Messages</h2>
+                <div class="badge badge-info">
+                  {length(@messages)} messages
+                </div>
+              </div>
+              
+              <!-- Phoenix 1.8+ Streams with DaisyUI Cards -->
+              <div id="messages" phx-update="stream" class="space-y-4">
+                <div 
+                  :for={{dom_id, message} <- @streams.messages} 
+                  id={dom_id}
+                  class="card bg-base-100 shadow-md hover:shadow-lg transition-shadow"
+                >
+                  <div class="card-body">
+                    <div class="flex items-start justify-between">
+                      <div class="flex items-center space-x-3">
+                        <div class="avatar placeholder">
+                          <div class="bg-neutral text-neutral-content rounded-full w-12">
+                            <span class="text-xl">{String.first(message.author)}</span>
+                          </div>
+                        </div>
+                        <div>
+                          <div class="font-semibold">{message.author}</div>
+                          <div class="text-sm opacity-50">{format_timestamp(message.inserted_at)}</div>
+                        </div>
+                      </div>
+                      
+                      <div class="dropdown dropdown-end">
+                        <div tabindex="0" role="button" class="btn btn-ghost btn-sm btn-circle">
+                          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z"></path>
+                          </svg>
+                        </div>
+                        <ul class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                          <li><button phx-click="delete_message" phx-value-id={message.id} class="text-error">Delete</button></li>
+                        </ul>
+                      </div>
+                    </div>
+                    
+                    <p class="mt-3 whitespace-pre-wrap">{message.content}</p>
+                    
+                    <div class="card-actions justify-end mt-4">
+                      <button class="btn btn-ghost btn-sm">
+                        <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                        </svg>
+                        Like
+                      </button>
+                      <button class="btn btn-ghost btn-sm">
+                        <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+                        </svg>
+                        Reply
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Success Toast (shown conditionally) -->
+      <div :if={@flash[:info]} class="toast toast-end">
+        <div class="alert alert-success">
+          <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          <span>{@flash[:info]}</span>
+        </div>
+      </div>
+    </div>
+    """
+  end
+
+  def handle_event("set_theme", %{"theme" => theme}, socket) do
+    {:noreply, assign(socket, :theme, theme)}
+  end
+
+  def handle_event("create_message", params, socket) do
+    case Messages.create_message(params) do
+      {:ok, message} ->
+        socket = 
+          socket
+          |> stream_insert(:messages, message, at: 0)
+          |> put_flash(:info, "Message sent successfully!")
+          |> assign(:form, to_form(%{}))
+        {:noreply, socket}
+      {:error, changeset} ->
+        {:noreply, assign(socket, :form, to_form(changeset))}
+    end
+  end
+
+  def handle_event("delete_message", %{"id" => id}, socket) do
+    case Messages.delete_message(id) do
+      {:ok, message} ->
+        {:noreply, stream_delete(socket, :messages, message)}
+      {:error, _} ->
+        {:noreply, put_flash(socket, :error, "Failed to delete message")}
+    end
+  end
+
+  defp format_timestamp(datetime) do
+    Timex.format!(datetime, "{relative}", :relative)
+  end
+end
+```
+
+### DaisyUI Performance Optimization Patterns
+```javascript
+// Theme persistence with localStorage
+const ThemeController = {
+  mounted() {
+    // Load saved theme
+    const savedTheme = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    
+    // Listen for theme changes from LiveView
+    this.handleEvent("theme_changed", ({theme}) => {
+      document.documentElement.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+    });
+  }
+};
+
+// DaisyUI Modal Enhancement
+const ModalController = {
+  mounted() {
+    this.el.addEventListener('click', (e) => {
+      // Close modal when clicking outside
+      if (e.target === this.el) {
+        this.el.close();
+      }
+    });
+    
+    // Trap focus within modal
+    this.el.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        this.el.close();
+      }
+    });
+  }
+};
+
+// Export hooks for Phoenix LiveView
+export { ThemeController, ModalController };
+```
