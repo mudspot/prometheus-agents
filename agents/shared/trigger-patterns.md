@@ -14,7 +14,7 @@ task_complexity_thresholds:
     time_horizon: ">= 1 week implementation"
     rollback_complexity: "Manual intervention required"
     
-  zen_mcp_activation:
+  analysis_mcp_activation:
     code_quality_categories: ">= 2 (security, performance, maintainability)"
     system_impact: "Core functionality affected"
     user_impact: ">= 100 users affected"
@@ -105,34 +105,34 @@ workflow_cascade_patterns:
   investigation_cascade:
     trigger: "Complex bug with unknown root cause"
     sequence:
-      1: "zen_debug for systematic analysis"
+      1: "analysis_debug for systematic analysis"
       2: "sequential_thinking for hypothesis development"
-      3: "zen_consensus for solution validation"
+      3: "analysis_consensus for solution validation"
       
   optimization_cascade:
     trigger: "Performance degradation >= 20%"
     sequence:
-      1: "zen_analyze for bottleneck identification"
-      2: "zen_tracer for execution flow analysis"
+      1: "analysis_analyze for bottleneck identification"
+      2: "analysis_tracer for execution flow analysis"
       3: "sequential_thinking for optimization planning"
-      4: "zen_refactor for implementation"
-      5: "zen_testgen for regression prevention"
+      4: "analysis_refactor for implementation"
+      5: "analysis_testgen for regression prevention"
       
   security_cascade:
     trigger: "Security vulnerability detected"
     sequence:
-      1: "zen_secaudit for comprehensive analysis"
+      1: "analysis_secaudit for comprehensive analysis"
       2: "sequential_thinking for threat prioritization"
-      3: "zen_consensus for remediation strategy"
-      4: "zen_planner for implementation roadmap"
+      3: "analysis_consensus for remediation strategy"
+      4: "analysis_planner for implementation roadmap"
       
   architecture_cascade:
     trigger: "System design complexity >= threshold"
     sequence:
       1: "sequential_thinking for problem decomposition"
-      2: "zen_analyze for pattern identification"
-      3: "zen_consensus for architecture validation"
-      4: "zen_planner for implementation strategy"
+      2: "analysis_analyze for pattern identification"
+      3: "analysis_consensus for architecture validation"
+      4: "analysis_planner for implementation strategy"
 ```
 
 ### 4. Context-Aware Activation
@@ -198,22 +198,22 @@ collaborative_triggers:
 failure_response_triggers:
   quality_degradation:
     trigger: "Code quality metrics below threshold"
-    response: "zen_codereview + zen_refactor + consensus validation"
+    response: "analysis_codereview + analysis_refactor + consensus validation"
     escalation: "Quality specialist intervention if automated fixes insufficient"
     
   security_vulnerability:
     trigger: "Security scan detecting vulnerabilities"
-    response: "zen_secaudit + immediate consensus + emergency planning"
+    response: "analysis_secaudit + immediate consensus + emergency planning"
     escalation: "Immediate production protection measures"
     
   performance_regression:
     trigger: "Performance metrics degrading >= 25%"
-    response: "zen_analyze + zen_debug + performance optimization cascade"
+    response: "analysis_analyze + analysis_debug + performance optimization cascade"
     escalation: "Infrastructure scaling or emergency rollback"
     
   system_instability:
     trigger: "Error rates >= 5% or availability < 99%"
-    response: "zen_debug + sequential_thinking + emergency response"
+    response: "analysis_debug + sequential_thinking + emergency response"
     escalation: "Full incident response with all agents"
 ```
 
@@ -234,12 +234,12 @@ learning_triggers:
     
   failure_analysis:
     trigger: "Resolution unsuccessful or suboptimal"
-    response: "zen_debug failure + sequential_thinking for improvement"
+    response: "analysis_debug failure + sequential_thinking for improvement"
     learning: "Adjust triggers and escalation patterns"
     
   efficiency_improvement:
     trigger: "Workflow taking >= 50% longer than baseline"
-    response: "zen_analyze workflow + optimize trigger patterns"
+    response: "analysis_analyze workflow + optimize trigger patterns"
     learning: "Refine automation and reduce manual intervention"
 ```
 
@@ -304,21 +304,21 @@ verification_checklist:
 example_scenarios:
   complex_bug_investigation:
     trigger: "Bug affecting 3+ components, unknown root cause"
-    activation: "zen_debug → sequential_thinking → zen_consensus"
+    activation: "analysis_debug → sequential_thinking → analysis_consensus"
     agents: ["backend-developer", "quality-specialist"]
     
   architecture_design:
     trigger: "System design with 5+ components, 3+ integrations"
-    activation: "sequential_thinking → zen_analyze → zen_consensus → zen_planner"
+    activation: "sequential_thinking → analysis_analyze → analysis_consensus → analysis_planner"
     agents: ["architect", "backend-developer", "quality-specialist"]
     
   security_hardening:
     trigger: "OWASP vulnerability detected, PII data involved"
-    activation: "zen_secaudit → zen_consensus → zen_planner → zen_testgen"
+    activation: "analysis_secaudit → analysis_consensus → analysis_planner → analysis_testgen"
     agents: ["quality-specialist", "backend-developer", "devops-engineer"]
     
   performance_optimization:
     trigger: "Response time > 500ms, 3+ bottlenecks identified"
-    activation: "zen_analyze → zen_tracer → sequential_thinking → zen_refactor"
+    activation: "analysis_analyze → analysis_tracer → sequential_thinking → analysis_refactor"
     agents: ["quality-specialist", "backend-developer", "data-engineer"]
 ```

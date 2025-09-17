@@ -1164,43 +1164,43 @@ security_specific:
   - Analyze resource usage patterns
 ```
 
-#### Zen MCP - Security & Performance
+#### Analysis MCP - Security & Performance
 **COMPREHENSIVE QUALITY ANALYSIS:**
 ```yaml
 quality_excellence:
-  - zen_secaudit: "Comprehensive security auditing"
-  - zen_analyze: "Performance bottleneck analysis"
-  - zen_debug: "Root cause analysis for issues"
-  - zen_refactor: "Optimize performance-critical code"
-  - zen_codereview: "Security and performance review"
-  - zen_thinkdeep: "Complex security solutions"
-  - zen_consensus: "Multi-model security validation"
-  - zen_planner: "Security implementation roadmaps"
-  - zen_testgen: "Security and performance test generation"
-  - zen_tracer: "Attack vector and performance flow analysis"
-  - zen_precommit: "Pre-commit security and quality validation"
+  - analysis_secaudit: "Comprehensive security auditing"
+  - analysis_analyze: "Performance bottleneck analysis"
+  - analysis_debug: "Root cause analysis for issues"
+  - analysis_refactor: "Optimize performance-critical code"
+  - analysis_codereview: "Security and performance review"
+  - analysis_thinkdeep: "Complex security solutions"
+  - analysis_consensus: "Multi-model security validation"
+  - analysis_planner: "Security implementation roadmaps"
+  - analysis_testgen: "Security and performance test generation"
+  - analysis_tracer: "Attack vector and performance flow analysis"
+  - analysis_precommit: "Pre-commit security and quality validation"
   
 orchestrated_security_workflows:
   comprehensive_security_audit: |
-    1. zen_secaudit for systematic vulnerability discovery
-    2. zen_consensus for threat prioritization validation
-    3. zen_planner for remediation strategy development
-    4. zen_testgen for security validation tests
-    5. zen_precommit for ongoing security enforcement
+    1. analysis_secaudit for systematic vulnerability discovery
+    2. analysis_consensus for threat prioritization validation
+    3. analysis_planner for remediation strategy development
+    4. analysis_testgen for security validation tests
+    5. analysis_precommit for ongoing security enforcement
     
   performance_optimization_workflow: |
-    1. zen_analyze for bottleneck identification
-    2. zen_tracer for performance flow analysis
-    3. zen_refactor for optimization implementation
-    4. zen_testgen for performance regression tests
-    5. zen_consensus for optimization strategy validation
+    1. analysis_analyze for bottleneck identification
+    2. analysis_tracer for performance flow analysis
+    3. analysis_refactor for optimization implementation
+    4. analysis_testgen for performance regression tests
+    5. analysis_consensus for optimization strategy validation
     
   integrated_quality_assurance: |
     1. Sequential thinking for quality assessment decomposition
-    2. zen_codereview for comprehensive quality analysis
-    3. zen_secaudit + zen_analyze for security-performance integration
-    4. zen_consensus for quality standard validation
-    5. zen_planner for continuous quality improvement roadmap
+    2. analysis_codereview for comprehensive quality analysis
+    3. analysis_secaudit + analysis_analyze for security-performance integration
+    4. analysis_consensus for quality standard validation
+    5. analysis_planner for continuous quality improvement roadmap
 
 critical_aspects:
   - OWASP Top 10 vulnerability scanning with automated remediation

@@ -685,16 +685,16 @@ frontend_specific:
   - Analyze bundle dependencies
 ```
 
-#### Zen MCP - UI/UX Excellence
+#### Analysis MCP - UI/UX Excellence
 **COMPREHENSIVE FRONTEND ANALYSIS:**
 ```yaml
 frontend_excellence:
-  - zen_analyze: "Analyze component architecture and patterns"
-  - zen_refactor: "Aggressive UI code improvement"
-  - zen_codereview: "Review accessibility and performance"
-  - zen_testgen: "Generate component and integration tests"
-  - zen_consensus: "Multi-model validation for UX decisions"
-  - zen_thinkdeep: "Complex state management solutions"
+  - analysis_analyze: "Analyze component architecture and patterns"
+  - analysis_refactor: "Aggressive UI code improvement"
+  - analysis_codereview: "Review accessibility and performance"
+  - analysis_testgen: "Generate component and integration tests"
+  - analysis_consensus: "Multi-model validation for UX decisions"
+  - analysis_thinkdeep: "Complex state management solutions"
   
 critical_aspects:
   - Performance optimization analysis

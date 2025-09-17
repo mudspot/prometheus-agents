@@ -55,7 +55,7 @@ Co-Authored-By: Claude <noreply@anthropic.com>
 
 ## Enhanced MCP Integration Guidelines
 
-5. **Revolutionary Three-Layer Intelligence System**: All agents now operate using a sophisticated three-layer architecture for unprecedented code intelligence:
+5. **Layered Intelligence System**: All agents now operate using a tightly integrated architecture for unprecedented code intelligence:
 
    **LAYER 1: SERENA SEMANTIC INTELLIGENCE**
    - Use Serena MCP for all code operations: `find_symbol`, `get_symbols_overview`, `search_for_pattern`, `find_referencing_symbols`
@@ -63,28 +63,21 @@ Co-Authored-By: Claude <noreply@anthropic.com>
    - Extract precise code context before any analysis or modification
    - Map system dependencies and architectural relationships semantically
 
-   **LAYER 2: ZEN AI-POWERED ANALYSIS (16 Sophisticated Tools)**
-   - **Deep Analysis Suite**: `thinkdeep` (multi-stage investigation), `analyze` (comprehensive), `debug` (root cause), `refactor` (optimization)
-   - **Collaborative Intelligence**: `consensus` (multi-model validation), `planner` (interactive planning), `chat` (thinking partner)
-   - **Quality & Security**: `codereview` (systematic), `precommit` (validation), `secaudit` (OWASP), `testgen` (comprehensive)
-   - **Code Intelligence**: `tracer` (execution flow), `docgen` (documentation)
-   - **Advanced Reasoning**: `challenge` (critical thinking), `sequential-thinking` (complex decomposition)
-
-   **LAYER 3: SEQUENTIAL THINKING COMPLEX REASONING**
+   **LAYER 2: SEQUENTIAL THINKING COMPLEX REASONING**
    - Automatically activate for problems requiring ≥3 steps or complex decision trees
    - Use for multi-faceted analysis, hypothesis development, and systematic solution synthesis
-   - Combine with Zen consensus for critical decision validation
+   - Validate conclusions through multi-model reviews before implementation
 
-6. **Sophisticated Intelligence Cascades**: Use systematic workflows that leverage all three layers:
+6. **Sophisticated Intelligence Cascades**: Use systematic workflows that leverage the layered architecture:
    
    **Standard Intelligence Cascade:**
    ```
-   Serena (semantic context) → Zen analysis (AI-powered) → Sequential Thinking (complex reasoning) → Zen consensus (multi-model validation) → Zen challenge (assumption testing)
+   Serena (semantic context) → Sequential Thinking (complex reasoning) → multi-model consensus validation → structured assumption testing
    ```
    
    **Debugging Intelligence Cascade:**
    ```
-   Serena (bug context mapping) → Zen thinkdeep (multi-hypothesis investigation) → Sequential Thinking (root cause analysis) → Zen consensus (solution validation) → Zen testgen (regression prevention)
+   Serena (bug context mapping) → Sequential Thinking (root cause analysis) → multi-model consensus validation → regression-prevention test planning
    ```
 
 7. **Advanced Model Selection with 28+ Models**: Use context-aware model orchestration:
@@ -93,20 +86,20 @@ Co-Authored-By: Claude <noreply@anthropic.com>
    - **Performance Optimization**: `openai/o3` primary + `gemini-2.5-flash` + `anthropic/claude-opus-4.1` validation
    - **Complex Reasoning**: `deepseek/deepseek-r1-0528` + `gemini-2.5-pro` for advanced reasoning scenarios
 
-8. **Assumption Challenge Workflows**: Use Zen's `challenge` tool to systematically validate:
+8. **Assumption Challenge Workflows**: Use dedicated challenge workflows to systematically validate:
    - Architectural decisions and design assumptions
    - Implementation approaches and technical choices
    - Security strategies and threat assessments
    - Performance optimization strategies
 
-9. **Multi-Model Consensus Validation**: For critical decisions, always use Zen's `consensus` tool with 2-3 specialized models to ensure thorough validation and prevent single-model bias.
+9. **Multi-Model Consensus Validation**: For critical decisions, always secure agreement from 2-3 specialized models or analytical approaches to ensure thorough validation and prevent single-model bias.
 
 ## Additional Guidelines
 
 - **MANDATORY**: Always check if a task matches any specialized agent before attempting it directly
-- **PROACTIVE MCP ORCHESTRATION**: Automatically activate three-layer intelligence for complex problems (≥3 steps, architectural decisions, security concerns, performance issues)
+- **PROACTIVE MCP ORCHESTRATION**: Automatically activate layered intelligence for complex problems (≥3 steps, architectural decisions, security concerns, performance issues)
 - **SEMANTIC-FIRST APPROACH**: Always use Serena for code context before any analysis or modification
-- **ASSUMPTION VALIDATION**: Use Zen challenge tool to test critical assumptions and prevent confirmation bias
+- **ASSUMPTION VALIDATION**: Use challenge workflows to test critical assumptions and prevent confirmation bias
 - Consider parallel execution of independent tasks using multiple agents
 - Always maintain code quality and follow project conventions
 - Ensure all commits include proper attribution and review declaration

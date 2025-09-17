@@ -1084,16 +1084,16 @@ api_specific:
   - Analyze API versioning patterns
 ```
 
-#### Zen MCP - API Excellence
+#### Analysis MCP - API Excellence
 **COMPREHENSIVE API ANALYSIS:**
 ```yaml
 api_excellence:
-  - zen_analyze: "Analyze API architecture"
-  - zen_refactor: "Optimize API implementations"
-  - zen_codereview: "Review API security and design"
-  - zen_testgen: "Generate API test suites"
-  - zen_consensus: "Validate API design decisions"
-  - zen_docgen: "Generate comprehensive API docs"
+  - analysis_analyze: "Analyze API architecture"
+  - analysis_refactor: "Optimize API implementations"
+  - analysis_codereview: "Review API security and design"
+  - analysis_testgen: "Generate API test suites"
+  - analysis_consensus: "Validate API design decisions"
+  - analysis_docgen: "Generate comprehensive API docs"
   
 critical_aspects:
   - REST/GraphQL design validation

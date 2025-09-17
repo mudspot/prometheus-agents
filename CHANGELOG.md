@@ -40,14 +40,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### 🌟 Revolutionary Enhancement - Three-Layer Intelligence System
 - **LAYER 1: SERENA SEMANTIC INTELLIGENCE** - Semantic code navigation (`find_symbol`, `get_symbols_overview`, `search_for_pattern`, `find_referencing_symbols`)
-- **LAYER 2: ZEN AI-POWERED ANALYSIS** - 16 sophisticated tools including `thinkdeep`, `analyze`, `debug`, `refactor`, `consensus`, `planner`, `secaudit`, `testgen`, `codereview`, `precommit`, `tracer`, `docgen`, `chat`, `challenge`, and `sequential-thinking`
+- **LAYER 2: ANALYSIS MCP SUITE** - 16 sophisticated tools including `thinkdeep`, `analyze`, `debug`, `refactor`, `consensus`, `planner`, `secaudit`, `testgen`, `codereview`, `precommit`, `tracer`, `docgen`, `chat`, `challenge`, and `sequential-thinking`
 - **LAYER 3: SEQUENTIAL THINKING COMPLEX REASONING** - Multi-step problem decomposition, hypothesis development, and systematic solution synthesis
 
 ### 🎯 Sophisticated Intelligence Cascades
 - **5 Pre-defined Workflows**: Advanced debugging, architectural decisions, security hardening, performance optimization, and code quality excellence
 - **Semantic-First Analysis**: Always understand code context through Serena before any analysis or modification
 - **Multi-Model Consensus Validation**: Critical decisions validated by 2-3 specialized AI models from 28+ available models
-- **Assumption Challenge Workflows**: Systematic validation using Zen's challenge tool to prevent confirmation bias
+- **Assumption Challenge Workflows**: Systematic validation using the analysis challenge tool to prevent confirmation bias
 
 ### 🧠 Advanced Model Selection with 28+ AI Models
 - **Context-Aware Orchestration**: Intelligent model selection based on problem type and complexity
@@ -62,7 +62,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **All Agents**: Enhanced with three-layer intelligence capabilities (7 remaining agents planned for future releases)
 
 ### 🗂️ Enhanced Shared Intelligence Frameworks
-- **`/agents/shared/mcp-orchestration.md`**: Revolutionary three-layer intelligence orchestration patterns with 16-tool Zen workflows
+- **`/agents/shared/mcp-orchestration.md`**: Revolutionary three-layer intelligence orchestration patterns with 16-tool Analysis workflows
 - **`/agents/shared/trigger-patterns.md`**: Enhanced sophisticated trigger patterns for advanced reasoning activation
 - **`/global/CLAUDE.md`**: Enhanced with comprehensive three-layer intelligence architecture guidelines
 
@@ -148,7 +148,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### 🚀 Major Enhancement - Systematic MCP Orchestration
 - **Sequential Thinking Integration**: Automatic activation for complex problems (≥3 steps)
-- **Zen MCP Orchestration**: Systematic workflows combining multiple Zen tools
+- **Analysis MCP Orchestration**: Systematic workflows combining multiple Analysis tools
 - **Multi-Model Consensus**: Critical decisions validated by multiple AI models
 - **Automated Trigger Patterns**: Complexity-based activation thresholds
 - **Cascading Workflows**: Orchestrated sequences (debug → analyze → refactor → consensus)
@@ -162,15 +162,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### 🤖 Agent Intelligence Upgrades
 - **All 9 Agents**: Mandatory integration with shared frameworks (DRY + MCP Orchestration + Trigger Patterns)
 - **Sequential Thinking**: Automatic problem decomposition for debugging, optimization, architecture
-- **Zen MCP Tools**: Comprehensive tool coverage including zen_debug, zen_secaudit, zen_consensus, zen_planner, zen_tracer
+- **Analysis MCP Tools**: Comprehensive tool coverage including analysis_debug, analysis_secaudit, analysis_consensus, analysis_planner, analysis_tracer
 - **Workflow Automation**: Context-aware model selection and failure handling patterns
 - **Quality Metrics**: Workflow effectiveness tracking and continuous improvement
 
 ### 🔧 Enhanced Agent Capabilities
-- **architect**: Enhanced architectural reasoning with zen_consensus and sequential planning
+- **architect**: Enhanced architectural reasoning with analysis_consensus and sequential planning
 - **backend-developer**: Systematic debugging workflows and performance optimization cascades
 - **quality-specialist**: Orchestrated security auditing and performance analysis workflows
-- **All Agents**: Expanded Zen tool coverage, automated trigger evaluation, workflow orchestration
+- **All Agents**: Expanded Analysis tool coverage, automated trigger evaluation, workflow orchestration
 
 ### 📊 Advanced Features
 - **Complexity Detection**: Automatic assessment of task complexity against trigger thresholds
@@ -214,7 +214,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### ✨ Major Enhancement - Full MCP Integration
 - **SERENA MCP**: All agents now use semantic code intelligence for navigation and refactoring
-- **ZEN MCP**: Integrated advanced AI analysis tools (thinkdeep, consensus, refactor, debug, etc.)
+- **ANALYSIS MCP**: Integrated advanced AI analysis tools (thinkdeep, consensus, refactor, debug, etc.)
 - **TIDEWAVE MCP**: Backend and test agents leverage Elixir-specific testing and code generation
 - **SPECIALIZED MCPs**: Each agent uses domain-specific MCPs for enhanced capabilities
   - Figma MCP for frontend design integration
@@ -227,7 +227,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Minimax MCP for media generation when needed
 
 ### 🚀 Agent Enhancements
-- **architect**: Now uses Zen MCP for deep architectural analysis and consensus building
+- **architect**: Now uses Analysis MCP for deep architectural analysis and consensus building
 - **backend-developer**: Integrated Tidewave MCP for Elixir test generation and scaffolding
 - **frontend-developer**: Leverages Figma MCP for design sync and Browser MCP for testing
 - **data-engineer**: Enhanced with semantic code analysis and query optimization MCPs

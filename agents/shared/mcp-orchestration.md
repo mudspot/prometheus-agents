@@ -10,7 +10,7 @@
 - Project memory for persistent knowledge (`write_memory`, `read_memory`)
 - Precise code targeting and context extraction (`read_file` with targeted analysis)
 
-**LAYER 2: ZEN AI-POWERED ANALYSIS (16 Sophisticated Tools)**
+**LAYER 2: ANALYSIS MCP SUITE (16 Sophisticated Tools)**
 - **Deep Analysis Suite**: `thinkdeep` (multi-stage investigation), `analyze` (comprehensive), `debug` (root cause), `refactor` (optimization opportunities)
 - **Collaborative Intelligence**: `consensus` (multi-model validation), `planner` (interactive planning), `chat` (thinking partner)
 - **Quality & Security**: `codereview` (systematic), `precommit` (validation), `secaudit` (OWASP comprehensive), `testgen` (comprehensive tests)
@@ -33,7 +33,7 @@ automatic_activation_rules:
     - analysis_depth: "Multi-layer investigation required"
     - stakeholder_impact: ">= 3 affected systems/teams"
     
-  zen_mcp_triggers:
+  analysis_mcp_triggers:
     - code_quality_issues: ">= 2 categories (security, performance, etc.)"
     - architectural_changes: "System-wide impact"
     - security_concerns: "Any OWASP Top 10 category"
@@ -51,71 +51,71 @@ automatic_activation_rules:
 **SEMANTIC-FIRST INTELLIGENCE CASCADES:**
 ```yaml
 advanced_debugging_cascade:
-  pattern: "Serena(code context) → Zen thinkdeep(multi-hypothesis) → Sequential Thinking(reasoning) → Zen consensus(validation) → Zen challenge(assumption testing)"
+  pattern: "Serena(code context) → Analysis thinkdeep(multi-hypothesis) → Sequential Thinking(reasoning) → Analysis consensus(validation) → Analysis challenge(assumption testing)"
   layers:
     - "Serena: find_symbol + find_referencing_symbols for precise context"
-    - "Zen thinkdeep: Multi-stage investigation with hypothesis testing"  
+    - "Analysis thinkdeep: Multi-stage investigation with hypothesis testing"  
     - "Sequential Thinking: Complex problem decomposition"
-    - "Zen consensus: Multi-model validation (gemini-2.5-pro + o3 + opus)"
-    - "Zen challenge: Critical assumption validation"
+    - "Analysis consensus: Multi-model validation (gemini-2.5-pro + o3 + opus)"
+    - "Analysis challenge: Critical assumption validation"
   use_cases:
     - Complex multi-component bugs
     - Mysterious performance issues
     - Integration failure investigations
     
 architectural_decision_cascade:
-  pattern: "Sequential Thinking(decomposition) → Serena(pattern analysis) → Zen analyze(comprehensive) → Zen consensus(architecture validation) → Zen planner(roadmap) → Zen challenge(design validation)"
+  pattern: "Sequential Thinking(decomposition) → Serena(pattern analysis) → Analysis analyze(comprehensive) → Analysis consensus(architecture validation) → Analysis planner(roadmap) → Analysis challenge(design validation)"
   layers:
     - "Sequential Thinking: Problem decomposition and requirement analysis"
     - "Serena: get_symbols_overview + search_for_pattern for existing patterns"
-    - "Zen analyze: Comprehensive architectural assessment"
-    - "Zen consensus: Multi-model architecture validation (gemini-2.5-pro + opus + o3)"
-    - "Zen planner: Implementation roadmap with branching scenarios"
-    - "Zen challenge: Design assumption and constraint validation"
+    - "Analysis analyze: Comprehensive architectural assessment"
+    - "Analysis consensus: Multi-model architecture validation (gemini-2.5-pro + opus + o3)"
+    - "Analysis planner: Implementation roadmap with branching scenarios"
+    - "Analysis challenge: Design assumption and constraint validation"
   use_cases:
     - System architecture decisions
     - Technology selection with long-term impact
     - Microservices boundary definitions
     
 security_hardening_cascade:
-  pattern: "Serena(security mapping) → Zen secaudit(OWASP analysis) → Sequential Thinking(threat prioritization) → Zen consensus(strategy) → Zen tracer(attack vectors) → Zen testgen(security tests)"
+  pattern: "Serena(security mapping) → Analysis secaudit(OWASP analysis) → Sequential Thinking(threat prioritization) → Analysis consensus(strategy) → Analysis tracer(attack vectors) → Analysis testgen(security tests)"
   layers:
     - "Serena: search_for_pattern for security-sensitive code sections"
-    - "Zen secaudit: Comprehensive OWASP Top 10 analysis"
+    - "Analysis secaudit: Comprehensive OWASP Top 10 analysis"
     - "Sequential Thinking: Threat prioritization and impact analysis"
-    - "Zen consensus: Security strategy validation (opus + o3 + gemini)"
-    - "Zen tracer: Attack vector and execution flow analysis"  
-    - "Zen testgen: Security validation test generation"
+    - "Analysis consensus: Security strategy validation (opus + o3 + gemini)"
+    - "Analysis tracer: Attack vector and execution flow analysis"  
+    - "Analysis testgen: Security validation test generation"
   use_cases:
     - Security vulnerability remediation
     - Compliance requirement implementation
     - Security architecture hardening
     
 performance_optimization_cascade:
-  pattern: "Serena(bottleneck identification) → Zen analyze(profiling) → Zen tracer(execution flow) → Sequential Thinking(optimization strategy) → Zen refactor(improvements) → Zen consensus(validation) → Zen testgen(regression prevention)"
+  pattern: "Serena(bottleneck identification) → Analysis analyze(profiling) → Analysis tracer(execution flow) → Sequential Thinking(optimization strategy) → Analysis refactor(improvements) → Analysis consensus(validation) → Analysis testgen(regression prevention)"
   layers:
     - "Serena: find_symbol + search_for_pattern for performance-critical code"
-    - "Zen analyze: Comprehensive performance profiling and bottleneck analysis"
-    - "Zen tracer: Execution flow analysis and dependency mapping"
+    - "Analysis analyze: Comprehensive performance profiling and bottleneck analysis"
+    - "Analysis tracer: Execution flow analysis and dependency mapping"
     - "Sequential Thinking: Multi-faceted optimization strategy development"
-    - "Zen refactor: Code improvement opportunity identification"
-    - "Zen consensus: Optimization approach validation (o3 + flash + opus)"
-    - "Zen testgen: Performance regression prevention tests"
+    - "Analysis refactor: Code improvement opportunity identification"
+    - "Analysis consensus: Optimization approach validation (o3 + flash + opus)"
+    - "Analysis testgen: Performance regression prevention tests"
   use_cases:
     - Response time optimization
     - Memory usage reduction
     - Database query optimization
     
 code_quality_excellence_cascade:
-  pattern: "Serena(code analysis) → Zen codereview(systematic quality) → Zen refactor(improvements) → Sequential Thinking(quality planning) → Zen consensus(strategy validation) → Zen docgen(documentation) → Zen testgen(quality tests)"
+  pattern: "Serena(code analysis) → Analysis codereview(systematic quality) → Analysis refactor(improvements) → Sequential Thinking(quality planning) → Analysis consensus(strategy validation) → Analysis docgen(documentation) → Analysis testgen(quality tests)"
   layers:
     - "Serena: get_symbols_overview + find_symbol for comprehensive code understanding"
-    - "Zen codereview: Systematic quality analysis (security, performance, maintainability)"
-    - "Zen refactor: Code smell identification and improvement opportunities"
+    - "Analysis codereview: Systematic quality analysis (security, performance, maintainability)"
+    - "Analysis refactor: Code smell identification and improvement opportunities"
     - "Sequential Thinking: Quality improvement planning and prioritization"
-    - "Zen consensus: Quality strategy validation (flash + o3 + opus)"
-    - "Zen docgen: Comprehensive documentation generation with complexity analysis"
-    - "Zen testgen: Quality assurance test generation"
+    - "Analysis consensus: Quality strategy validation (flash + o3 + opus)"
+    - "Analysis docgen: Comprehensive documentation generation with complexity analysis"
+    - "Analysis testgen: Quality assurance test generation"
   use_cases:
     - Code quality audits
     - Technical debt reduction
@@ -135,10 +135,10 @@ def architect_enhanced_workflow(complexity_level) do
         serena_map_system_boundaries(),
         # LAYER 2: AI-Powered Analysis
         sequential_thinking(:architectural_problem_decomposition),
-        zen_analyze(:comprehensive_architecture_analysis),
-        zen_consensus([:gemini_2_5_pro, :opus, :o3], :architecture_validation),
-        zen_planner(:implementation_roadmap_with_branching),
-        zen_challenge(:architecture_assumption_validation),
+        analysis_analyze(:comprehensive_architecture_analysis),
+        analysis_consensus([:gemini_2_5_pro, :opus, :o3], :architecture_validation),
+        analysis_planner(:implementation_roadmap_with_branching),
+        analysis_challenge(:architecture_assumption_validation),
         # LAYER 3: Complex Reasoning Integration
         sequential_thinking(:implementation_strategy_synthesis)
       ]
@@ -149,12 +149,12 @@ def architect_enhanced_workflow(complexity_level) do
         serena_map_security_sensitive_components(),
         serena_analyze_attack_surface(),
         # LAYER 2: Security Intelligence
-        zen_secaudit(:comprehensive_owasp_analysis),
+        analysis_secaudit(:comprehensive_owasp_analysis),
         sequential_thinking(:threat_modeling_and_prioritization), 
-        zen_tracer(:attack_vector_analysis),
-        zen_consensus([:opus, :o3, :gemini], :security_architecture_validation),
-        zen_planner(:security_implementation_roadmap),
-        zen_challenge(:security_assumption_testing)
+        analysis_tracer(:attack_vector_analysis),
+        analysis_consensus([:opus, :o3, :gemini], :security_architecture_validation),
+        analysis_planner(:security_implementation_roadmap),
+        analysis_challenge(:security_assumption_testing)
       ]
       
     :performance_architecture ->
@@ -163,12 +163,12 @@ def architect_enhanced_workflow(complexity_level) do
         serena_identify_performance_critical_paths(),
         serena_map_data_flow_bottlenecks(),
         # LAYER 2: Performance Intelligence  
-        zen_analyze(:performance_architecture_assessment),
-        zen_tracer(:execution_flow_bottleneck_analysis),
+        analysis_analyze(:performance_architecture_assessment),
+        analysis_tracer(:execution_flow_bottleneck_analysis),
         sequential_thinking(:optimization_strategy_development),
-        zen_refactor(:architecture_performance_improvements),
-        zen_consensus([:o3, :flash, :opus], :performance_validation),
-        zen_testgen(:performance_validation_tests)
+        analysis_refactor(:architecture_performance_improvements),
+        analysis_consensus([:o3, :flash, :opus], :performance_validation),
+        analysis_testgen(:performance_validation_tests)
       ]
       
     :complex_integration ->
@@ -177,12 +177,12 @@ def architect_enhanced_workflow(complexity_level) do
         serena_map_integration_points(),
         serena_analyze_dependency_chains(),
         # LAYER 2: Integration Intelligence
-        zen_analyze(:integration_complexity_assessment),
+        analysis_analyze(:integration_complexity_assessment),
         sequential_thinking(:integration_strategy_decomposition),
-        zen_tracer(:integration_flow_analysis),
-        zen_consensus([:gemini_2_5_pro, :o3], :integration_validation),
-        zen_planner(:integration_implementation_strategy),
-        zen_challenge(:integration_assumption_validation),
+        analysis_tracer(:integration_flow_analysis),
+        analysis_consensus([:gemini_2_5_pro, :o3], :integration_validation),
+        analysis_planner(:integration_implementation_strategy),
+        analysis_challenge(:integration_assumption_validation),
         # LAYER 3: Synthesis
         sequential_thinking(:comprehensive_integration_planning)
       ]
@@ -202,14 +202,14 @@ def backend_enhanced_workflow(issue_type) do
         serena_map_execution_dependencies(),
         serena_analyze_error_propagation_paths(),
         # LAYER 2: AI-Powered Investigation
-        zen_debug(:systematic_root_cause_analysis),
-        zen_thinkdeep(:multi_hypothesis_investigation),
+        analysis_debug(:systematic_root_cause_analysis),
+        analysis_thinkdeep(:multi_hypothesis_investigation),
         sequential_thinking(:hypothesis_testing_and_validation),
-        zen_tracer(:execution_flow_analysis),
-        zen_consensus([:gemini_2_5_pro, :o3, :flash], :solution_validation),
-        zen_challenge(:solution_assumption_testing),
+        analysis_tracer(:execution_flow_analysis),
+        analysis_consensus([:gemini_2_5_pro, :o3, :flash], :solution_validation),
+        analysis_challenge(:solution_assumption_testing),
         # LAYER 3: Solution Synthesis
-        zen_testgen(:comprehensive_regression_prevention)
+        analysis_testgen(:comprehensive_regression_prevention)
       ]
       
     :performance_optimization ->
@@ -219,12 +219,12 @@ def backend_enhanced_workflow(issue_type) do
         serena_map_critical_execution_paths(),
         serena_analyze_database_interaction_patterns(),
         # LAYER 2: Performance Intelligence
-        zen_analyze(:comprehensive_performance_profiling),
-        zen_tracer(:execution_bottleneck_identification),
+        analysis_analyze(:comprehensive_performance_profiling),
+        analysis_tracer(:execution_bottleneck_identification),
         sequential_thinking(:multi_layer_optimization_strategy),
-        zen_refactor(:performance_improvement_opportunities),
-        zen_consensus([:o3, :flash, :opus], :optimization_validation),
-        zen_testgen(:performance_regression_tests)
+        analysis_refactor(:performance_improvement_opportunities),
+        analysis_consensus([:o3, :flash, :opus], :optimization_validation),
+        analysis_testgen(:performance_regression_tests)
       ]
       
     :security_hardening ->
@@ -234,13 +234,13 @@ def backend_enhanced_workflow(issue_type) do
         serena_analyze_input_validation_patterns(),
         serena_trace_authentication_flows(),
         # LAYER 2: Security Intelligence
-        zen_secaudit(:comprehensive_vulnerability_assessment),
+        analysis_secaudit(:comprehensive_vulnerability_assessment),
         sequential_thinking(:threat_prioritization_and_remediation_planning),
-        zen_tracer(:attack_surface_analysis),
-        zen_consensus([:opus, :o3, :gemini], :security_strategy_validation),
-        zen_refactor(:security_improvement_recommendations),
-        zen_testgen(:comprehensive_security_tests),
-        zen_challenge(:security_assumption_validation)
+        analysis_tracer(:attack_surface_analysis),
+        analysis_consensus([:opus, :o3, :gemini], :security_strategy_validation),
+        analysis_refactor(:security_improvement_recommendations),
+        analysis_testgen(:comprehensive_security_tests),
+        analysis_challenge(:security_assumption_validation)
       ]
       
     :ash_framework_optimization ->
@@ -250,11 +250,11 @@ def backend_enhanced_workflow(issue_type) do
         serena_map_ash_policy_patterns(),
         serena_identify_ecto_to_ash_conversion_opportunities(),
         # LAYER 2: Ash Intelligence
-        zen_analyze(:ash_pattern_optimization_analysis),
+        analysis_analyze(:ash_pattern_optimization_analysis),
         sequential_thinking(:ash_migration_strategy_development),
-        zen_refactor(:ecto_to_ash_conversion_planning),
-        zen_consensus([:flash, :o3], :ash_implementation_validation),
-        zen_testgen(:ash_comprehensive_tests)
+        analysis_refactor(:ecto_to_ash_conversion_planning),
+        analysis_consensus([:flash, :o3], :ash_implementation_validation),
+        analysis_testgen(:ash_comprehensive_tests)
       ]
   end
   |> execute_enhanced_backend_workflow()
@@ -272,17 +272,17 @@ def quality_enhanced_workflow(assessment_scope) do
         serena_identify_quality_critical_components(),
         serena_analyze_technical_debt_patterns(),
         # LAYER 2: Multi-Dimensional Quality Intelligence
-        zen_secaudit(:comprehensive_owasp_security_analysis),
-        zen_analyze(:performance_and_scalability_assessment),
-        zen_codereview(:systematic_code_quality_analysis),
-        zen_refactor(:comprehensive_improvement_opportunities),
+        analysis_secaudit(:comprehensive_owasp_security_analysis),
+        analysis_analyze(:performance_and_scalability_assessment),
+        analysis_codereview(:systematic_code_quality_analysis),
+        analysis_refactor(:comprehensive_improvement_opportunities),
         sequential_thinking(:multi_dimensional_quality_improvement_prioritization),
-        zen_consensus([:o3, :opus, :gemini_2_5_pro], :holistic_quality_validation),
-        zen_planner(:comprehensive_quality_improvement_roadmap),
-        zen_challenge(:quality_assumption_and_standard_validation),
+        analysis_consensus([:o3, :opus, :gemini_2_5_pro], :holistic_quality_validation),
+        analysis_planner(:comprehensive_quality_improvement_roadmap),
+        analysis_challenge(:quality_assumption_and_standard_validation),
         # LAYER 3: Excellence Synthesis
-        zen_testgen(:comprehensive_quality_validation_tests),
-        zen_docgen(:quality_documentation_generation)
+        analysis_testgen(:comprehensive_quality_validation_tests),
+        analysis_docgen(:quality_documentation_generation)
       ]
       
     :security_excellence_focus ->
@@ -292,14 +292,14 @@ def quality_enhanced_workflow(assessment_scope) do
         serena_analyze_authentication_and_authorization_patterns(),
         serena_identify_data_flow_security_points(),
         # LAYER 2: Advanced Security Intelligence
-        zen_secaudit(:comprehensive_owasp_top_10_analysis),
-        zen_tracer(:attack_vector_and_exploitation_analysis),
-        zen_thinkdeep(:multi_threat_security_investigation),
+        analysis_secaudit(:comprehensive_owasp_top_10_analysis),
+        analysis_tracer(:attack_vector_and_exploitation_analysis),
+        analysis_thinkdeep(:multi_threat_security_investigation),
         sequential_thinking(:comprehensive_threat_modeling_and_prioritization),
-        zen_consensus([:opus, :o3, :gemini], :security_excellence_validation),
-        zen_refactor(:security_hardening_recommendations),
-        zen_testgen(:comprehensive_security_validation_tests),
-        zen_challenge(:security_assumption_and_compliance_validation)
+        analysis_consensus([:opus, :o3, :gemini], :security_excellence_validation),
+        analysis_refactor(:security_hardening_recommendations),
+        analysis_testgen(:comprehensive_security_validation_tests),
+        analysis_challenge(:security_assumption_and_compliance_validation)
       ]
       
     :performance_excellence_focus ->
@@ -309,14 +309,14 @@ def quality_enhanced_workflow(assessment_scope) do
         serena_analyze_database_and_query_patterns(),
         serena_identify_memory_and_cpu_intensive_components(),
         # LAYER 2: Advanced Performance Intelligence
-        zen_analyze(:comprehensive_performance_profiling_and_bottleneck_analysis),
-        zen_tracer(:execution_flow_and_dependency_performance_analysis),
-        zen_thinkdeep(:multi_layer_performance_investigation),
+        analysis_analyze(:comprehensive_performance_profiling_and_bottleneck_analysis),
+        analysis_tracer(:execution_flow_and_dependency_performance_analysis),
+        analysis_thinkdeep(:multi_layer_performance_investigation),
         sequential_thinking(:comprehensive_optimization_strategy_development),
-        zen_refactor(:performance_optimization_opportunities),
-        zen_consensus([:o3, :flash, :opus], :performance_excellence_validation),
-        zen_testgen(:performance_regression_and_load_tests),
-        zen_challenge(:performance_target_and_constraint_validation)
+        analysis_refactor(:performance_optimization_opportunities),
+        analysis_consensus([:o3, :flash, :opus], :performance_excellence_validation),
+        analysis_testgen(:performance_regression_and_load_tests),
+        analysis_challenge(:performance_target_and_constraint_validation)
       ]
   end
   |> execute_enhanced_quality_workflow()
@@ -330,29 +330,29 @@ end
 feature_development_coordination:
   participants: [architect, backend-developer, frontend-developer, test-engineer]
   workflow:
-    1. architect: zen_planner(feature_architecture) + sequential_thinking(design_breakdown)
-    2. backend-developer: zen_analyze(implementation_patterns) + zen_debug(potential_issues)
-    3. frontend-developer: zen_analyze(ui_patterns) + sequential_thinking(user_flow)
-    4. test-engineer: zen_testgen(comprehensive_tests) + zen_consensus(testing_strategy)
-    5. ALL: zen_consensus(final_validation)
+    1. architect: analysis_planner(feature_architecture) + sequential_thinking(design_breakdown)
+    2. backend-developer: analysis_analyze(implementation_patterns) + analysis_debug(potential_issues)
+    3. frontend-developer: analysis_analyze(ui_patterns) + sequential_thinking(user_flow)
+    4. test-engineer: analysis_testgen(comprehensive_tests) + analysis_consensus(testing_strategy)
+    5. ALL: analysis_consensus(final_validation)
 
 security_hardening_coordination:
   participants: [quality-specialist, architect, backend-developer, devops-engineer]
   workflow:
-    1. quality-specialist: zen_secaudit(comprehensive_analysis) + sequential_thinking(threat_prioritization)
-    2. architect: zen_consensus(security_architecture_validation) + zen_planner(security_roadmap)
-    3. backend-developer: zen_refactor(security_improvements) + zen_testgen(security_tests)
-    4. devops-engineer: zen_analyze(infrastructure_security) + zen_consensus(deployment_security)
-    5. ALL: zen_consensus(security_validation)
+    1. quality-specialist: analysis_secaudit(comprehensive_analysis) + sequential_thinking(threat_prioritization)
+    2. architect: analysis_consensus(security_architecture_validation) + analysis_planner(security_roadmap)
+    3. backend-developer: analysis_refactor(security_improvements) + analysis_testgen(security_tests)
+    4. devops-engineer: analysis_analyze(infrastructure_security) + analysis_consensus(deployment_security)
+    5. ALL: analysis_consensus(security_validation)
 
 performance_optimization_coordination:
   participants: [quality-specialist, backend-developer, data-engineer, devops-engineer]
   workflow:
-    1. quality-specialist: zen_analyze(performance_baseline) + sequential_thinking(optimization_strategy)
-    2. backend-developer: zen_refactor(code_optimization) + zen_tracer(execution_analysis)
-    3. data-engineer: zen_analyze(database_optimization) + zen_consensus(query_optimization)
-    4. devops-engineer: zen_analyze(infrastructure_optimization) + zen_planner(scaling_strategy)
-    5. ALL: zen_consensus(performance_validation)
+    1. quality-specialist: analysis_analyze(performance_baseline) + sequential_thinking(optimization_strategy)
+    2. backend-developer: analysis_refactor(code_optimization) + analysis_tracer(execution_analysis)
+    3. data-engineer: analysis_analyze(database_optimization) + analysis_consensus(query_optimization)
+    4. devops-engineer: analysis_analyze(infrastructure_optimization) + analysis_planner(scaling_strategy)
+    5. ALL: analysis_consensus(performance_validation)
 ```
 
 ### 5. Advanced Intelligent Model Selection with 28 Models
@@ -425,7 +425,7 @@ adaptive_selection_intelligence:
 fallback_strategies:
   mcp_unavailable:
     sequential_thinking_fallback: "Use manual step-by-step analysis"
-    zen_mcp_fallback: "Use direct Claude analysis with structured approach"
+    analysis_mcp_fallback: "Use direct Claude analysis with structured approach"
     consensus_fallback: "Use single-model analysis with assumption validation"
     
   model_unavailable:
@@ -471,13 +471,13 @@ def phoenix_daisyui_workflow(integration_type) do
         serena_map_daisyui_component_dependencies(),
         
         # LAYER 2: AI-Powered Integration Analysis
-        zen_analyze(:liveview_stream_optimization_patterns),
+        analysis_analyze(:liveview_stream_optimization_patterns),
         sequential_thinking(:real_time_ui_state_management_strategy),
-        zen_consensus([:gemini_2_5_flash, :o3], :component_architecture_validation),
+        analysis_consensus([:gemini_2_5_flash, :o3], :component_architecture_validation),
         
         # LAYER 3: Implementation Synthesis
-        zen_codereview(:phoenix_daisyui_best_practices),
-        zen_testgen(:liveview_component_tests)
+        analysis_codereview(:phoenix_daisyui_best_practices),
+        analysis_testgen(:liveview_component_tests)
       ]
       
     :modern_navigation_patterns ->
@@ -487,10 +487,10 @@ def phoenix_daisyui_workflow(integration_type) do
         serena_analyze_daisyui_navigation_components(),
         
         # LAYER 2: Navigation Intelligence
-        zen_refactor(:legacy_navigation_modernization),
+        analysis_refactor(:legacy_navigation_modernization),
         sequential_thinking(:navigation_ux_optimization_strategy),
-        zen_consensus([:flash, :o3], :navigation_pattern_validation),
-        zen_testgen(:navigation_integration_tests)
+        analysis_consensus([:flash, :o3], :navigation_pattern_validation),
+        analysis_testgen(:navigation_integration_tests)
       ]
       
     :theme_system_integration ->
@@ -500,10 +500,10 @@ def phoenix_daisyui_workflow(integration_type) do
         serena_map_daisyui_theme_dependencies(),
         
         # LAYER 2: Theme Intelligence
-        zen_analyze(:comprehensive_theming_strategy),
+        analysis_analyze(:comprehensive_theming_strategy),
         sequential_thinking(:dark_light_mode_implementation_planning),
-        zen_consensus([:gemini_2_5_flash, :o3], :theme_architecture_validation),
-        zen_docgen(:theme_system_documentation)
+        analysis_consensus([:gemini_2_5_flash, :o3], :theme_architecture_validation),
+        analysis_docgen(:theme_system_documentation)
       ]
   end
   |> execute_phoenix_daisyui_integration()
@@ -634,36 +634,36 @@ end
 ```yaml
 daisyui_component_intelligence_cascades:
   component_selection_and_optimization:
-    pattern: "Serena(component mapping) → Zen analyze(UI patterns) → Sequential Thinking(UX strategy) → Zen consensus(design validation)"
+    pattern: "Serena(component mapping) → Analysis analyze(UI patterns) → Sequential Thinking(UX strategy) → Analysis consensus(design validation)"
     layers:
       - "Serena: search_for_pattern for existing component usage patterns"
-      - "Zen analyze: Comprehensive UI/UX component analysis and accessibility assessment"
+      - "Analysis analyze: Comprehensive UI/UX component analysis and accessibility assessment"
       - "Sequential Thinking: Multi-faceted user experience optimization strategy"
-      - "Zen consensus: Design system validation (flash + o3 + gemini)"
+      - "Analysis consensus: Design system validation (flash + o3 + gemini)"
     use_cases:
       - Component library standardization
       - UI consistency enforcement
       - Accessibility compliance verification
       
   theme_system_orchestration:
-    pattern: "Serena(theme architecture) → Zen refactor(CSS optimization) → Sequential Thinking(theming strategy) → Zen consensus(theme validation)"
+    pattern: "Serena(theme architecture) → Analysis refactor(CSS optimization) → Sequential Thinking(theming strategy) → Analysis consensus(theme validation)"
     layers:
       - "Serena: get_symbols_overview for CSS architecture and theme dependencies"
-      - "Zen refactor: CSS architecture improvements and DaisyUI theme optimization"
+      - "Analysis refactor: CSS architecture improvements and DaisyUI theme optimization"
       - "Sequential Thinking: Comprehensive theming strategy development (dark/light modes, custom themes)"
-      - "Zen consensus: Theme system validation (gemini-2.5-flash + o3)"
+      - "Analysis consensus: Theme system validation (gemini-2.5-flash + o3)"
     use_cases:
       - Dark/light mode implementation
       - Custom theme creation
       - Brand consistency enforcement
       
   responsive_design_orchestration:
-    pattern: "Serena(responsive patterns) → Zen analyze(mobile-first assessment) → Sequential Thinking(responsive strategy) → Zen testgen(cross-device tests)"
+    pattern: "Serena(responsive patterns) → Analysis analyze(mobile-first assessment) → Sequential Thinking(responsive strategy) → Analysis testgen(cross-device tests)"
     layers:
       - "Serena: search_for_pattern for responsive design implementations"
-      - "Zen analyze: Comprehensive responsive design and mobile-first analysis"
+      - "Analysis analyze: Comprehensive responsive design and mobile-first analysis"
       - "Sequential Thinking: Multi-device user experience optimization"
-      - "Zen testgen: Cross-device and responsive design validation tests"
+      - "Analysis testgen: Cross-device and responsive design validation tests"
     use_cases:
       - Mobile-first responsive implementation
       - Cross-device consistency validation
@@ -698,7 +698,7 @@ daisyui_component_intelligence_cascades:
 def verify_mcp_orchestration do
   %{
     sequential_thinking: check_automatic_activation(),
-    zen_mcp: verify_tool_integration(),
+    analysis_mcp: verify_tool_integration(),
     consensus: validate_multi_model_workflows(),
     orchestration: test_workflow_cascades(),
     monitoring: verify_metrics_collection(),

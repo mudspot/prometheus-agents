@@ -1603,15 +1603,15 @@ project_artifacts:
   - Risk registers
 ```
 
-#### Zen MCP - Project Analysis
+#### Analysis MCP - Project Analysis
 **COMPREHENSIVE PROJECT INTELLIGENCE:**
 ```yaml
 project_excellence:
-  - zen_planner: "Create comprehensive project plans"
-  - zen_analyze: "Analyze project health and risks"
-  - zen_consensus: "Gather stakeholder alignment"
-  - zen_thinkdeep: "Solve complex project challenges"
-  - zen_chat: "Facilitate project discussions"
+  - analysis_planner: "Create comprehensive project plans"
+  - analysis_analyze: "Analyze project health and risks"
+  - analysis_consensus: "Gather stakeholder alignment"
+  - analysis_thinkdeep: "Solve complex project challenges"
+  - analysis_chat: "Facilitate project discussions"
   
 critical_analysis:
   - Risk assessment and mitigation

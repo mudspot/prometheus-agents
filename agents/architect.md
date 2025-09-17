@@ -304,7 +304,7 @@ semantic_architectural_analysis:
     - replace_symbol_body: "Refactor architectural components with semantic precision"
 ```
 
-#### LAYER 2: ZEN AI-POWERED ANALYSIS (16 Sophisticated Tools)
+#### LAYER 2: ANALYSIS MCP SUITE (16 Sophisticated Tools)
 **COMPREHENSIVE ARCHITECTURAL INTELLIGENCE:**
 ```elixir
 def architect_enhanced_workflow(complexity_level) do
@@ -312,72 +312,72 @@ def architect_enhanced_workflow(complexity_level) do
     :system_wide_architecture ->
       [
         # Deep Analysis Suite
-        zen_analyze(:comprehensive_architecture_analysis),
-        zen_thinkdeep(:multi_stage_architectural_investigation),
-        zen_refactor(:architecture_improvement_opportunities),
+        analysis_analyze(:comprehensive_architecture_analysis),
+        analysis_thinkdeep(:multi_stage_architectural_investigation),
+        analysis_refactor(:architecture_improvement_opportunities),
         
         # Collaborative Intelligence  
-        zen_consensus([:gemini_2_5_pro, :opus, :o3], :architecture_validation),
-        zen_planner(:implementation_roadmap_with_branching),
-        zen_chat(:architectural_thinking_partner),
+        analysis_consensus([:gemini_2_5_pro, :opus, :o3], :architecture_validation),
+        analysis_planner(:implementation_roadmap_with_branching),
+        analysis_chat(:architectural_thinking_partner),
         
         # Quality & Security
-        zen_codereview(:architectural_quality_analysis),
-        zen_secaudit(:security_architecture_assessment),
-        zen_testgen(:architectural_validation_tests),
+        analysis_codereview(:architectural_quality_analysis),
+        analysis_secaudit(:security_architecture_assessment),
+        analysis_testgen(:architectural_validation_tests),
         
         # Code Intelligence
-        zen_tracer(:system_dependency_mapping),
-        zen_docgen(:architectural_documentation_generation),
+        analysis_tracer(:system_dependency_mapping),
+        analysis_docgen(:architectural_documentation_generation),
         
         # Advanced Reasoning
-        zen_challenge(:architecture_assumption_validation),
+        analysis_challenge(:architecture_assumption_validation),
         sequential_thinking(:architectural_strategy_synthesis)
       ]
       
     :security_architecture ->
       [
-        zen_secaudit(:comprehensive_owasp_analysis),
-        zen_thinkdeep(:multi_threat_security_investigation), 
-        zen_tracer(:attack_vector_analysis),
+        analysis_secaudit(:comprehensive_owasp_analysis),
+        analysis_thinkdeep(:multi_threat_security_investigation), 
+        analysis_tracer(:attack_vector_analysis),
         sequential_thinking(:threat_modeling_and_prioritization),
-        zen_consensus([:opus, :o3, :gemini], :security_architecture_validation),
-        zen_planner(:security_implementation_roadmap),
-        zen_challenge(:security_assumption_testing),
-        zen_testgen(:security_validation_tests)
+        analysis_consensus([:opus, :o3, :gemini], :security_architecture_validation),
+        analysis_planner(:security_implementation_roadmap),
+        analysis_challenge(:security_assumption_testing),
+        analysis_testgen(:security_validation_tests)
       ]
       
     :performance_architecture ->
       [
-        zen_analyze(:performance_architecture_assessment),
-        zen_tracer(:execution_flow_bottleneck_analysis),
-        zen_thinkdeep(:multi_layer_performance_investigation),
+        analysis_analyze(:performance_architecture_assessment),
+        analysis_tracer(:execution_flow_bottleneck_analysis),
+        analysis_thinkdeep(:multi_layer_performance_investigation),
         sequential_thinking(:optimization_strategy_development),
-        zen_refactor(:architecture_performance_improvements),
-        zen_consensus([:o3, :flash, :opus], :performance_validation),
-        zen_testgen(:performance_validation_tests),
-        zen_challenge(:performance_constraint_validation)
+        analysis_refactor(:architecture_performance_improvements),
+        analysis_consensus([:o3, :flash, :opus], :performance_validation),
+        analysis_testgen(:performance_validation_tests),
+        analysis_challenge(:performance_constraint_validation)
       ]
   end
   |> execute_enhanced_architect_workflow()
 end
 
-# 16 Zen Tools for Architectural Excellence
+# 16 Analysis Tools for Architectural Excellence
 architectural_intelligence_suite = %{
   # Deep Analysis Suite (4 tools)
-  deep_analysis: [:zen_thinkdeep, :zen_analyze, :zen_debug, :zen_refactor],
+  deep_analysis: [:analysis_thinkdeep, :analysis_analyze, :analysis_debug, :analysis_refactor],
   
   # Collaborative Intelligence (3 tools)  
-  collaborative: [:zen_consensus, :zen_planner, :zen_chat],
+  collaborative: [:analysis_consensus, :analysis_planner, :analysis_chat],
   
   # Quality & Security (3 tools)
-  quality_security: [:zen_codereview, :zen_precommit, :zen_secaudit, :zen_testgen],
+  quality_security: [:analysis_codereview, :analysis_precommit, :analysis_secaudit, :analysis_testgen],
   
   # Code Intelligence (2 tools)
-  code_intelligence: [:zen_tracer, :zen_docgen],
+  code_intelligence: [:analysis_tracer, :analysis_docgen],
   
   # Advanced Reasoning (2 tools)
-  advanced_reasoning: [:zen_challenge, :sequential_thinking]
+  advanced_reasoning: [:analysis_challenge, :sequential_thinking]
 }
 ```
 
@@ -415,15 +415,15 @@ architectural_reasoning_workflows:
 
 **ARCHITECTURAL DECISION CASCADE:**
 ```yaml
-pattern: "Sequential Thinking(decomposition) → Serena(pattern analysis) → Zen analyze(comprehensive) → Zen consensus(architecture validation) → Zen planner(roadmap) → Zen challenge(design validation)"
+pattern: "Sequential Thinking(decomposition) → Serena(pattern analysis) → Analysis analyze(comprehensive) → Analysis consensus(architecture validation) → Analysis planner(roadmap) → Analysis challenge(design validation)"
 
 execution_flow:
   1. "Sequential Thinking: Problem decomposition and requirement analysis"
   2. "Serena: get_symbols_overview + search_for_pattern for existing patterns"
-  3. "Zen analyze: Comprehensive architectural assessment"
-  4. "Zen consensus: Multi-model architecture validation (gemini-2.5-pro + opus + o3)"
-  5. "Zen planner: Implementation roadmap with branching scenarios"
-  6. "Zen challenge: Design assumption and constraint validation"
+  3. "Analysis analyze: Comprehensive architectural assessment"
+  4. "Analysis consensus: Multi-model architecture validation (gemini-2.5-pro + opus + o3)"
+  5. "Analysis planner: Implementation roadmap with branching scenarios"
+  6. "Analysis challenge: Design assumption and constraint validation"
   
 model_selection:
   primary: "gemini-2.5-pro"  # 1M context, deep reasoning, thinking mode
@@ -433,27 +433,27 @@ model_selection:
 
 **SYSTEM-WIDE ANALYSIS CASCADE:**
 ```yaml
-pattern: "Serena(architecture mapping) → Zen thinkdeep(multi-stage investigation) → Sequential Thinking(complex reasoning) → Zen consensus(validation) → Zen challenge(assumption testing)"
+pattern: "Serena(architecture mapping) → Analysis thinkdeep(multi-stage investigation) → Sequential Thinking(complex reasoning) → Analysis consensus(validation) → Analysis challenge(assumption testing)"
 
 execution_flow:
   1. "Serena: Map system boundaries and component relationships"
-  2. "Zen thinkdeep: Multi-stage architectural investigation with hypothesis testing"
+  2. "Analysis thinkdeep: Multi-stage architectural investigation with hypothesis testing"
   3. "Sequential Thinking: Complex architectural problem decomposition"
-  4. "Zen consensus: Multi-model architectural validation"
-  5. "Zen challenge: Critical assumption validation and constraint testing"
+  4. "Analysis consensus: Multi-model architectural validation"
+  5. "Analysis challenge: Critical assumption validation and constraint testing"
 ```
     
   security_architecture_review: |
-    1. zen_secaudit for comprehensive security analysis
-    2. zen_consensus for security architecture validation
-    3. zen_planner for security hardening roadmap
-    4. zen_testgen for security validation tests
+    1. analysis_secaudit for comprehensive security analysis
+    2. analysis_consensus for security architecture validation
+    3. analysis_planner for security hardening roadmap
+    4. analysis_testgen for security validation tests
     
   performance_architecture_optimization: |
-    1. zen_tracer for system bottleneck identification
-    2. zen_analyze for performance pattern analysis
-    3. zen_refactor for optimization planning
-    4. zen_consensus for optimization strategy validation
+    1. analysis_tracer for system bottleneck identification
+    2. analysis_analyze for performance pattern analysis
+    3. analysis_refactor for optimization planning
+    4. analysis_consensus for optimization strategy validation
 ```
 
 ### Supporting MCPs

@@ -50,7 +50,7 @@ Many agents are too specific for their role:
 - Innovation and creative problem-solving
 - Risk assessment and feasibility analysis
 - Architectural decision records (ADRs)
-- Zen MCP tool integration for deep analysis
+- Analysis MCP suite integration for deep analysis
 
 #### 2. **backend-developer** (Merges: elixir-developer, general backend patterns)
 **Role**: Backend development across technologies with Elixir/Phoenix focus

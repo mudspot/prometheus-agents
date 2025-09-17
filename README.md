@@ -4,11 +4,11 @@
 
 The most AGGRESSIVE and PROACTIVE AI agent system ever created for software development. After a revolutionary consolidation from 23 agents to 9 elite agents (61% reduction), each agent now automatically detects problems and implements comprehensive solutions WITHOUT asking permission.
 
-**NEW IN v1.1.0**: Full MCP (Model Context Protocol) integration! All agents now leverage Serena for semantic code intelligence, Zen for advanced AI analysis, Tidewave for Elixir testing, and specialized MCPs for their domains.
+**NEW IN v1.1.0**: Full MCP (Model Context Protocol) integration! All agents now leverage Serena for semantic code intelligence, an analysis MCP suite for advanced AI insights, Tidewave for Elixir testing, and specialized MCPs for their domains.
 
 **NEW IN v1.1.1**: DRY (Don't Repeat Yourself) principle enforcement! All agents now follow strict DRY principles during code execution, with shared patterns library and systematic reuse of existing code.
 
-**NEW IN v1.2.0**: Advanced Reasoning Integration! Sequential Thinking and Zen MCP now systematically activated with automated trigger patterns, orchestrated workflows, and multi-model consensus validation for complex decisions.
+**NEW IN v1.2.0**: Advanced Reasoning Integration! Sequential Thinking now systematically activates with automated trigger patterns, orchestrated workflows, and multi-model consensus validation for complex decisions.
 
 **NEW IN v1.3.0**: Template Flexibility Enhancement! All agents now support both Surface (.sface) and HEEx (.heex) templating approaches, with enhanced specialization knowledge integrated from domain experts while maintaining consistent tool and model selection.
 
@@ -16,7 +16,7 @@ The most AGGRESSIVE and PROACTIVE AI agent system ever created for software deve
 
 **NEW IN v1.3.2**: Global Instructions Integration! Added universal Claude Code instructions in `/global/CLAUDE.md` covering task delegation, git workflows, and code analysis tools. These global instructions now complement project-specific agent behaviors for unified excellence.
 
-**🚀 REVOLUTIONARY IN v1.4.0**: Three-Layer Intelligence Architecture! All agents now operate with unprecedented code intelligence through systematic orchestration of Serena (semantic code understanding), Zen (16 sophisticated AI analysis tools), and Sequential Thinking (complex reasoning). Features sophisticated intelligence cascades, multi-model consensus validation with 28+ AI models, assumption challenge workflows, and adaptive model selection for different problem types. This creates a comprehensive intelligence system with zero blind spots in code analysis.
+**🚀 REVOLUTIONARY IN v1.4.0**: Layered Intelligence Architecture! All agents now operate with unprecedented code intelligence through systematic orchestration of Serena (semantic code understanding), a dedicated analysis MCP suite, and Sequential Thinking (complex reasoning). Features sophisticated intelligence cascades, multi-model consensus validation with 28+ AI models, assumption challenge workflows, and adaptive model selection for different problem types. This creates a comprehensive intelligence system with zero blind spots in code analysis.
 
 **🚀 ENHANCED IN v1.4.1**: Phoenix 1.8 + DaisyUI Integration! Added comprehensive Phoenix 1.8 capabilities (LiveView Streams, modern navigation, verified routes, enhanced Presence) and complete DaisyUI component system expertise (30+ semantic components, theme management, accessibility features). All agents now have full expertise in modern Phoenix development with sophisticated UI component integration patterns.
 
@@ -28,7 +28,7 @@ The most AGGRESSIVE and PROACTIVE AI agent system ever created for software deve
 - **ZERO PERMISSION** - Fixes problems without asking first
 - **COMPREHENSIVE** - Goes beyond requirements to deliver excellence
 - **AUTOMATIC** - Continuous scanning and improvement
-- **🚀 THREE-LAYER INTELLIGENCE** - Serena + Zen + Sequential Thinking orchestration
+- **🚀 LAYERED INTELLIGENCE** - Serena + Sequential Thinking orchestration
 - **🚀 MULTI-MODEL CONSENSUS** - 28+ AI models validate critical decisions
 - **🚀 ASSUMPTION CHALLENGE** - Systematic validation prevents confirmation bias
 
@@ -41,7 +41,7 @@ The most AGGRESSIVE and PROACTIVE AI agent system ever created for software deve
 - **Multi-Domain Expertise** - Each agent consolidates multiple specializations
 - **Automatic Intervention** - Continuous scanning and proactive improvements
 - **Framework Mastery** - Elixir/Phoenix (Ash Framework), Flutter, React Native, SvelteKit
-- **MCP Integration** - Leverages Serena, Zen, Tidewave, Figma, Browser, Notion, and more MCPs
+- **MCP Integration** - Leverages Serena, Tidewave, Figma, Browser, Notion, and more MCPs
 - **Semantic Code Intelligence** - Understands code structure, not just text patterns
 - **Multi-Model Consensus** - Uses AI consensus for critical decisions
 - **DRY Principle Enforcement** (v1.1.1) - Systematic code reuse and pattern extraction
@@ -49,8 +49,8 @@ The most AGGRESSIVE and PROACTIVE AI agent system ever created for software deve
 - **Sequential Thinking Activation** (v1.2.0) - Automatic systematic problem decomposition
 - **Orchestrated MCP Workflows** (v1.2.0) - Cascading analysis and validation patterns
 - **Automated Trigger Patterns** (v1.2.0) - Complexity-based activation thresholds
-- **🚀 Three-Layer Intelligence** (v1.4.0) - Revolutionary Serena + Zen + Sequential Thinking architecture
-- **🚀 16-Tool Zen Orchestration** (v1.4.0) - Complete utilization of Zen's sophisticated analysis suite
+- **🚀 Layered Intelligence** (v1.4.0) - Revolutionary Serena + Sequential Thinking architecture
+- **🚀 Comprehensive Analysis Orchestration** (v1.4.0) - Full utilization of the analysis MCP suite
 - **🚀 28+ Model Consensus** (v1.4.0) - Multi-model validation for unprecedented decision quality
 - **🚀 Assumption Challenge Workflows** (v1.4.0) - Systematic validation to prevent bias and errors
 - **🚀 Semantic-First Analysis** (v1.4.0) - Always understand code context before modifications
@@ -189,7 +189,7 @@ Each agent **automatically detects and fixes problems** - no permission required
 ```
 prometheus-agents/
 ├── agents/                    # Elite 9 PROACTIVE Agents (v1.4.1 Enhanced)
-│   ├── architect.md           # Strategic vision + Serena/Zen MCP integration
+│   ├── architect.md           # Strategic vision + Serena/analysis MCP integration
 │   ├── backend-developer.md   # Elixir/Phoenix 1.8 + Tidewave MCP support
 │   ├── frontend-developer.md  # Universal UI/UX + DaisyUI + Figma/Browser MCP
 │   ├── data-engineer.md       # Data architecture + semantic MCPs
@@ -240,7 +240,7 @@ prometheus-agents/
 
 ### Core MCPs Used by All Agents
 - **Serena MCP** - Semantic code intelligence, refactoring, and project memory (write_memory/read_memory tools)
-- **Zen MCP** - Advanced AI analysis (thinkdeep, consensus, refactor, debug, etc.)
+- **Analysis MCP Suite** - Advanced AI investigation, consensus building, refactoring support, and diagnostics
 - **Context7 MCP** - Up-to-date library documentation
 - **Brave Search MCP** - Real-time web search for best practices
 
@@ -253,7 +253,7 @@ prometheus-agents/
 
 ## 📚 Documentation
 
-- **[CLAUDE.md](CLAUDE.md)** - v1.4.1 configuration with Three-Layer Intelligence + Phoenix 1.8 + DaisyUI
+- **[CLAUDE.md](CLAUDE.md)** - v1.4.1 configuration with Layered Intelligence + Phoenix 1.8 + DaisyUI
 - **[CHANGELOG.md](CHANGELOG.md)** - Version history featuring v1.4.1 Phoenix 1.8 + DaisyUI integration
 - **[docs/consolidation/](docs/consolidation/)** - Consolidation rationale and benefits
 - **Legacy docs moved** to preserve historical context of the 23-agent system

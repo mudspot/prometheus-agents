@@ -808,16 +808,16 @@ data_specific:
   - Analyze ETL pipeline code
 ```
 
-#### Zen MCP - Data Architecture Analysis
+#### Analysis MCP - Data Architecture Analysis
 **COMPREHENSIVE DATA QUALITY:**
 ```yaml
 data_excellence:
-  - zen_analyze: "Analyze data architecture and patterns"
-  - zen_refactor: "Optimize database queries and schemas"
-  - zen_debug: "Root cause analysis for data issues"
-  - zen_thinkdeep: "Complex data modeling solutions"
-  - zen_consensus: "Validate schema design decisions"
-  - zen_planner: "Plan migration strategies"
+  - analysis_analyze: "Analyze data architecture and patterns"
+  - analysis_refactor: "Optimize database queries and schemas"
+  - analysis_debug: "Root cause analysis for data issues"
+  - analysis_thinkdeep: "Complex data modeling solutions"
+  - analysis_consensus: "Validate schema design decisions"
+  - analysis_planner: "Plan migration strategies"
   
 critical_analysis:
   - Query performance optimization

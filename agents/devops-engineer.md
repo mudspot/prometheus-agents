@@ -1355,16 +1355,16 @@ infra_specific:
   - Analyze infrastructure dependencies
 ```
 
-#### Zen MCP - Infrastructure Excellence
+#### Analysis MCP - Infrastructure Excellence
 **COMPREHENSIVE DEVOPS ANALYSIS:**
 ```yaml
 devops_excellence:
-  - zen_analyze: "Analyze infrastructure architecture"
-  - zen_refactor: "Optimize deployment pipelines"
-  - zen_debug: "Troubleshoot infrastructure issues"
-  - zen_secaudit: "Audit infrastructure security"
-  - zen_planner: "Plan infrastructure migrations"
-  - zen_thinkdeep: "Design complex deployments"
+  - analysis_analyze: "Analyze infrastructure architecture"
+  - analysis_refactor: "Optimize deployment pipelines"
+  - analysis_debug: "Troubleshoot infrastructure issues"
+  - analysis_secaudit: "Audit infrastructure security"
+  - analysis_planner: "Plan infrastructure migrations"
+  - analysis_thinkdeep: "Design complex deployments"
   
 critical_aspects:
   - Infrastructure security auditing

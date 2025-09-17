@@ -7,11 +7,11 @@ This project provides 9 PROACTIVE and AGGRESSIVE Claude SubAgents that automatic
 
 **BREAKTHROUGH**: All agents are now PROACTIVE (automatically detect problems) and AGGRESSIVE (fix issues immediately without asking). They intervene when they detect anything suboptimal and implement comprehensive solutions that enforce best practices.
 
-**NEW IN v1.1.0**: Full MCP (Model Context Protocol) integration! All agents now leverage Serena, Zen, and other specialized MCPs for enhanced code intelligence, AI-powered analysis, and domain-specific capabilities.
+**NEW IN v1.1.0**: Full MCP (Model Context Protocol) integration! All agents now leverage Serena and other specialized MCPs for enhanced code intelligence, AI-powered analysis, and domain-specific capabilities.
 
 **NEW IN v1.1.1**: DRY (Don't Repeat Yourself) principle enforcement! All agents now follow strict DRY principles during code execution, with shared patterns library and systematic reuse of existing code.
 
-**NEW IN v1.2.0**: Advanced Reasoning Integration! Sequential Thinking and Zen MCP now systematically activated across all agents with automated trigger patterns, orchestrated workflows, and comprehensive multi-model consensus validation for complex decisions.
+**NEW IN v1.2.0**: Advanced Reasoning Integration! Sequential Thinking workflows now systematically activate across all agents with automated trigger patterns, orchestrated workflows, and comprehensive multi-model consensus validation for complex decisions.
 
 **NEW IN v1.3.0**: Template Flexibility Enhancement! All agents now support both Surface (.sface) and HEEx (.heex) templating approaches, choosing the appropriate method based on project standards rather than enforcing a specific template engine.
 
@@ -19,7 +19,7 @@ This project provides 9 PROACTIVE and AGGRESSIVE Claude SubAgents that automatic
 
 **NEW IN v1.3.2**: Global Instructions Integration! Added global CLAUDE.md file to `/global/` directory containing universal Claude Code instructions for task management, git workflows, and code analysis tools. These global instructions now complement project-specific agent behaviors.
 
-**🚀 REVOLUTIONARY IN v1.4.0**: Three-Layer Intelligence Architecture! All agents now operate with unprecedented code intelligence through systematic orchestration of Serena (semantic code understanding), Zen (16 sophisticated AI analysis tools), and Sequential Thinking (complex reasoning). Features sophisticated intelligence cascades, multi-model consensus validation with 28+ AI models, assumption challenge workflows, and adaptive model selection for different problem types. This creates a comprehensive intelligence system with zero blind spots in code analysis.
+**🚀 REVOLUTIONARY IN v1.4.0**: Layered Intelligence Architecture! All agents now operate with unprecedented code intelligence through systematic orchestration of Serena (semantic code understanding), a dedicated analysis MCP suite, and Sequential Thinking (complex reasoning). Features sophisticated intelligence cascades, multi-model consensus validation with 28+ AI models, assumption challenge workflows, and adaptive model selection for different problem types. This creates a comprehensive intelligence system with zero blind spots in code analysis.
 
 **🚀 ENHANCED IN v1.4.1**: Phoenix 1.8 + DaisyUI Integration! Added comprehensive Phoenix 1.8 capabilities (LiveView Streams, modern navigation, verified routes, enhanced Presence) and complete DaisyUI component system expertise (30+ semantic components, theme management, accessibility features). All agents now have full expertise in modern Phoenix development with sophisticated UI component integration patterns.
 
@@ -39,7 +39,7 @@ Every agent automatically:
 - **INTERVENES** immediately without asking permission
 - **IMPLEMENTS** comprehensive solutions that exceed requirements
 - **ENFORCES** best practices with zero tolerance for technical debt
-- **🚀 NEW**: **ORCHESTRATES** three-layer intelligence (Serena + Zen + Sequential Thinking)
+- **🚀 NEW**: **ORCHESTRATES** layered intelligence (Serena + Sequential Thinking)
 - **🚀 NEW**: **VALIDATES** critical decisions through multi-model consensus with 28+ AI models
 - **🚀 NEW**: **CHALLENGES** assumptions systematically to prevent confirmation bias
 
@@ -108,20 +108,20 @@ Every agent automatically:
 
 ## Project Structure
 - `/global/` - Universal Claude Code instructions (v1.4.1)
-  - `CLAUDE.md` - Global instructions with three-layer intelligence architecture integration
-- `/agents/` - Elite 9 PROACTIVE and AGGRESSIVE agents (v1.4.1 Three-Layer Intelligence + Phoenix 1.8 + DaisyUI)
-  - `architect.md` - Strategic vision & system design + Revolutionary three-layer orchestration
-  - `backend-developer.md` - Elixir/Phoenix excellence + Sophisticated Zen + Serena + Sequential Thinking workflows  
+  - `CLAUDE.md` - Global instructions with layered intelligence architecture integration
+- `/agents/` - Elite 9 PROACTIVE and AGGRESSIVE agents (v1.4.1 Layered Intelligence + Phoenix 1.8 + DaisyUI)
+  - `architect.md` - Strategic vision & system design + Revolutionary layered orchestration
+  - `backend-developer.md` - Elixir/Phoenix excellence + Serena + Sequential Thinking workflows  
   - `frontend-developer.md` - Universal UI/UX + Enhanced intelligence cascades (planned)
   - `data-engineer.md` - Data architecture + Multi-model consensus workflows (planned)
   - `api-specialist.md` - API design + Assumption challenge workflows (planned)
   - `test-engineer.md` - Comprehensive testing + AI-powered test generation (planned)
-  - `quality-specialist.md` - Security & performance + 16-tool Zen orchestration (planned)
+  - `quality-specialist.md` - Security & performance + comprehensive analysis orchestration (planned)
   - `product-coordinator.md` - Project management + Advanced planning workflows (planned)
   - `devops-engineer.md` - Infrastructure + Complex reasoning integration (planned)
 - `/agents/shared/` - Revolutionary shared intelligence frameworks (v1.4.1)
   - `dry-principles.md` - Core DRY directives for all agents
-  - `mcp-orchestration.md` - Revolutionary three-layer intelligence orchestration patterns
+  - `mcp-orchestration.md` - Revolutionary layered intelligence orchestration patterns
   - `trigger-patterns.md` - Sophisticated trigger patterns for advanced reasoning
 - `/agents/deprecated/` - Legacy 23-agent system (maintained for reference)
 - `/docs/consolidation/` - Consolidation documentation and rationale
@@ -137,7 +137,7 @@ Every agent automatically:
 - **AGGRESSIVE ENFORCEMENT** - Zero tolerance for suboptimal code or technical debt
 - **AUTOMATIC INTERVENTION** - Proactively detect and resolve issues without being asked
 - **EXCELLENCE BY DEFAULT** - Every solution must exceed industry best practices
-- **🚀 THREE-LAYER INTELLIGENCE** - Systematic orchestration of Serena + Zen + Sequential Thinking
+- **🚀 LAYERED INTELLIGENCE** - Systematic orchestration of Serena + Sequential Thinking
 - **🚀 MULTI-MODEL CONSENSUS** - Critical decisions validated by 2-3 specialized AI models from 28+ available
 - **🚀 ASSUMPTION CHALLENGE** - Systematic validation of assumptions to prevent confirmation bias
 - **🚀 SEMANTIC-FIRST ANALYSIS** - Always understand code context before any modifications
@@ -158,21 +158,20 @@ Every agent automatically:
   - Quality: Credo, ESLint, TypeScript, Dart analyzer
 - Creates design documents and code
 
-## Revolutionary Three-Layer Intelligence Architecture (v1.4.1)
+## Layered Intelligence Architecture (v1.4.1)
 
-### 🚀 Three-Layer Intelligence System
+### 🚀 Layered Intelligence System
 **LAYER 1: SERENA SEMANTIC INTELLIGENCE**
 - Semantic code navigation and understanding (`find_symbol`, `get_symbols_overview`, `search_for_pattern`)
 - Symbol-level analysis and relationship mapping (`find_referencing_symbols`)
 - Project memory for persistent knowledge (`write_memory`, `read_memory`)
 - Precise code targeting and context extraction (`read_file` with targeted analysis)
 
-**LAYER 2: ZEN AI-POWERED ANALYSIS (16 Sophisticated Tools)**
-- **Deep Analysis Suite**: `thinkdeep` (multi-stage investigation), `analyze` (comprehensive), `debug` (root cause), `refactor` (optimization)
-- **Collaborative Intelligence**: `consensus` (multi-model validation), `planner` (interactive planning), `chat` (thinking partner)
-- **Quality & Security**: `codereview` (systematic), `precommit` (validation), `secaudit` (OWASP), `testgen` (comprehensive)
-- **Code Intelligence**: `tracer` (execution flow), `docgen` (documentation)
-- **Advanced Reasoning**: `challenge` (critical thinking), `sequential-thinking` (complex decomposition)
+**LAYER 2: ANALYSIS MCP SUITE**
+- Multi-stage investigation, comprehensive diagnostics, and refactoring support
+- Collaborative planning and consensus validation across available analysis models
+- Quality, security, and test planning reviews that surface risks before implementation
+- Documentation and knowledge-capture utilities that keep artifacts aligned with code
 
 **LAYER 3: SEQUENTIAL THINKING COMPLEX REASONING**
 - Multi-step problem decomposition and hypothesis development
@@ -182,12 +181,12 @@ Every agent automatically:
 ### 🎯 Sophisticated Intelligence Cascades
 **Standard Intelligence Cascade:**
 ```
-Serena (semantic context) → Zen analysis (AI-powered) → Sequential Thinking (complex reasoning) → Zen consensus (multi-model validation) → Zen challenge (assumption testing)
+Serena (semantic context) → analysis MCP suite (targeted investigation) → Sequential Thinking (complex reasoning) → multi-model consensus validation → structured assumption testing
 ```
 
 **Debugging Intelligence Cascade:**
 ```
-Serena (bug context mapping) → Zen thinkdeep (multi-hypothesis investigation) → Sequential Thinking (root cause analysis) → Zen consensus (solution validation) → Zen testgen (regression prevention)
+Serena (bug context mapping) → analysis MCP suite (multi-hypothesis investigation) → Sequential Thinking (root cause analysis) → multi-model consensus validation → regression-prevention test planning
 ```
 
 ### 🧠 Advanced Model Selection with 28+ AI Models
@@ -204,7 +203,7 @@ Serena (bug context mapping) → Zen thinkdeep (multi-hypothesis investigation) 
 
 ## Global Instructions Integration (v1.4.1)
 
-The project now includes universal Claude Code instructions in `/global/CLAUDE.md` with revolutionary three-layer intelligence architecture integration:
+The project now includes universal Claude Code instructions in `/global/CLAUDE.md` with layered intelligence architecture integration:
 
 ### **Universal Task Management**
 - **Mandatory Agent Delegation**: All complex tasks must be delegated to specialized agents
@@ -269,9 +268,9 @@ The 9 agents work as a **unified force** for software excellence:
 9. **devops-engineer** → Automates deployment and infrastructure
 
 #### **🚀 Revolutionary Intelligence Loop (v1.4.1)**
-- Each agent continuously scans for optimization opportunities using three-layer intelligence
+- Each agent continuously scans for optimization opportunities using layered intelligence
 - **Semantic-first analysis** through Serena ensures precise code understanding
-- **AI-powered insights** through 16 Zen tools provide comprehensive analysis  
+- **AI-powered insights** through the analysis MCP suite provide comprehensive analysis  
 - **Complex reasoning** through Sequential Thinking handles multi-step problems
 - **Multi-model consensus** validates critical decisions with 28+ AI models
 - **Assumption challenges** prevent confirmation bias and ensure optimal solutions
@@ -282,7 +281,7 @@ The 9 agents work as a **unified force** for software excellence:
 
 ### **Unprecedented Code Intelligence**
 - **10x Analysis Depth**: Systematic use of all available semantic, AI, and reasoning tools
-- **Zero Blind Spots**: Complete code understanding through three-layer intelligence architecture
+- **Zero Blind Spots**: Complete code understanding through layered intelligence architecture
 - **Validated Decisions**: All critical choices validated by multiple specialized AI models  
 - **Assumption Testing**: Systematic challenge of approaches to prevent bias and errors
 - **Adaptive Intelligence**: Context-aware selection of analysis tools and AI models

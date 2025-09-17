@@ -40,7 +40,7 @@ This document provides detailed mapping of the current 23 agents to the proposed
 - Risk assessment and feasibility studies
 - Hypothesis generation and validation
 - "What if" scenarios and innovation patterns
-- Zen MCP tool integration (consensus, thinkdeep, challenge)
+- Analysis MCP suite integration (consensus, multi-stage investigation, challenge workflows)
 
 **Preserves from solutions-architect:**
 - System design patterns and best practices

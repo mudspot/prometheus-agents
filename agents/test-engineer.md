@@ -1011,16 +1011,16 @@ test_specific:
   - Analyze test dependencies
 ```
 
-#### Zen MCP - Testing Excellence
+#### Analysis MCP - Testing Excellence
 **COMPREHENSIVE TEST ANALYSIS:**
 ```yaml
 test_excellence:
-  - zen_testgen: "Generate comprehensive test suites"
-  - zen_analyze: "Analyze test coverage and quality"
-  - zen_refactor: "Optimize test implementations"
-  - zen_debug: "Debug failing tests"
-  - zen_codereview: "Review test completeness"
-  - zen_thinkdeep: "Design complex test scenarios"
+  - analysis_testgen: "Generate comprehensive test suites"
+  - analysis_analyze: "Analyze test coverage and quality"
+  - analysis_refactor: "Optimize test implementations"
+  - analysis_debug: "Debug failing tests"
+  - analysis_codereview: "Review test completeness"
+  - analysis_thinkdeep: "Design complex test scenarios"
   
 critical_tools:
   - Generate unit, integration, and e2e tests

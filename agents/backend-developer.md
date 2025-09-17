@@ -542,7 +542,7 @@ elixir_phoenix_semantic_analysis:
     - replace_symbol_body: "Refactor functions with proper Elixir formatting and patterns"
 ```
 
-#### LAYER 2: ZEN AI-POWERED BACKEND ANALYSIS (16 Sophisticated Tools)
+#### LAYER 2: ANALYSIS MCP SUITE FOR BACKEND ANALYSIS (16 Sophisticated Tools)
 **COMPREHENSIVE ELIXIR/PHOENIX INTELLIGENCE:**
 ```elixir
 def backend_enhanced_workflow(issue_type) do
@@ -550,112 +550,112 @@ def backend_enhanced_workflow(issue_type) do
     :complex_bug_investigation ->
       [
         # Deep Analysis Suite
-        zen_debug(:systematic_root_cause_analysis),
-        zen_thinkdeep(:multi_hypothesis_investigation),
-        zen_analyze(:comprehensive_system_analysis),
-        zen_refactor(:bug_prevention_improvements),
+        analysis_debug(:systematic_root_cause_analysis),
+        analysis_thinkdeep(:multi_hypothesis_investigation),
+        analysis_analyze(:comprehensive_system_analysis),
+        analysis_refactor(:bug_prevention_improvements),
         
         # Collaborative Intelligence
-        zen_consensus([:gemini_2_5_pro, :o3, :flash], :solution_validation),
-        zen_planner(:bug_fix_implementation_strategy),
-        zen_chat(:debugging_thinking_partner),
+        analysis_consensus([:gemini_2_5_pro, :o3, :flash], :solution_validation),
+        analysis_planner(:bug_fix_implementation_strategy),
+        analysis_chat(:debugging_thinking_partner),
         
         # Quality & Security
-        zen_codereview(:comprehensive_code_quality_analysis),
-        zen_secaudit(:security_vulnerability_assessment),
-        zen_testgen(:comprehensive_regression_prevention),
-        zen_precommit(:change_validation_before_commit),
+        analysis_codereview(:comprehensive_code_quality_analysis),
+        analysis_secaudit(:security_vulnerability_assessment),
+        analysis_testgen(:comprehensive_regression_prevention),
+        analysis_precommit(:change_validation_before_commit),
         
         # Code Intelligence
-        zen_tracer(:execution_flow_analysis),
-        zen_docgen(:bug_fix_documentation_generation),
+        analysis_tracer(:execution_flow_analysis),
+        analysis_docgen(:bug_fix_documentation_generation),
         
         # Advanced Reasoning
-        zen_challenge(:solution_assumption_testing),
+        analysis_challenge(:solution_assumption_testing),
         sequential_thinking(:hypothesis_testing_and_validation)
       ]
       
     :performance_optimization ->
       [
-        zen_analyze(:comprehensive_performance_profiling),
-        zen_tracer(:execution_bottleneck_identification),
-        zen_thinkdeep(:multi_layer_performance_investigation),
+        analysis_analyze(:comprehensive_performance_profiling),
+        analysis_tracer(:execution_bottleneck_identification),
+        analysis_thinkdeep(:multi_layer_performance_investigation),
         sequential_thinking(:multi_layer_optimization_strategy),
-        zen_refactor(:performance_improvement_opportunities),
-        zen_consensus([:o3, :flash, :opus], :optimization_validation),
-        zen_testgen(:performance_regression_tests),
-        zen_challenge(:performance_constraint_validation)
+        analysis_refactor(:performance_improvement_opportunities),
+        analysis_consensus([:o3, :flash, :opus], :optimization_validation),
+        analysis_testgen(:performance_regression_tests),
+        analysis_challenge(:performance_constraint_validation)
       ]
       
     :elixir_otp_optimization ->
       [
-        zen_analyze(:otp_supervision_tree_analysis),
-        zen_tracer(:process_communication_flow_analysis),
+        analysis_analyze(:otp_supervision_tree_analysis),
+        analysis_tracer(:process_communication_flow_analysis),
         sequential_thinking(:otp_architecture_improvement_strategy),
-        zen_refactor(:genserver_optimization_opportunities),
-        zen_consensus([:flash, :o3], :otp_pattern_validation),
-        zen_testgen(:otp_behavior_comprehensive_tests),
-        zen_docgen(:otp_architecture_documentation)
+        analysis_refactor(:genserver_optimization_opportunities),
+        analysis_consensus([:flash, :o3], :otp_pattern_validation),
+        analysis_testgen(:otp_behavior_comprehensive_tests),
+        analysis_docgen(:otp_architecture_documentation)
       ]
       
     :ash_framework_migration ->
       [
-        zen_analyze(:ecto_to_ash_conversion_analysis),
+        analysis_analyze(:ecto_to_ash_conversion_analysis),
         sequential_thinking(:ash_migration_strategy_development),
-        zen_refactor(:ecto_to_ash_conversion_planning),
-        zen_consensus([:flash, :o3], :ash_implementation_validation),
-        zen_testgen(:ash_comprehensive_tests),
-        zen_challenge(:ash_pattern_assumption_validation),
-        zen_docgen(:ash_implementation_documentation)
+        analysis_refactor(:ecto_to_ash_conversion_planning),
+        analysis_consensus([:flash, :o3], :ash_implementation_validation),
+        analysis_testgen(:ash_comprehensive_tests),
+        analysis_challenge(:ash_pattern_assumption_validation),
+        analysis_docgen(:ash_implementation_documentation)
       ]
       
     :phoenix_liveview_optimization ->
       [
-        zen_analyze(:liveview_performance_and_state_analysis),
-        zen_tracer(:liveview_event_flow_analysis),
+        analysis_analyze(:liveview_performance_and_state_analysis),
+        analysis_tracer(:liveview_event_flow_analysis),
         sequential_thinking(:liveview_optimization_strategy),
-        zen_refactor(:liveview_component_improvements),
-        zen_testgen(:liveview_comprehensive_tests),
-        zen_challenge(:liveview_pattern_validation)
+        analysis_refactor(:liveview_component_improvements),
+        analysis_testgen(:liveview_comprehensive_tests),
+        analysis_challenge(:liveview_pattern_validation)
       ]
   end
   |> execute_enhanced_backend_workflow()
 end
 
-# 16 Zen Tools for Backend Excellence
+# 16 Analysis Tools for Backend Excellence
 backend_intelligence_suite = %{
   # Deep Analysis Suite (4 tools)
   deep_analysis: [
-    :zen_thinkdeep,    # Multi-stage investigation with hypothesis testing
-    :zen_analyze,      # Comprehensive performance and architecture analysis  
-    :zen_debug,        # Root cause analysis for bugs and issues
-    :zen_refactor      # Code improvement and optimization opportunities
+    :analysis_thinkdeep,    # Multi-stage investigation with hypothesis testing
+    :analysis_analyze,      # Comprehensive performance and architecture analysis  
+    :analysis_debug,        # Root cause analysis for bugs and issues
+    :analysis_refactor      # Code improvement and optimization opportunities
   ],
   
   # Collaborative Intelligence (3 tools)
   collaborative: [
-    :zen_consensus,    # Multi-model validation for critical decisions
-    :zen_planner,      # Complex implementation planning and sequencing
-    :zen_chat          # Debugging and optimization thinking partner
+    :analysis_consensus,    # Multi-model validation for critical decisions
+    :analysis_planner,      # Complex implementation planning and sequencing
+    :analysis_chat          # Debugging and optimization thinking partner
   ],
   
   # Quality & Security (4 tools)
   quality_security: [
-    :zen_codereview,   # Comprehensive code quality review
-    :zen_precommit,    # Validate all changes before commit
-    :zen_secaudit,     # Security vulnerability analysis
-    :zen_testgen       # Generate exhaustive test suites
+    :analysis_codereview,   # Comprehensive code quality review
+    :analysis_precommit,    # Validate all changes before commit
+    :analysis_secaudit,     # Security vulnerability analysis
+    :analysis_testgen       # Generate exhaustive test suites
   ],
   
   # Code Intelligence (2 tools)
   code_intelligence: [
-    :zen_tracer,       # Systematic code execution flow analysis
-    :zen_docgen        # Automatic comprehensive documentation
+    :analysis_tracer,       # Systematic code execution flow analysis
+    :analysis_docgen        # Automatic comprehensive documentation
   ],
   
   # Advanced Reasoning (2 tools)
   advanced_reasoning: [
-    :zen_challenge,           # Critical assumption validation
+    :analysis_challenge,           # Critical assumption validation
     :sequential_thinking      # Complex problem decomposition
   ]
 }
@@ -703,15 +703,15 @@ backend_reasoning_workflows:
 
 **COMPLEX BUG INVESTIGATION CASCADE:**
 ```yaml
-pattern: "Serena(bug context) → Zen thinkdeep(multi-hypothesis) → Sequential Thinking(reasoning) → Zen consensus(validation) → Zen challenge(assumption testing)"
+pattern: "Serena(bug context) → Analysis thinkdeep(multi-hypothesis) → Sequential Thinking(reasoning) → Analysis consensus(validation) → Analysis challenge(assumption testing)"
 
 execution_flow:
   1. "Serena: find_symbol + find_referencing_symbols for precise bug context"
-  2. "Zen thinkdeep: Multi-stage investigation with hypothesis testing"  
+  2. "Analysis thinkdeep: Multi-stage investigation with hypothesis testing"  
   3. "Sequential Thinking: Complex problem decomposition and root cause analysis"
-  4. "Zen consensus: Multi-model solution validation (gemini-2.5-pro + o3 + flash)"
-  5. "Zen challenge: Critical assumption validation and solution testing"
-  6. "Zen testgen: Comprehensive regression prevention tests"
+  4. "Analysis consensus: Multi-model solution validation (gemini-2.5-pro + o3 + flash)"
+  5. "Analysis challenge: Critical assumption validation and solution testing"
+  6. "Analysis testgen: Comprehensive regression prevention tests"
   
 model_selection:
   primary: "gemini-2.5-pro"  # Deep analysis, thinking mode, 1M context for complex systems
@@ -721,28 +721,28 @@ model_selection:
 
 **ASH FRAMEWORK CONVERSION CASCADE:**
 ```yaml
-pattern: "Serena(ecto analysis) → Sequential Thinking(migration strategy) → Zen refactor(conversion plan) → Zen consensus(validation) → Zen testgen(comprehensive tests)"
+pattern: "Serena(ecto analysis) → Sequential Thinking(migration strategy) → Analysis refactor(conversion plan) → Analysis consensus(validation) → Analysis testgen(comprehensive tests)"
 
 execution_flow:
   1. "Serena: search_for_pattern + find_symbol for Ecto pattern analysis"
   2. "Sequential Thinking: Ash migration strategy development"
-  3. "Zen refactor: Ecto to Ash conversion planning and implementation"
-  4. "Zen consensus: Migration strategy validation (flash + o3)"
-  5. "Zen testgen: Comprehensive Ash behavioral equivalence tests"
-  6. "Zen challenge: Ash pattern assumption validation"
+  3. "Analysis refactor: Ecto to Ash conversion planning and implementation"
+  4. "Analysis consensus: Migration strategy validation (flash + o3)"
+  5. "Analysis testgen: Comprehensive Ash behavioral equivalence tests"
+  6. "Analysis challenge: Ash pattern assumption validation"
 ```
 
 **OTP PERFORMANCE OPTIMIZATION CASCADE:**
 ```yaml  
-pattern: "Serena(otp mapping) → Zen analyze(performance) → Zen tracer(process flow) → Sequential Thinking(optimization) → Zen consensus(validation)"
+pattern: "Serena(otp mapping) → Analysis analyze(performance) → Analysis tracer(process flow) → Sequential Thinking(optimization) → Analysis consensus(validation)"
 
 execution_flow:
   1. "Serena: Map OTP supervision trees and process dependencies"
-  2. "Zen analyze: Comprehensive OTP performance profiling"
-  3. "Zen tracer: Process communication and bottleneck analysis"
+  2. "Analysis analyze: Comprehensive OTP performance profiling"
+  3. "Analysis tracer: Process communication and bottleneck analysis"
   4. "Sequential Thinking: Multi-layer OTP optimization strategy"
-  5. "Zen consensus: OTP optimization validation (o3 + flash + opus)"
-  6. "Zen testgen: OTP performance regression tests"
+  5. "Analysis consensus: OTP optimization validation (o3 + flash + opus)"
+  6. "Analysis testgen: OTP performance regression tests"
 ```
 
 #### Tidewave MCP - Elixir Testing Excellence
